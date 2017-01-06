@@ -1,0 +1,5896 @@
+[
+	{
+		"name": "Architecture and Planning",
+		"photo": "AR",
+		"contacts": [
+			{
+				"name": "Head Of Deptt",
+				"iitr_o": "5214",
+				"email": "aplng"
+			},
+			{
+				"name": "Ila Gupta",
+				"designation": "Head Of Department",
+				"iitr_o": "5381",
+				"iitr_r": "5038",
+				"phoneBSNL": "271225",
+				"email": "ilafap",
+				"profilePic": "ilafap_1.png"
+			},
+			{
+				"name": "Anita Chauhan",
+				"iitr_o": "5214",
+				"iitr_r": "4240"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4314"
+			},
+			{
+				"name": "Fax",
+				"iitr_o": "6143"
+			},
+			{
+				"name": "V Devdas",
+				"iitr_o": "5298",
+				"iitr_r": "5155",
+				"email": "valanfap"
+			},
+			{
+				"name": "Pushplata",
+				"designation": "Proffesor",
+				"iitr_o": "5143",
+				"iitr_r": "5299",
+				"phoneBSNL": "271457",
+				"email": "pushpfap",
+				"profilePic": "pushpfap_pushpfap.jpg"
+			},
+			{
+				"name": "Mahua Mukherjee",
+				"designation": "Proffesor",
+				"iitr_o": "5334",
+				"iitr_r": "5036",
+				"email": "mahuafap",
+				"profilePic": "valanfap_0.jpg"
+			},
+			{
+				"name": "P S Chani",
+				"designation": "Associate Professor",
+				"iitr_o": "5254",
+				"iitr_r": "5225",
+				"email": "chanifap",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Rita Ahuja",
+				"designation": "Assistant Proffesor",
+				"iitr_o": "5129",
+				"iitr_r": "5050",
+				"phoneBSNL": "274068",
+				"email": "angelfap",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Gaurav Raheja",
+				"designation": "Associate Professor",
+				"iitr_o": "5709",
+				"iitr_r": "5362",
+				"email": "grdesfap",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Tina Pujara",
+				"designation": "Assistant Proffesor",
+				"iitr_o": "5486",
+				"iitr_r": "5868",
+				"email": "tinapfap",
+				"profilePic": "tinapfap.jpg"
+			},
+			{
+				"name": "Uttam Kumar Roy",
+				"designation": "Assistant Proffesor",
+				"iitr_o": "4766",
+				"iitr_r": "6766",
+				"email": "uttamfap",
+				"profilePic": "portrait_UKR.jpg"
+			},
+			{
+				"name": "Lakra Harshit Sosan",
+				"designation": "Assistant Professor",
+				"iitr_o": "4775",
+				"iitr_r": "6775",
+				"email": "hsl31fap",
+				"profilePic": "hsl31fap.jpg"
+			},
+			{
+				"name": "Smriti Saraswat",
+				"designation": "Assistant Professor",
+				"iitr_o": "4770",
+				"iitr_r": "6770",
+				"email": "spacefap",
+				"profilePic": "IMG_8803N.jpg",
+				"website": "http://iitr-in.academia.edu/SmritiSaraswat"
+			},
+			{
+				"name": "Avlokita Agarwal",
+				"designation": "Assistant Professor",
+				"iitr_o": "4776",
+				"iitr_r": "6776",
+				"profilePic": "avliafap_2.jpg"
+			},
+			{
+				"name": "Saptarshi Kolay",
+				"designation": "Assistant Professor",
+				"iitr_o": "5732",
+				"iitr_r": "5575",
+				"profilePic": "kolayfap_0.jpg"
+			},
+			{
+				"name": "Arindam Biswas",
+				"iitr_o": "4785",
+				"iitr_r": "6785",
+				"profilePic": "arndmfap_0.jpg"
+			},
+			{
+				"name": "E Rajsekar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4838",
+				"iitr_r": "6838",
+				"profilePic": "raj.fap_raj.jpg"
+			},
+			{
+				"name": "R Shankar",
+				"designation": "Visiting Professor",
+				"iitr_o": "5839",
+				"iitr_r": "5138",
+				"phoneBSNL": "270906",
+				"email": "shardfap",
+				"profilePic": "shardfap.jpg"
+			},
+			{
+				"name": "S Y Kulkarni",
+				"designation": "Visiting Professor",
+				"iitr_o": "5705",
+				"iitr_r": "5178",
+				"phoneBSNL": "275265",
+				"email": "archsfap"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6551"
+			}
+		]
+	},
+	{
+		"name": "Biotechnology",
+		"photo": "BT",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5216",
+				"email": "biotech"
+			},
+			{
+				"name": "Partha Roy",
+				"designation": "Head Of Department",
+				"iitr_o": "5686",
+				"iitr_r": "5291",
+				"email": "paroyfbs",
+				"profilePic": "paroyfbs_1.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4316"
+			},
+			{
+				"name": "Office (Biological Society)",
+				"iitr_o": "6065"
+			},
+			{
+				"name": "Fax",
+				"iitr_o": "6151"
+			},
+			{
+				"name": "Ritu Barthwal",
+				"designation": "Professor",
+				"iitr_o": "5807",
+				"iitr_r": "5361",
+				"phoneBSNL": "270024",
+				"email": "ritubfbs",
+				"profilePic": "ritubfbs.jpg"
+			},
+			{
+				"name": "G S Randhawa",
+				"designation": "Professor",
+				"iitr_o": "5808",
+				"iitr_r": "5024",
+				"email": "sharnfbs",
+				"profilePic": "sharnfbs.jpg",
+				"website": "http://www.gsrandhawa.in/"
+			},
+			{
+				"name": "R P Singh",
+				"designation": "Professor",
+				"iitr_o": "5792",
+				"iitr_r": "5114",
+				"phoneBSNL": "271664",
+				"email": "rpsbsfbs",
+				"profilePic": "rpsbsfbs.jpg"
+			},
+			{
+				"name": "Ramasre Prasad",
+				"designation": "Professor",
+				"iitr_o": "5791",
+				"iitr_r": "5282",
+				"email": "rapdyfbs",
+				"profilePic": "rapdyfbs.jpg"
+			},
+			{
+				"name": "Vikas Pruthi",
+				"designation": "Professor",
+				"iitr_o": "5530",
+				"iitr_r": "5110",
+				"email": "vikasfbs",
+				"profilePic": "vikasfbs.jpg"
+			},
+			{
+				"name": "A K Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "5657",
+				"iitr_r": "5284",
+				"email": "aksbsfbs",
+				"profilePic": "aksbsfbs.jpg"
+			},
+			{
+				"name": "Pravindra Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5072",
+				"iitr_r": "5803",
+				"email": "kumarfbs",
+				"profilePic": "kumarfbs_4.jpg"
+			},
+			{
+				"name": "Bijan Choudhury",
+				"designation": "Associate Professor",
+				"iitr_o": "5297",
+				"iitr_r": "4297",
+				"email": "bijanfbs",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sanjoy Ghosh",
+				"designation": "Associate Professor",
+				"iitr_o": "5424",
+				"iitr_r": "5482",
+				"email": "ghoshfbs",
+				"profilePic": "kumarfbs_4.jpg"
+			},
+			{
+				"name": "N K Nawani",
+				"designation": "Associate Professor",
+				"iitr_o": "5677",
+				"iitr_r": "5018",
+				"email": "navnifbs",
+				"profilePic": "NkNavani.jpg"
+			},
+			{
+				"name": "Ranjana Pathania",
+				"designation": "Associate Professor",
+				"iitr_o": "5324",
+				"iitr_r": "5018",
+				"email": "rpathfbs",
+				"profilePic": "rpathfbs.jpg"
+			},
+			{
+				"name": "Maya S. Nair",
+				"designation": "Assistant Professor",
+				"iitr_o": "5790",
+				"iitr_r": "5293",
+				"email": "mayasfbs",
+				"profilePic": "mayasfbt_1.jpg"
+			},
+			{
+				"name": "Shailly Tomar",
+				"designation": "Associate Professor",
+				"iitr_o": "5849",
+				"iitr_r": "5803",
+				"email": "shailfbt",
+				"profilePic": "shailfbt_0.jpg"
+			},
+			{
+				"name": "Debabrata Sircar",
+				"designation": "Assistant Professor",
+				"iitr_o": "5540",
+				"iitr_r": "5599",
+				"email": "debsrfbt",
+				"profilePic": "me.jpg"
+			},
+			{
+				"name": "K M Poluri",
+				"designation": "Assistant Professor",
+				"iitr_o": "4779",
+				"iitr_r": "6779",
+				"email": "krishfbt",
+				"profilePic": "KM_office.jpg"
+			},
+			{
+				"name": "P K Mandal",
+				"designation": "Assistant Professor",
+				"iitr_o": "4780",
+				"iitr_r": "6780",
+				"email": "pkm31fbt",
+				"profilePic": "pkm31fbt_9.JPG"
+			},
+			{
+				"name": "S R Yadav",
+				"designation": "Assistant Professor",
+				"iitr_o": "4782",
+				"iitr_r": "6782",
+				"email": "srydbfbt",
+				"profilePic": "srydbfbt_89.jpg"
+			},
+			{
+				"name": "S N Ambatipudi",
+				"designation": "Assistant Professor",
+				"iitr_o": "4786",
+				"iitr_r": "6786",
+				"email": "kiranfbt",
+				"profilePic": "kiranfbt_0.JPG"
+			},
+			{
+				"name": "Pranita P. Sarangi",
+				"designation": "Assistant Professor",
+				"iitr_o": "4788",
+				"iitr_r": "6788",
+				"email": "psarafbt",
+				"profilePic": "psarafbt_2.jpg"
+			},
+			{
+				"name": "Soma Rohatgi",
+				"designation": "Assistant Professor",
+				"iitr_o": "4831",
+				"iitr_r": "6831",
+				"email": "soma.fbt",
+				"profilePic": "soma.fbt_0.JPG"
+			},
+			{
+				"name": "Saurav Datta",
+				"designation": "Assistant Professor",
+				"iitr_o": "4795",
+				"iitr_r": "6795",
+				"email": "sdattfbt",
+				"profilePic": "sdattfbt_1.JPG"
+			},
+			{
+				"name": "Saugata Hazra",
+				"designation": "Assistant Professor",
+				"iitr_o": "4800",
+				"iitr_r": "6800",
+				"email": "shazrfbt",
+				"profilePic": "shazrfbt_1.jpg"
+			},
+			{
+				"name": "Sulakshana Mukherjee",
+				"designation": "Assistant Professor",
+				"iitr_o": "4813",
+				"iitr_r": "6813",
+				"email": "mukherji.fbt",
+				"profilePic": "mukherji.fbt_0.jpg"
+			},
+			{
+				"name": "Harsh Chauhan",
+				"designation": "Assistant Professor",
+				"iitr_o": "4814",
+				"iitr_r": "6814",
+				"email": "harsh.fbt",
+				"profilePic": "harsh.fbt_0.JPG",
+				"website": "http://scholar.google.co.in/citations?user=YyNimlsAAAAJ&hl=en"
+			},
+			{
+				"name": "Deepak Sharma",
+				"designation": "Assistant Professor",
+				"iitr_o": "4827",
+				"iitr_r": "6827",
+				"email": "deepak.fbt",
+				"profilePic": "deepak.fbt_deepak_1.jpg"
+			},
+			{
+				"name": "Animal Tissue Culture Lab.",
+				"iitr_o": "6159"
+			},
+			{
+				"name": "Bioprocess Engg. Lab.",
+				"iitr_o": "6155"
+			},
+			{
+				"name": "Bioinformatics Lab.",
+				"iitr_o": "6161"
+			},
+			{
+				"name": "B Tech. Lab. 1",
+				"iitr_o": "6154"
+			},
+			{
+				"name": "B Tech. Lab. 2",
+				"iitr_o": "6166"
+			},
+			{
+				"name": "Cell & Molecular Biology Lab.",
+				"iitr_o": "6163"
+			},
+			{
+				"name": "Instrumentation Lab.1",
+				"iitr_o": "6156"
+			},
+			{
+				"name": "Instrumentation Lab 2",
+				"iitr_o": "6165"
+			},
+			{
+				"name": "Molecular Microbiology Lab.",
+				"iitr_o": "6162"
+			},
+			{
+				"name": "Microbial Biotechnology Lab.",
+				"iitr_o": "6345"
+			},
+			{
+				"name": "Molecular Biophysics Lab.",
+				"iitr_o": "6277"
+			},
+			{
+				"name": "Molecular Genetics Lab.",
+				"iitr_o": "4471"
+			},
+			{
+				"name": "Msc. Lab.",
+				"iitr_o": "6164"
+			},
+			{
+				"name": "Nmr Spectrometer Lab.",
+				"iitr_o": "6170"
+			},
+			{
+				"name": "Plant Molecular Biology Lab.",
+				"iitr_o": "6157"
+			},
+			{
+				"name": "Plant Tissue Culture Lab.",
+				"iitr_o": "6160"
+			},
+			{
+				"name": "Protein Biochemistry Lab.",
+				"iitr_o": "6158"
+			},
+			{
+				"name": "Chemical Biology & Drug Discovery Lab.",
+				"iitr_o": "6497"
+			},
+			{
+				"name": "Research Lab.",
+				"iitr_o": "6168"
+			},
+			{
+				"name": "Bio Chemical Engg. Lab.",
+				"iitr_o": "4321"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6153"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6152"
+			},
+			{
+				"name": "New Biotech Building",
+				"iitr_o": "4447"
+			}
+		]
+	},
+	{
+		"name": "Chemical Engineering",
+		"photo": "CH",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5217",
+				"email": "chemi"
+			},
+			{
+				"name": "Chandrajit Balomajumder",
+				"designation": "Head Of Department",
+				"iitr_o": "5321",
+				"iitr_r": "5059",
+				"phoneBSNL": "270492",
+				"email": "chandfch",
+				"profilePic": "chandfch.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4317"
+			},
+			{
+				"name": "Bikash Mohanty",
+				"designation": "Professor",
+				"iitr_o": "5710",
+				"iitr_r": "5305",
+				"email": "bmohantych",
+				"profilePic": "bmohanty.jpg"
+			},
+			{
+				"name": "Patit Paban Kundu",
+				"designation": "Professor",
+				"phoneBSNL": "7251040403",
+				"email": "ppkfch",
+				"profilePic": "ppkfch_0.jpg"
+			},
+			{
+				"name": "Indra D. Mall",
+				"designation": "Professor",
+				"iitr_o": "5319",
+				"email": "invigfch",
+				"profilePic": "invigfch.jpg"
+			},
+			{
+				"name": "Indra M. Mishra",
+				"designation": "Professor",
+				"iitr_o": "5715",
+				"email": "imishfch",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Shri Chand",
+				"designation": "Professor",
+				"iitr_o": "5383",
+				"email": "schanfch",
+				"profilePic": "schanfch.jpg"
+			},
+			{
+				"name": "Vijay Kumar Agarwal",
+				"designation": "Professor",
+				"iitr_o": "5718",
+				"iitr_r": "5322",
+				"email": "vijayfch",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Basheshwer Prasad",
+				"designation": "Professor",
+				"iitr_o": "5323",
+				"iitr_r": "5169",
+				"email": "bashefch",
+				"profilePic": "bashefch_DSC01917.jpg"
+			},
+			{
+				"name": "Shashi",
+				"designation": "Professor",
+				"iitr_o": "5672",
+				"iitr_r": "5209",
+				"email": "sashifch",
+				"profilePic": "sashifch.jpg"
+			},
+			{
+				"name": "Shishir Sinha",
+				"designation": "Professor",
+				"iitr_o": "5648",
+				"iitr_r": "6648",
+				"email": "shishir",
+				"profilePic": "shishir_0.jpg"
+			},
+			{
+				"name": "Ravindra Bhargava",
+				"designation": "Associate Professor",
+				"iitr_o": "5382",
+				"iitr_r": "5150",
+				"email": "ravibfch",
+				"profilePic": "ravibfch.jpg"
+			},
+			{
+				"name": "Prasenjit Mondal",
+				"designation": "Associate Professor",
+				"iitr_o": "5181",
+				"iitr_r": "5189",
+				"email": "pmondfch",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Vimal Chandra Srivastava",
+				"designation": "Associate Professor",
+				"iitr_o": "5889",
+				"iitr_r": "6889",
+				"email": "vimalfch",
+				"profilePic": "vimalfch.jpg"
+			},
+			{
+				"name": "Amit Dhiman",
+				"designation": "Associate Professor",
+				"iitr_o": "5890",
+				"iitr_r": "6890",
+				"email": "amitdfch",
+				"profilePic": "amitdfch.jpg"
+			},
+			{
+				"name": "Prakash Biswas",
+				"designation": "Associate Professor",
+				"iitr_o": "5820",
+				"iitr_r": "5184",
+				"email": "prakbfch",
+				"profilePic": "prakbfch_2.JPG"
+			},
+			{
+				"name": "Ram Prakash",
+				"designation": "Associate Professor",
+				"iitr_o": "5304",
+				"iitr_r": "5367",
+				"email": "rpbharti",
+				"profilePic": "rpbharti_2.jpg"
+			},
+			{
+				"name": "Vimal Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5694",
+				"iitr_r": "5287",
+				"email": "vksinfch",
+				"profilePic": "Vimal-II.jpg"
+			},
+			{
+				"name": "Gaurav",
+				"designation": "Assistant Professor",
+				"iitr_o": "5427",
+				"iitr_r": "5488",
+				"email": "goravfch",
+				"profilePic": "goravfch.jpg"
+			},
+			{
+				"name": "Shabina Khanam",
+				"designation": "Associate Professor",
+				"iitr_o": "5157",
+				"iitr_r": "5066",
+				"email": "shabifch",
+				"profilePic": "DSC00583.JPG"
+			},
+			{
+				"name": "V C Nathan",
+				"designation": "Assistant Professor",
+				"iitr_o": "5671",
+				"iitr_r": "5017",
+				"email": "cvm16fch",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sumana Ghosh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4803",
+				"iitr_r": "6803",
+				"email": "ghoshfch",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Prateek Jha",
+				"designation": "Assistant Professor",
+				"iitr_o": "4810",
+				"iitr_r": "6810",
+				"email": "pkjchfch",
+				"profilePic": "pkjchfch_profile.jpg",
+				"website": "https://scholar.google.co.in/citations?user=SAgH8nsAAAAJ&hl=en"
+			},
+			{
+				"name": "N. Siva Mohan Reddy",
+				"designation": "Assistant Professor",
+				"iitr_o": "4833",
+				"iitr_r": "6833",
+				"email": "nsiva.fch",
+				"profilePic": "nsiva.fch_nsiva.jpg"
+			},
+			{
+				"name": "Taraknath Das",
+				"designation": "Assistant Professor",
+				"iitr_o": "4828",
+				"iitr_r": "6828",
+				"email": "tarak3581.fch",
+				"profilePic": "Copy_of_tarak-pic.jpg"
+			},
+			{
+				"name": "Karangale Nirmal Kumar",
+				"iitr_o": "4843",
+				"iitr_r": "6843"
+			},
+			{
+				"name": "Surendra Kumar",
+				"designation": "Professor",
+				"iitr_o": "5714",
+				"iitr_r": "5209",
+				"email": "skumar",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6553"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6653"
+			},
+			{
+				"name": "E. & P. Audio Visual Lab.",
+				"iitr_o": "6643"
+			},
+			{
+				"name": "F.I.S.T. Lab.",
+				"iitr_o": "6658"
+			},
+			{
+				"name": "Fluid Particle Research Lab",
+				"iitr_o": "6651"
+			},
+			{
+				"name": "Heat Transfer Research Lab.",
+				"iitr_o": "6371"
+			},
+			{
+				"name": "Heat Transfer Lab.",
+				"iitr_o": "6641"
+			},
+			{
+				"name": "Hydrocarbon Engg. Research Lab.",
+				"iitr_o": "6639"
+			},
+			{
+				"name": "Hydrocarbon Ug Lab.",
+				"iitr_o": "6654"
+			},
+			{
+				"name": "Instru. Analysis Lab.",
+				"iitr_o": "6498"
+			},
+			{
+				"name": "Mass Transfer Research Lab.",
+				"iitr_o": "6637"
+			},
+			{
+				"name": "Pollution Abatement Research Lab.",
+				"iitr_o": "6638"
+			},
+			{
+				"name": "PG Research Lab. 1",
+				"iitr_o": "6657"
+			},
+			{
+				"name": "PG Research Lab. 2",
+				"iitr_o": "6655"
+			},
+			{
+				"name": "PG Research Lab. 3",
+				"iitr_o": "6656"
+			},
+			{
+				"name": "Process Integration Lab.",
+				"iitr_o": "6650"
+			},
+			{
+				"name": "Reaction Engg. Research Lab.",
+				"iitr_o": "6490"
+			},
+			{
+				"name": "Reaction & Process Dynamics Control Lab.",
+				"iitr_o": "6642"
+			},
+			{
+				"name": "Safety Lab.",
+				"iitr_o": "6659"
+			},
+			{
+				"name": "Workshop Boiler & Compressor",
+				"iitr_o": "6640"
+			},
+			{
+				"name": "Cad Centre",
+				"iitr_o": "6410"
+			},
+			{
+				"name": "Centre Of Biochemical Engg.",
+				"iitr_o": "6253"
+			},
+			{
+				"name": "Process Dynamics & Control Research Lab.",
+				"iitr_o": "6372"
+			},
+			{
+				"name": "Auditorium",
+				"iitr_o": "6645"
+			},
+			{
+				"name": "Staff Room",
+				"iitr_o": "6652"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "6636"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6649"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6644"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4448"
+			}
+		]
+	},
+	{
+		"name": "Chemistry",
+		"photo": "CY",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5218",
+				"email": "chemt"
+			},
+			{
+				"name": "Anil Kumar",
+				"designation": "Professor",
+				"iitr_o": "5799",
+				"iitr_r": "5180",
+				"phoneBSNL": "275478",
+				"email": "anilkfcy",
+				"profilePic": "anilkfcy.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4318"
+			},
+			{
+				"name": "Fax",
+				"iitr_o": "6202"
+			},
+			{
+				"name": "R N Goyal",
+				"designation": "Professor",
+				"iitr_o": "5794",
+				"iitr_r": "5029",
+				"phoneBSNL": "274454",
+				"email": "rngcyfcy",
+				"profilePic": "Recent_phot.JPG"
+			},
+			{
+				"name": "Ravi Bhushan",
+				"designation": "Professor",
+				"iitr_o": "5795",
+				"iitr_r": "5089",
+				"phoneBSNL": "271162",
+				"email": "rbushfcy",
+				"profilePic": "rbushfcy.jpg"
+			},
+			{
+				"name": "V K Gupta",
+				"designation": "Professor",
+				"iitr_o": "5801",
+				"iitr_r": "5043",
+				"phoneBSNL": "274458",
+				"email": "vinodfcy",
+				"profilePic": "vinodfcy.jpg"
+			},
+			{
+				"name": "Mala Nath",
+				"designation": "Professor",
+				"iitr_o": "5797",
+				"phoneBSNL": "270602",
+				"email": "malanfcy",
+				"profilePic": "malanfcy.jpg"
+			},
+			{
+				"name": "Ashok Kumar Singh",
+				"designation": "Professor",
+				"iitr_o": "5798",
+				"iitr_r": "5077",
+				"email": "akscyfcy",
+				"profilePic": "akscyfcy.jpg"
+			},
+			{
+				"name": "M R Maurya",
+				"designation": "Head Of Department",
+				"iitr_o": "5327",
+				"iitr_r": "5113",
+				"phoneBSNL": "277624",
+				"email": "rkmanfcy",
+				"profilePic": "rkmanfcy.jpg"
+			},
+			{
+				"name": "U P Singh",
+				"designation": "Professor",
+				"iitr_o": "5329",
+				"iitr_r": "5202",
+				"phoneBSNL": "271889",
+				"email": "udaipfcy",
+				"profilePic": "udaipfcy_udaipfcy.jpg"
+			},
+			{
+				"name": "K C Gupta",
+				"designation": "Professor",
+				"iitr_o": "5325",
+				"iitr_r": "5279",
+				"email": "kcgptfcy",
+				"profilePic": "kcgptfcy.jpg"
+			},
+			{
+				"name": "Bina Gupta",
+				"designation": "Professor",
+				"iitr_o": "5326",
+				"phoneBSNL": "272537",
+				"email": "bvgcyfcy",
+				"profilePic": "bvgcyfcy.jpg"
+			},
+			{
+				"name": "P P Thankachan",
+				"designation": "Associate Professor",
+				"iitr_o": "5331",
+				"iitr_r": "5316",
+				"phoneBSNL": "276915",
+				"email": "ppthnfcy",
+				"profilePic": "ppthnfcy.jpg"
+			},
+			{
+				"name": "Rama Krishna Peddinti",
+				"designation": "Associate Professor",
+				"iitr_o": "5438",
+				"iitr_r": "5481",
+				"email": "rkpedfcy",
+				"profilePic": "rkpedfcy.jpg",
+				"website": "http://faculty.iitr.ac.in/~rkpedfcy/"
+			},
+			{
+				"name": "Kaushik Ghosh",
+				"designation": "Associate Professor",
+				"iitr_o": "5547",
+				"iitr_r": "5365",
+				"email": "ghoshfcy",
+				"profilePic": "ghoshfcy_ghoshfcy.jpg"
+			},
+			{
+				"name": "K R Justin Thomas",
+				"designation": "Associate Professor",
+				"iitr_o": "5376",
+				"iitr_r": "5472",
+				"email": "krjt8fcy",
+				"profilePic": "krjt8fcy.jpg",
+				"website": "http://faculty.iitr.ac.in/~krjt8fcy/"
+			},
+			{
+				"name": "Raj Kumardutta",
+				"designation": "Associate Professor",
+				"iitr_o": "5280",
+				"iitr_r": "6280",
+				"email": "duttafcy",
+				"profilePic": "duttafcy_duttafcy.jpg"
+			},
+			{
+				"name": "P Jeevanandam",
+				"designation": "Associate Professor",
+				"iitr_o": "5444",
+				"iitr_r": "6444",
+				"email": "jeevafcy",
+				"profilePic": "jeevafcy.jpg"
+			},
+			{
+				"name": "Naseem Ahmed",
+				"designation": "Associate Professor",
+				"iitr_o": "5745",
+				"iitr_r": "5010",
+				"email": "nasemfcy",
+				"profilePic": "nasemfcy.jpg"
+			},
+			{
+				"name": "Pallavi Debnath",
+				"designation": "Assistant Professor",
+				"iitr_o": "5445",
+				"iitr_r": "5503",
+				"email": "pdebhfcy",
+				"profilePic": "pdebhfcy_0.jpg"
+			},
+			{
+				"name": "Tapas Kumar Mandal",
+				"designation": "Assistant Professor",
+				"iitr_o": "5864",
+				"iitr_r": "5865",
+				"email": "tapafcy",
+				"profilePic": "Tapas-profile.jpg"
+			},
+			{
+				"name": "Anuj Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "4751",
+				"iitr_r": "6751",
+				"email": "anujfcy",
+				"profilePic": "anujsfcy.jpg",
+				"website": "http://mcl-iitr.weebly.com/dr-anuj-sharma.html"
+			},
+			{
+				"name": "M Sankar",
+				"designation": "Associate Professor",
+				"iitr_o": "4753",
+				"iitr_r": "6753",
+				"email": "sankafcy",
+				"profilePic": "sankafcy_8025.JPG"
+			},
+			{
+				"name": "Hem C Kandpal",
+				"designation": "Assistant Professor",
+				"iitr_o": "4764",
+				"iitr_r": "6764",
+				"email": "hem12fcy",
+				"profilePic": "kandpal.jpg"
+			},
+			{
+				"name": "C N Ramchandran",
+				"designation": "Assistant Professor",
+				"iitr_o": "4773",
+				"iitr_r": "6773",
+				"email": "ramcnfcy",
+				"profilePic": "IMG_1002.JPG",
+				"website": "https://sites.google.com/site/ramcnfcy/home"
+			},
+			{
+				"name": "Prasenjit Kar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4778",
+				"iitr_r": "6778",
+				"email": "prkarfcy",
+				"profilePic": "prkarfcy_0.JPG"
+			},
+			{
+				"name": "Kalyan Sadhu",
+				"designation": "Assistant Professor",
+				"iitr_o": "4811",
+				"iitr_r": "6811",
+				"profilePic": "sadhufcy_9736.JPG",
+				"website": "http://kksadhu.weebly.com/"
+			},
+			{
+				"name": "Debasis Banerjee",
+				"designation": "Assistant Professor",
+				"iitr_o": "4847",
+				"iitr_r": "6847",
+				"profilePic": "dbane.fcy_dbane.jpg"
+			},
+			{
+				"name": "Paritosh Mohanti",
+				"designation": "Associate Professor",
+				"iitr_o": "4859",
+				"iitr_r": "6859",
+				"email": "pmfcy@iitr.ac.in",
+				"profilePic": "1.jpg",
+				"website": "http://faculty.iitr.ac.in/~pmfcy/"
+			},
+			{
+				"name": "D C Meena",
+				"iitr_o": "4361",
+				"iitr_r": "6805",
+				"email": "dulirmcy"
+			},
+			{
+				"name": "Kamaluddin",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5796",
+				"iitr_r": "5146",
+				"phoneBSNL": "274473",
+				"email": "kamalfcy",
+				"profilePic": "kamalfcy.jpg"
+			},
+			{
+				"name": "S M Sondhi",
+				"designation": "Visiting Professor",
+				"iitr_o": "5811",
+				"iitr_r": "5188",
+				"phoneBSNL": "279371",
+				"email": "sondifcy",
+				"profilePic": "sondifcy.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6554"
+			},
+			{
+				"name": "Analytical Lab.",
+				"iitr_o": "6209"
+			},
+			{
+				"name": "Asymmetric Synthesis Lab.",
+				"iitr_o": "6234"
+			},
+			{
+				"name": "Atomic Absorption Lab.",
+				"iitr_o": "6204"
+			},
+			{
+				"name": "Bioinorganic Lab.",
+				"iitr_o": "6212"
+			},
+			{
+				"name": "Chemical Evolution Lab.",
+				"iitr_o": "6207"
+			},
+			{
+				"name": "Chemical Sensor Lab.",
+				"iitr_o": "6231"
+			},
+			{
+				"name": "Coordination Chemistry Lab.",
+				"iitr_o": "6213"
+			},
+			{
+				"name": "Electrochemistry Lab.",
+				"iitr_o": "6528"
+			},
+			{
+				"name": "Environmental Lab.",
+				"iitr_o": "6208"
+			},
+			{
+				"name": "Gc Ms Lab.",
+				"iitr_o": "6205"
+			},
+			{
+				"name": "Instrumentation Lab.",
+				"iitr_o": "4361"
+			},
+			{
+				"name": "Liq. Chromatography Lab.",
+				"iitr_o": "6232"
+			},
+			{
+				"name": "Materials Chemistry Lab.",
+				"iitr_o": "6240"
+			},
+			{
+				"name": "Madicinal Lab.",
+				"iitr_o": "6241"
+			},
+			{
+				"name": "Nanometric Lab.",
+				"iitr_o": "6215"
+			},
+			{
+				"name": "Organic Mat. & Inorganic Lab.",
+				"iitr_o": "6206"
+			},
+			{
+				"name": "Organometallic Lab.",
+				"iitr_o": "6210"
+			},
+			{
+				"name": "Organic Synthesis Lab.",
+				"iitr_o": "6211"
+			},
+			{
+				"name": "Photochemistry Lab.",
+				"iitr_o": "6219"
+			},
+			{
+				"name": "Pollution Monitoring Lab.",
+				"iitr_o": "6217"
+			},
+			{
+				"name": "Polymer Lab.",
+				"iitr_o": "6229"
+			},
+			{
+				"name": "Porphyrin Lab.-1",
+				"iitr_o": "6216"
+			},
+			{
+				"name": "Porphyrin Lab.-2",
+				"iitr_o": "6689"
+			},
+			{
+				"name": "Synthesis & Sensor Lab.",
+				"iitr_o": "6214"
+			},
+			{
+				"name": "Theoretical Chemistry Lab.",
+				"iitr_o": "6228"
+			},
+			{
+				"name": "Matirial Research Lab.",
+				"iitr_o": "6250"
+			},
+			{
+				"name": "Purchase Office",
+				"iitr_o": "6235"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6236"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_r": "4552"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "4362"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6203"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4449"
+			}
+		]
+	},
+	{
+		"name": "Civil Engineering",
+		"photo": "CE",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5219",
+				"email": "civil"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4319"
+			},
+			{
+				"name": "Fax",
+				"phoneBSNL": "275568"
+			},
+			{
+				"name": "Ashok Kumar Jain",
+				"designation": "Professor",
+				"iitr_o": "5436",
+				"iitr_r": "5489",
+				"email": "ashokfce",
+				"profilePic": "ashokfce.jpg"
+			},
+			{
+				"name": "M K Arora",
+				"designation": "Professor",
+				"iitr_o": "5417",
+				"email": "manojfce",
+				"profilePic": "manojfce.jpg"
+			},
+			{
+				"name": "S S Jain",
+				"designation": "Professor",
+				"iitr_o": "5435",
+				"iitr_r": "5022",
+				"phoneBSNL": "275038",
+				"email": "ssjanfce",
+				"profilePic": "deafult.jpg"
+			},
+			{
+				"name": "Deepak Kashyap",
+				"designation": "Professor",
+				"iitr_o": "5453",
+				"iitr_r": "5025",
+				"phoneBSNL": "274491",
+				"email": "dkashfce",
+				"profilePic": "dkashfce.jpg"
+			},
+			{
+				"name": "M N Viladkar",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5452",
+				"iitr_r": "5045",
+				"email": "sumanfce",
+				"profilePic": "sumanfce.jpg"
+			},
+			{
+				"name": "Pradeep Kumar",
+				"designation": "Professor",
+				"iitr_o": "5446",
+				"iitr_r": "5021",
+				"phoneBSNL": "274009",
+				"email": "pkumafce",
+				"profilePic": "pkumafce.jpg"
+			},
+			{
+				"name": "C S P Ojha",
+				"designation": "Head Of Department",
+				"iitr_o": "5494",
+				"iitr_r": "5285",
+				"email": "cojhafce",
+				"profilePic": "cojhafce_1.jpg"
+			},
+			{
+				"name": "Pradeep Bhargava",
+				"designation": "Professor",
+				"iitr_o": "5495",
+				"phoneBSNL": "263653",
+				"email": "bhpdpfce",
+				"profilePic": "Bhargava_Pradeep.JPG"
+			},
+			{
+				"name": "Satish Chandra",
+				"designation": "Professor",
+				"iitr_o": "5468",
+				"iitr_r": "5374",
+				"email": "satisfce",
+				"profilePic": "satisfce.jpg"
+			},
+			{
+				"name": "P K Garg",
+				"designation": "Professor",
+				"iitr_o": "5462",
+				"email": "gargpfce",
+				"profilePic": "pkgarg.jpg"
+			},
+			{
+				"name": "S K Ghosh",
+				"designation": "Professor",
+				"iitr_o": "5463",
+				"iitr_r": "5067",
+				"phoneBSNL": "275329",
+				"email": "scangfce",
+				"profilePic": "s_k_ghosh_sir.jpg"
+			},
+			{
+				"name": "Mahendra Singh",
+				"designation": "Professor",
+				"iitr_o": "5651",
+				"iitr_r": "5006",
+				"phoneBSNL": "278834",
+				"email": "singhfce",
+				"profilePic": "singhfce_singhfce.JPG"
+			},
+			{
+				"name": "M. Parida",
+				"designation": "Professor",
+				"iitr_o": "5448",
+				"iitr_r": "5443",
+				"phoneBSNL": "271624",
+				"email": "mprdafce",
+				"profilePic": "mprdafce_mprdafce.JPG"
+			},
+			{
+				"name": "Praveen Kumar",
+				"designation": "Professor",
+				"iitr_o": "5470",
+				"iitr_r": "5616",
+				"email": "pkaerfce",
+				"profilePic": "pkaerfce.jpg"
+			},
+			{
+				"name": "Narendra Kumar Samadhiya",
+				"designation": "Professor",
+				"iitr_o": "5467",
+				"iitr_r": "5052",
+				"phoneBSNL": "275133",
+				"email": "nksamfce",
+				"profilePic": "nksamfce.jpg"
+			},
+			{
+				"name": "Ashok Kumar Ahuja",
+				"designation": "Professor",
+				"iitr_o": "5476",
+				"iitr_r": "5050",
+				"phoneBSNL": "274068",
+				"email": "ahujafce",
+				"profilePic": "ahujafce_ahujafce.jpg"
+			},
+			{
+				"name": "K S Hari Prasad",
+				"designation": "Professor",
+				"iitr_o": "5405",
+				"iitr_r": "5053",
+				"email": "suryafce",
+				"profilePic": "suryafce_0.jpg"
+			},
+			{
+				"name": "Akhil Upadhyay",
+				"designation": "Professor",
+				"iitr_o": "5716",
+				"iitr_r": "5159",
+				"email": "akhilfce",
+				"profilePic": "akhilfce.jpg"
+			},
+			{
+				"name": "Zulfequar Ahmad",
+				"designation": "Professor",
+				"iitr_o": "5423",
+				"iitr_r": "5469",
+				"email": "zulfifce",
+				"profilePic": "zulfifce_zulfifce.JPG"
+			},
+			{
+				"name": "Ajay Gairola",
+				"designation": "Associate Professor",
+				"iitr_o": "5460",
+				"iitr_r": "5060",
+				"phoneBSNL": "273445",
+				"email": "garryfce",
+				"profilePic": "garryfce.jpg"
+			},
+			{
+				"name": "Vipul Prakash",
+				"designation": "Professor",
+				"iitr_o": "5538",
+				"iitr_r": "5532",
+				"phoneBSNL": "279043",
+				"email": "vipulfeq",
+				"profilePic": "vipulfeq.jpg"
+			},
+			{
+				"name": "Pramod Kumar Gupta",
+				"designation": "Professor",
+				"iitr_o": "5425",
+				"iitr_r": "6425",
+				"email": "pkgupfce",
+				"profilePic": "pkgupfce_pkgupfce.JPG"
+			},
+			{
+				"name": "B R Gurjar",
+				"designation": "Professor",
+				"iitr_o": "5881",
+				"iitr_r": "5882",
+				"email": "bholafce",
+				"profilePic": "B.R.Gurjar2.jpg"
+			},
+			{
+				"name": "Absar Ahmad Kazmi",
+				"designation": "Professor",
+				"iitr_o": "5725",
+				"iitr_r": "5226",
+				"email": "kazmifce",
+				"profilePic": "kazmifce.jpg"
+			},
+			{
+				"name": "Kamal Jain",
+				"designation": "Professor",
+				"iitr_o": "5465",
+				"iitr_r": "5027",
+				"phoneBSNL": "274617",
+				"email": "kjainfce",
+				"profilePic": "kjainfce.jpg"
+			},
+			{
+				"name": "Satyendra Mittal",
+				"designation": "Associate Professor",
+				"iitr_o": "5837",
+				"phoneBSNL": "274565",
+				"email": "smittfce",
+				"profilePic": "smittfce.jpg"
+			},
+			{
+				"name": "Jayanta Kumar Ghosh",
+				"designation": "Associate Professor",
+				"iitr_o": "5429",
+				"iitr_r": "5456",
+				"phoneBSNL": "274183",
+				"email": "gjkumfce",
+				"profilePic": "gjkumfce.jpg"
+			},
+			{
+				"name": "Pramod Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5692",
+				"iitr_r": "5168",
+				"email": "prmdkfce",
+				"profilePic": "prmdkfce.jpg"
+			},
+			{
+				"name": "Bhupinder Singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5885",
+				"iitr_r": "5886",
+				"email": "bhupifce",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Rajat Rastogi",
+				"designation": "Associate Professor",
+				"iitr_o": "5447",
+				"iitr_r": "6447",
+				"email": "rajatfce",
+				"profilePic": "Rajat_Face.JPG"
+			},
+			{
+				"name": "Anupam Chakrabarti",
+				"designation": "Associate Professor",
+				"iitr_o": "5844",
+				"iitr_r": "6844",
+				"email": "achakfce",
+				"profilePic": "DSC_0004-2.jpg"
+			},
+			{
+				"name": "Vishwas A Sawant",
+				"designation": "Associate Professor",
+				"iitr_o": "5892",
+				"iitr_r": "6892",
+				"email": "sawntfce",
+				"profilePic": "sawntfce.jpg"
+			},
+			{
+				"name": "R D Garg",
+				"designation": "Associate Professor",
+				"iitr_o": "5893",
+				"iitr_r": "6893",
+				"email": "garg_fce",
+				"profilePic": "garg_fce.jpg"
+			},
+			{
+				"name": "Umesh Kumar Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "5877",
+				"iitr_r": "5878",
+				"email": "umuksfce",
+				"profilePic": "umuksfce.jpg"
+			},
+			{
+				"name": "Pramod Kumar Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "5684",
+				"iitr_r": "5121",
+				"email": "pks08fce",
+				"profilePic": "pks08fce_0.jpg"
+			},
+			{
+				"name": "Priti Maheshwari",
+				"designation": "Associate Professor",
+				"iitr_o": "5883",
+				"iitr_r": "5884",
+				"email": "pritifce",
+				"profilePic": "pritifce.jpg"
+			},
+			{
+				"name": "Mohd. Ashraf Iqbal",
+				"designation": "Associate Professor",
+				"iitr_o": "5866",
+				"iitr_r": "6866",
+				"email": "iqbalfce",
+				"profilePic": "Photograph_2.JPG"
+			},
+			{
+				"name": "G D Ransinchung R N",
+				"designation": "Associate Professor",
+				"iitr_o": "5584",
+				"iitr_r": "5136",
+				"email": "gdranfce",
+				"profilePic": "gdranfce_gdranfce.jpg"
+			},
+			{
+				"name": "Rajib Chowdhury",
+				"designation": "Assistant Professor",
+				"iitr_o": "5612",
+				"iitr_r": "5124",
+				"email": "rajibfdm",
+				"profilePic": "rajibfce.jpg",
+				"website": "http://scholar.google.co.uk/citations?user=NuP8ItUAAAAJ"
+			},
+			{
+				"name": "Sudipta Sarkar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4756",
+				"iitr_r": "6756",
+				"email": "srkarfce",
+				"profilePic": "srkarfce_0.jpg"
+			},
+			{
+				"name": "Sonlisa Ray",
+				"designation": "Assistant Professor",
+				"iitr_o": "5673",
+				"iitr_r": "5019",
+				"email": "sonarfce",
+				"profilePic": "1.JPG"
+			},
+			{
+				"name": "Indrajit Ghosh",
+				"designation": "Assistant Professor",
+				"iitr_o": "5533",
+				"iitr_r": "5023",
+				"email": "indrafce",
+				"profilePic": "indrafce.jpg"
+			},
+			{
+				"name": "Sanjay Chikermane",
+				"designation": "Assistant Professor",
+				"iitr_o": "4784",
+				"iitr_r": "6784",
+				"email": "fa9fce",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Jagdish Prasad Sahoo",
+				"designation": "Assistant Professor",
+				"iitr_o": "5588",
+				"iitr_r": "5571",
+				"email": "sahoofce",
+				"profilePic": "Sahoo.jpg"
+			},
+			{
+				"name": "Raja Chowdhury",
+				"designation": "Assistant Professor",
+				"iitr_o": "4793",
+				"iitr_r": "6793",
+				"email": "�rajacfce",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Bhanu Prakash Vellanki",
+				"designation": "Assistant Professor",
+				"iitr_o": "4832",
+				"iitr_r": "6832",
+				"email": "bhanufce",
+				"profilePic": "bhanufce_2.JPG"
+			},
+			{
+				"name": "O P Dube",
+				"designation": "Visiting Professor",
+				"iitr_o": "5649",
+				"profilePic": "deafult.jpg"
+			},
+			{
+				"name": "V K Gupta",
+				"designation": "Visiting Professor",
+				"iitr_o": "5441",
+				"email": "vkgsufce",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6258"
+			},
+			{
+				"name": "Research Scholars Wing",
+				"iitr_o": "6268"
+			},
+			{
+				"name": "A.C.A.T.R.D. Lab.",
+				"iitr_o": "6256"
+			},
+			{
+				"name": "Chemical Analysis Lab",
+				"iitr_o": "6265"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4412"
+			},
+			{
+				"name": "Concrete Lab.",
+				"iitr_o": "6255"
+			},
+			{
+				"name": "Environmental Lab.",
+				"iitr_o": "6257"
+			},
+			{
+				"name": "Environmental Centre",
+				"iitr_o": "6246"
+			},
+			{
+				"name": "E.S.A. Lab.",
+				"iitr_o": "6245"
+			},
+			{
+				"name": "Geo- Technical Lab.",
+				"iitr_o": "6223"
+			},
+			{
+				"name": "G.P.S. Lab.",
+				"iitr_o": "6260"
+			},
+			{
+				"name": "Hydraulics Lab.",
+				"iitr_o": "6242"
+			},
+			{
+				"name": "Pavement Testing Hall",
+				"iitr_o": "6264"
+			},
+			{
+				"name": "P G Lab.",
+				"iitr_o": "6262"
+			},
+			{
+				"name": "R.S.P.E. Lab.",
+				"iitr_o": "6266"
+			},
+			{
+				"name": "Remote Sensing Centre",
+				"iitr_o": "6249"
+			},
+			{
+				"name": "Structural Workshop",
+				"iitr_o": "6244"
+			},
+			{
+				"name": "Survey Tentage Store",
+				"iitr_o": "6220"
+			},
+			{
+				"name": "Survey Workshop",
+				"iitr_o": "6221"
+			},
+			{
+				"name": "Transportation Lab.",
+				"iitr_o": "6243"
+			},
+			{
+				"name": "Traffic Engneering Lab.",
+				"iitr_o": "6247"
+			},
+			{
+				"name": "Test Hall",
+				"iitr_o": "6239"
+			},
+			{
+				"name": "New Test Hall",
+				"iitr_o": "4565"
+			},
+			{
+				"name": "U. G. Lab.",
+				"iitr_o": "6263"
+			},
+			{
+				"name": "Wind Tunnel Lab.",
+				"iitr_o": "6222"
+			},
+			{
+				"name": "CAD Centre",
+				"iitr_o": "6226"
+			},
+			{
+				"name": "Drawing Office",
+				"iitr_o": "6230"
+			},
+			{
+				"name": "Meeting Room 1",
+				"iitr_o": "6297"
+			},
+			{
+				"name": "Meeting Room 2",
+				"iitr_o": "6259"
+			},
+			{
+				"name": "Meeting Room 3",
+				"iitr_o": "6271"
+			},
+			{
+				"name": "Auditorium",
+				"iitr_o": "6252"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6270"
+			},
+			{
+				"name": "Conference Room",
+				"iitr_o": "6254"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "4236"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6225"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4450"
+			}
+		]
+	},
+	{
+		"name": "Computer Science And Engineering",
+		"photo": "CSE",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5206"
+			},
+			{
+				"name": "Manoj Mishra",
+				"designation": "Head Of Department",
+				"iitr_o": "5642",
+				"iitr_r": "5418",
+				"email": "manojfec",
+				"profilePic": "manojfec.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4255"
+			},
+			{
+				"name": "Durga Toshniwal",
+				"designation": "Associate Professor",
+				"iitr_o": "5687",
+				"phoneBSNL": "271575",
+				"email": "durgafec",
+				"profilePic": "durgafec.jpg"
+			},
+			{
+				"name": "Rajdeep Niyogi",
+				"designation": "Associate Professor",
+				"iitr_o": "5896",
+				"iitr_r": "6896",
+				"email": "rajdpfec",
+				"profilePic": "rniyogi_1.jpg"
+			},
+			{
+				"name": "Sugata Gangopadhyay",
+				"designation": "Associate Professor",
+				"iitr_o": "5582",
+				"iitr_r": "5646",
+				"email": "sugatfma",
+				"profilePic": "DSC01175.JPG",
+				"website": "http://sites.google.com/site/gsugata/Home"
+			},
+			{
+				"name": "R. Balasubramaniam",
+				"designation": "Associate Professor",
+				"iitr_o": "5852",
+				"iitr_r": "5853",
+				"phoneBSNL": "8439747549",
+				"email": "balarfma",
+				"profilePic": "balarfma.jpg",
+				"website": "https://sites.google.com/site/balaiitr/"
+			},
+			{
+				"name": "Peddoju Sateesh Kumar",
+				"designation": "Assistant Professor",
+				"iitr_o": "5647",
+				"iitr_r": "5003",
+				"email": "drpskfec",
+				"profilePic": "drpskfec.jpg"
+			},
+			{
+				"name": "Sandeep Kumar Garg",
+				"designation": "Assistant Professor",
+				"iitr_o": "5713",
+				"iitr_r": "5194",
+				"email": "sgargfec",
+				"profilePic": "sgargfec.jpg"
+			},
+			{
+				"name": "Vaskar Raycoudhary",
+				"designation": "Assistant Professor",
+				"iitr_o": "5848",
+				"iitr_r": "6848",
+				"email": "vaskafec",
+				"profilePic": "vaskafec_vaskafec.jpg"
+			},
+			{
+				"name": "Dhaval Patel",
+				"designation": "Assistant Professor",
+				"iitr_o": "5700",
+				"iitr_r": "6700",
+				"email": "patelfec",
+				"profilePic": "patelfec_Dhaval.JPG"
+			},
+			{
+				"name": "Sudip Roy",
+				"designation": "Assistant Professor",
+				"iitr_o": "4815",
+				"iitr_r": "6815",
+				"email": "sudiproy.fcs",
+				"profilePic": "sudip_2.jpg"
+			},
+			{
+				"name": "Partha Pratim Roy",
+				"designation": "Assistant Professor",
+				"iitr_o": "4816",
+				"iitr_r": "6816",
+				"email": "proy.fcs",
+				"profilePic": "Partha.jpg"
+			},
+			{
+				"name": "Bhatt Chidansh",
+				"iitr_o": "4823",
+				"iitr_r": "6823",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Anil K Sarje",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5654",
+				"iitr_r": "5204",
+				"email": "sarjefec",
+				"profilePic": "sarjefec.jpg"
+			},
+			{
+				"name": "Computer Lab. 1",
+				"iitr_o": "6404"
+			},
+			{
+				"name": "Computer Lab. 2",
+				"iitr_o": "6419"
+			},
+			{
+				"name": "High Performance Computing Lab.",
+				"iitr_o": "6473"
+			},
+			{
+				"name": "Information Security Lab.",
+				"iitr_o": "6454"
+			},
+			{
+				"name": "Network Security Lab.",
+				"iitr_o": "6449"
+			},
+			{
+				"name": "Data Mining Research Lab.",
+				"iitr_o": "6456"
+			}
+		]
+	},
+	{
+		"name": "Earthquake Engineering",
+		"photo": "EQ",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5228",
+				"email": "quake"
+			},
+			{
+				"name": "M L Sharma",
+				"iitr_o": "5536",
+				"iitr_r": "5055",
+				"phoneBSNL": "275062",
+				"email": "mukutfeq",
+				"profilePic": "mukutfeq.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4328"
+			},
+			{
+				"name": "Fax",
+				"phoneBSNL": "276898"
+			},
+			{
+				"name": "Ashok Kumar",
+				"designation": "Professor",
+				"iitr_o": "5527",
+				"iitr_r": "5487",
+				"phoneBSNL": "277245",
+				"email": "akmeqfeq",
+				"profilePic": "akmeqfeq.jpg",
+				"website": "http://ashokkumarmathur.com/"
+			},
+			{
+				"name": "Amita Sinval",
+				"designation": "Professor",
+				"iitr_o": "5517",
+				"iitr_r": "5600",
+				"phoneBSNL": "275570",
+				"email": "amitafeq",
+				"profilePic": "amitafeq.jpg"
+			},
+			{
+				"name": "Yogendra Singh",
+				"designation": "Head Of Department",
+				"iitr_o": "5534",
+				"iitr_r": "5042",
+				"email": "yogenfeq",
+				"profilePic": "yogenfeq.jpg"
+			},
+			{
+				"name": "Kirat Pal",
+				"designation": "Professor",
+				"iitr_o": "5539",
+				"iitr_r": "5281",
+				"phoneBSNL": "274174",
+				"email": "kiratfeq",
+				"profilePic": "kiratfeq.jpg",
+				"website": "http://scholar.google.co.in/citations?user=7eM0RbgAAAAJ&hl=en&oi=sra"
+			},
+			{
+				"name": "J P Narayan",
+				"designation": "Professor",
+				"iitr_o": "5127",
+				"iitr_r": "5058",
+				"email": "jaypnfeq",
+				"profilePic": "Photo.jpg"
+			},
+			{
+				"name": "Manish Shrikhande",
+				"designation": "Professor",
+				"iitr_o": "5437",
+				"iitr_r": "5605",
+				"email": "mshrifeq",
+				"profilePic": "IMG_0391_Modified.JPG",
+				"website": "http://sites.google.com/site/mshrikhande"
+			},
+			{
+				"name": "B K Maheshwari",
+				"designation": "Professor",
+				"iitr_o": "5450",
+				"iitr_r": "5504",
+				"email": "bkmahfeh",
+				"profilePic": "bkmahfeq.jpg"
+			},
+			{
+				"name": "Pankaj Agarwal",
+				"designation": "Professor",
+				"iitr_o": "5317",
+				"iitr_r": "6317",
+				"phoneBSNL": "260723",
+				"email": "panagfeq",
+				"profilePic": "pan.jpg"
+			},
+			{
+				"name": "Ashok D Pandey",
+				"designation": "Assistant Professor",
+				"iitr_o": "5531",
+				"iitr_r": "5041",
+				"phoneBSNL": "270172",
+				"email": "adpanfeq",
+				"profilePic": "adpanfeq.jpg"
+			},
+			{
+				"name": "Daya Shanker",
+				"designation": "Assistant Professor",
+				"iitr_o": "5128",
+				"iitr_r": "5062",
+				"email": "dayasfeq",
+				"profilePic": "dayasfeq.jpg"
+			},
+			{
+				"name": "R N Dubey",
+				"designation": "Assistant Professor",
+				"iitr_o": "5537",
+				"iitr_r": "5057",
+				"phoneBSNL": "275672",
+				"email": "dubeyfeq",
+				"profilePic": "dubeyfeq_dubeyfeq.JPG"
+			},
+			{
+				"name": "Ravi S Jakka",
+				"designation": "Assistant Professor",
+				"iitr_o": "5591",
+				"iitr_r": "5115",
+				"email": "jakkafeq",
+				"profilePic": "jakkafeq.jpg"
+			},
+			{
+				"name": "D K Paul",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5522",
+				"iitr_r": "5507",
+				"email": "dpaulfeq",
+				"profilePic": "dpaulfeq.jpg"
+			},
+			{
+				"name": "H R Wason",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5556",
+				"iitr_r": "5569",
+				"phoneBSNL": "273727",
+				"email": "wasonfeq",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Ashwani Kumar",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5529",
+				"iitr_r": "5511",
+				"phoneBSNL": "270003",
+				"email": "ashwnfeq",
+				"profilePic": "ashwnfeq.jpg"
+			},
+			{
+				"name": "Josodhir Das",
+				"designation": "Associate Professor",
+				"iitr_o": "5264",
+				"iitr_r": "5371",
+				"email": "jddasfeq",
+				"profilePic": "Photo-myself.jpg"
+			},
+			{
+				"name": "S C Gupta",
+				"designation": "Associate Professor",
+				"iitr_o": "5592",
+				"iitr_r": "5366",
+				"email": "scgeqfeq",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Shyamlal Mukherjee",
+				"designation": "Visiting Professor",
+				"iitr_o": "5528",
+				"iitr_r": "5273",
+				"email": "shyamal",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "I D Gupta",
+				"designation": "Visiting Professor",
+				"iitr_o": "4783",
+				"iitr_r": "6783",
+				"email": "idgupta",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6556"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6431"
+			},
+			{
+				"name": "Data Processing Lab.",
+				"iitr_o": "6261"
+			},
+			{
+				"name": "G.I.S. Lab.",
+				"iitr_o": "6306"
+			},
+			{
+				"name": "Mission Mode Lab.",
+				"iitr_o": "6311"
+			},
+			{
+				"name": "Quasi-Static Dynamics Lab.",
+				"iitr_o": "6430"
+			},
+			{
+				"name": "Quasi-Static Testing Lab.",
+				"iitr_o": "6313"
+			},
+			{
+				"name": "Seismological Observatory",
+				"iitr_o": "6321"
+			},
+			{
+				"name": "Seismology Lab.",
+				"iitr_o": "6218"
+			},
+			{
+				"name": "Shake Table",
+				"iitr_o": "6493"
+			},
+			{
+				"name": "Soil Dynamics Lab.",
+				"iitr_o": "6429"
+			},
+			{
+				"name": "Strong Motion Instrumentation Lab.",
+				"iitr_o": "6359"
+			},
+			{
+				"name": "Structural Dynamics Lab.",
+				"iitr_o": "6308"
+			},
+			{
+				"name": "Telemetry Array Lab.",
+				"iitr_o": "6310"
+			},
+			{
+				"name": "Pedagogi Lab.",
+				"iitr_o": "6731"
+			},
+			{
+				"name": "Photocopier Machine",
+				"iitr_o": "6375"
+			},
+			{
+				"name": "I.S.E.T. Office",
+				"iitr_o": "4495"
+			},
+			{
+				"name": "Workshop",
+				"iitr_o": "6227"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6307"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4453"
+			}
+		]
+	},
+	{
+		"name": "Earth Sciences",
+		"photo": "ES",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5232",
+				"email": "earth"
+			},
+			{
+				"name": "Deepak C Srivastava",
+				"designation": "Head Of Department",
+				"iitr_o": "5558",
+				"iitr_r": "5112",
+				"phoneBSNL": "275112",
+				"email": "dpkesfes",
+				"profilePic": "dpkesfes_6.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4332"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5638"
+			},
+			{
+				"name": "Pravin K Gupta",
+				"designation": "Professor",
+				"iitr_o": "5552",
+				"iitr_r": "5519",
+				"phoneBSNL": "275528",
+				"email": "pkgptfes",
+				"profilePic": "pkgptfes.jpg"
+			},
+			{
+				"name": "Arun K Saraf",
+				"designation": "Professor",
+				"iitr_o": "5549",
+				"iitr_r": "5102",
+				"email": "saraffes",
+				"profilePic": "saraffes_0.jpg",
+				"website": "http://drarunsaraf.tripod.com/"
+			},
+			{
+				"name": "Dilip K Mukhopadhyay",
+				"designation": "Professor",
+				"iitr_o": "5564",
+				"iitr_r": "5578",
+				"email": "dilipfes",
+				"profilePic": "dilipfes.jpg"
+			},
+			{
+				"name": "Rathinam Anbalagan",
+				"designation": "Professor",
+				"iitr_o": "5562",
+				"iitr_r": "5054",
+				"email": "ranbafes",
+				"profilePic": "photo_anb.jpg"
+			},
+			{
+				"name": "Rambhatla G S Sastry",
+				"designation": "Professor",
+				"iitr_o": "5553",
+				"iitr_r": "5344",
+				"phoneBSNL": "275048",
+				"email": "rgss1fes",
+				"profilePic": "rgss1fes_0.jpg"
+			},
+			{
+				"name": "Govind J Chakrapani",
+				"designation": "Professor",
+				"iitr_o": "5080",
+				"iitr_r": "5548",
+				"email": "gjcurfes",
+				"profilePic": "gjcurfes.jpg"
+			},
+			{
+				"name": "Mohd. Israil",
+				"designation": "Professor",
+				"iitr_o": "5078",
+				"iitr_r": "5205",
+				"email": "mohdfes",
+				"profilePic": "visa_russia_DSC_0550.JPG"
+			},
+			{
+				"name": "Sagarika Mukhopadhyay",
+				"designation": "Professor",
+				"iitr_o": "5563",
+				"iitr_r": "5578",
+				"email": "sagarfes",
+				"profilePic": "sagarfes.jpg"
+			},
+			{
+				"name": "Sandeep Singh",
+				"designation": "Professor",
+				"iitr_o": "5559",
+				"iitr_r": "5086",
+				"email": "sandpfes",
+				"profilePic": "sandpfes.jpg"
+			},
+			{
+				"name": "Amit K Sen",
+				"designation": "Professor",
+				"iitr_o": "5557",
+				"iitr_r": "5349",
+				"email": "senakfes",
+				"profilePic": "senakfes.jpg"
+			},
+			{
+				"name": "R Krishnamurthy",
+				"designation": "Professor",
+				"iitr_o": "5416",
+				"iitr_r": "5499",
+				"email": "krishfes",
+				"profilePic": "krishfes.jpg"
+			},
+			{
+				"name": "Anand Joshi",
+				"designation": "Professor",
+				"iitr_o": "5887",
+				"iitr_r": "6887",
+				"email": "anandfes",
+				"profilePic": "anandfes.jpg"
+			},
+			{
+				"name": "Kamal",
+				"designation": "Associate Professor",
+				"iitr_o": "5526",
+				"iitr_r": "5510",
+				"email": "kamalfes",
+				"profilePic": "kamalfes.jpg"
+			},
+			{
+				"name": "Abhayanand Singh Maurya",
+				"designation": "Assistant Professor",
+				"iitr_o": "5610",
+				"iitr_r": "5301",
+				"email": "Abhayfes",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Pitambar Pati",
+				"designation": "Assistant Professor",
+				"iitr_o": "5237",
+				"iitr_r": "5211",
+				"email": "ppatifes",
+				"profilePic": "ppatifes_0.jpg"
+			},
+			{
+				"name": "Lopamudra Saha",
+				"designation": "Assistant Professor",
+				"iitr_o": "5343",
+				"iitr_r": "5348",
+				"email": "sahalfes",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Biplab Bhattacharya",
+				"designation": "Assistant Professor",
+				"iitr_o": "5434",
+				"iitr_r": "5409",
+				"email": "bbgeofes",
+				"profilePic": "bbgeofes_5.jpg"
+			},
+			{
+				"name": "Vir N Singh",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5546",
+				"iitr_r": "5595",
+				"email": "vnsghfes",
+				"profilePic": "vnsghfes.jpg"
+			},
+			{
+				"name": "Vikram Vishal",
+				"iitr_o": "5097",
+				"iitr_r": "5619",
+				"email": "vik12fes"
+			},
+			{
+				"name": "Ashutosh Chamoli",
+				"designation": "Assistant Professor",
+				"iitr_o": "4790",
+				"iitr_r": "6790",
+				"email": "achamfes",
+				"profilePic": "achamfes_0.jpg"
+			},
+			{
+				"name": "Pallavi Chattopadhyay",
+				"designation": "Assistant Professor",
+				"iitr_o": "4834",
+				"iitr_r": "6834",
+				"email": "cpallavi.fes",
+				"profilePic": "cpallavi.fes_cpallavi.jpg"
+			},
+			{
+				"name": "Ajanta Goswami",
+				"designation": "Assistant Professor",
+				"iitr_o": "4835",
+				"iitr_r": "6835",
+				"phoneBSNL": "8954888815",
+				"email": "ajanta.fes",
+				"profilePic": "AJANTA_PHOTO_LATEST_1.jpg"
+			},
+			{
+				"name": "Sarada Prasad Pradhan",
+				"designation": "Assistant Professor",
+				"iitr_o": "4851",
+				"iitr_r": "6851",
+				"email": "sppradhan.fes",
+				"profilePic": "sppradhan.fes_0.jpg"
+			},
+			{
+				"name": "S N Rai",
+				"designation": "Visiting Professor",
+				"iitr_o": "4806",
+				"iitr_r": "6806",
+				"email": "raisnfes",
+				"profilePic": "SNR_photo.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6557"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6336"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4415"
+			},
+			{
+				"name": "Geochemical Lab.",
+				"iitr_o": "6333"
+			},
+			{
+				"name": "Geophysics Lab.",
+				"iitr_o": "6342"
+			},
+			{
+				"name": "Geotechnical Lab.",
+				"iitr_o": "6341"
+			},
+			{
+				"name": "GIS Lab.",
+				"iitr_o": "6370"
+			},
+			{
+				"name": "IITR Satellite Earth Station",
+				"iitr_o": "6348"
+			},
+			{
+				"name": "Luminescence Dating Lab.",
+				"iitr_o": "6472"
+			},
+			{
+				"name": "Magneto Telluric Lab.",
+				"iitr_o": "6334"
+			},
+			{
+				"name": "Microplaeontology Lab.",
+				"iitr_o": "6326"
+			},
+			{
+				"name": "MT Lab.",
+				"iitr_o": "6349"
+			},
+			{
+				"name": "Paleoutology Lab.",
+				"iitr_o": "6337"
+			},
+			{
+				"name": "Petrology & Ore Microscopy Lab.",
+				"iitr_o": "6344"
+			},
+			{
+				"name": "Remote Sensing Lab.",
+				"iitr_o": "6332"
+			},
+			{
+				"name": "Sample Preparation Lab.",
+				"iitr_o": "6330"
+			},
+			{
+				"name": "Section Cutting Lab.",
+				"iitr_o": "6331"
+			},
+			{
+				"name": "Seismology Lab.",
+				"iitr_o": "6339"
+			},
+			{
+				"name": "Tims Lab.",
+				"iitr_o": "6340"
+			},
+			{
+				"name": "Museum",
+				"iitr_o": "6329"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6343"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6335"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6328"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4454"
+			}
+		]
+	},
+	{
+		"name": "Electrical Engineering",
+		"photo": "EE",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5231",
+				"iitr_r": "5076",
+				"email": "elect"
+			},
+			{
+				"name": "Satya P. Srivastava",
+				"designation": "Head Of Department",
+				"iitr_o": "5583",
+				"iitr_r": "5076",
+				"email": "satyafee",
+				"profilePic": "deepak1.jpg"
+			},
+			{
+				"name": "Office (Ajay Pal Singh)",
+				"iitr_o": "4331",
+				"iitr_r": "4986"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "6351"
+			},
+			{
+				"name": "S P Gupta",
+				"designation": "Professor",
+				"iitr_o": "5597",
+				"iitr_r": "5038",
+				"phoneBSNL": "271225",
+				"email": "spgfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Vinod Kumar",
+				"designation": "Professor",
+				"iitr_o": "5593",
+				"iitr_r": "5572",
+				"phoneBSNL": "274172",
+				"email": "vinodfee",
+				"profilePic": "vinodfee.jpg"
+			},
+			{
+				"name": "Pramod Agarwal",
+				"designation": "Professor",
+				"iitr_o": "5069",
+				"phoneBSNL": "274104",
+				"email": "pramgfee",
+				"profilePic": "pramgfee.jpg"
+			},
+			{
+				"name": "R P Maheshwari",
+				"designation": "Professor",
+				"iitr_o": "5596",
+				"iitr_r": "5116",
+				"email": "rudrafee",
+				"profilePic": "vinodfee.jpg"
+			},
+			{
+				"name": "N P Padhy",
+				"designation": "Professor",
+				"iitr_o": "5587",
+				"iitr_r": "5406",
+				"email": "nppeefee",
+				"profilePic": "nppeefee.jpg"
+			},
+			{
+				"name": "S. P. Singh",
+				"designation": "Professor",
+				"iitr_o": "5827",
+				"iitr_r": "5825",
+				"phoneBSNL": "275423",
+				"email": "spseefee",
+				"profilePic": "spseefee.jpg"
+			},
+			{
+				"name": "Rajendra Prasad",
+				"designation": "Professor",
+				"iitr_o": "5068",
+				"iitr_r": "5623",
+				"phoneBSNL": "278425",
+				"email": "rpdeefee",
+				"profilePic": "rpdeefee.jpg"
+			},
+			{
+				"name": "G K Singh",
+				"designation": "Professor",
+				"iitr_o": "5070",
+				"iitr_r": "5139",
+				"email": "gksngfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "R S Anand",
+				"designation": "Professor",
+				"iitr_o": "5590",
+				"iitr_r": "5330",
+				"email": "anandfee",
+				"profilePic": "anandfee.jpg"
+			},
+			{
+				"name": "B. Das",
+				"designation": "Professor",
+				"iitr_o": "5628",
+				"iitr_r": "5629",
+				"email": "biswafee",
+				"profilePic": "deafult.jpg"
+			},
+			{
+				"name": "G N Pillai",
+				"designation": "Professor",
+				"iitr_o": "5198",
+				"iitr_r": "5293",
+				"email": "gnathfee",
+				"profilePic": "gnathfee.jpg"
+			},
+			{
+				"name": "Indra Gupta",
+				"designation": "Associate Professor",
+				"iitr_o": "5395",
+				"iitr_r": "5626",
+				"email": "indrafee",
+				"profilePic": "indrafee.jpg"
+			},
+			{
+				"name": "E. Fernandez",
+				"designation": "Associate Professor",
+				"iitr_o": "5075",
+				"iitr_r": "5402",
+				"phoneBSNL": "277014",
+				"email": "eugfefee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Barjeev Tyagi",
+				"designation": "Associate Professor",
+				"iitr_o": "5894",
+				"iitr_r": "6894",
+				"email": "btyagfee",
+				"profilePic": "Barjeev2.jpg"
+			},
+			{
+				"name": "Mukesh Kumar Pathak",
+				"designation": "Associate Professor",
+				"iitr_o": "5220",
+				"iitr_r": "5320",
+				"email": "mukesfee",
+				"profilePic": "MKP.png"
+			},
+			{
+				"name": "C P Gupta",
+				"designation": "Associate Professor",
+				"iitr_o": "5594",
+				"iitr_r": "5037",
+				"email": "cpg65fee",
+				"profilePic": "cpg65fee.jpg"
+			},
+			{
+				"name": "Vishal Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5897",
+				"iitr_r": "6897",
+				"email": "vksaxfee",
+				"profilePic": "vksaxfee.jpg"
+			},
+			{
+				"name": "Yogesh Vijay Hote",
+				"designation": "Associate Professor",
+				"iitr_o": "5134",
+				"iitr_r": "5308",
+				"email": "yhotefee",
+				"profilePic": "Yogesh_Hote_photo.png"
+			},
+			{
+				"name": "Manoj Tripathi",
+				"designation": "Associate Professor",
+				"iitr_o": "5431",
+				"iitr_r": "5449",
+				"email": "manojfee",
+				"profilePic": "manojfee.jpg"
+			},
+			{
+				"name": "Sumathi P.",
+				"designation": "Associate Professor",
+				"iitr_o": "5259",
+				"iitr_r": "5332",
+				"email": "psumifee",
+				"profilePic": "psumifee.jpg"
+			},
+			{
+				"name": "Vinay Pant",
+				"designation": "Assistant Professor",
+				"iitr_o": "5396",
+				"iitr_r": "5064",
+				"email": "vpantfee",
+				"profilePic": "vpantfee.jpg"
+			},
+			{
+				"name": "Ambalika Sharma",
+				"designation": "Assistant Professor",
+				"iitr_o": "5397",
+				"phoneBSNL": "279284",
+				"email": "asharfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sharmili Das",
+				"designation": "Assistant Professor",
+				"iitr_o": "5328",
+				"iitr_r": "5208",
+				"email": "shardfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Ganesh Kumbhar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4752",
+				"iitr_r": "6752",
+				"email": "gkumbfee",
+				"profilePic": "gkumbfee.jpg"
+			},
+			{
+				"name": "M. Felix Orlando",
+				"designation": "Assistant Professor",
+				"email": "felixfee",
+				"profilePic": "felixfee_0.jpg"
+			},
+			{
+				"name": "Premlata Jena",
+				"designation": "Assistant Professor",
+				"iitr_o": "4757",
+				"iitr_r": "6757",
+				"email": "pjenafee",
+				"profilePic": "Untitled-1_copy.jpg"
+			},
+			{
+				"name": "Avik Bhattacharya",
+				"designation": "Assistant Professor",
+				"iitr_o": "5375",
+				"iitr_r": "5586",
+				"email": "bavikfee",
+				"profilePic": "bavikfee_0.jpg"
+			},
+			{
+				"name": "Bhavesh Bhalja",
+				"designation": "Associate Professor",
+				"iitr_o": "4804",
+				"iitr_r": "6804",
+				"email": "brb14fee",
+				"profilePic": "brb14fee_5.jpg"
+			},
+			{
+				"name": "Anubrata Dey",
+				"designation": "Assistant Professor",
+				"iitr_o": "4836",
+				"iitr_r": "6836",
+				"email": "a.dey.fee",
+				"profilePic": "Snapshot_20150227_1_copy.jpg"
+			},
+			{
+				"name": "M L Dewal",
+				"iitr_o": "5636",
+				"iitr_r": "5607",
+				"email": "mohanfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sumit Ghatak Choudhuri",
+				"designation": "Assistant Professor",
+				"iitr_o": "5034",
+				"iitr_r": "5047",
+				"email": "sgceefee",
+				"profilePic": "sgceefee_2.JPG"
+			},
+			{
+				"name": "Mooteri K. Vasantha",
+				"designation": "Retired Faculty",
+				"email": "krisnfee",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6558"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6355"
+			},
+			{
+				"name": "Applied Electronics Lab.",
+				"iitr_o": "6363"
+			},
+			{
+				"name": "Applied Instrumentation Lab.",
+				"iitr_o": "6364"
+			},
+			{
+				"name": "Biomedical Instrumentation Lab.",
+				"iitr_o": "6381"
+			},
+			{
+				"name": "Embelded System Lab.",
+				"iitr_o": "6377"
+			},
+			{
+				"name": "CAD Lab.",
+				"iitr_o": "6365"
+			},
+			{
+				"name": "Computer Controlled Drives Lab.",
+				"iitr_o": "6233"
+			},
+			{
+				"name": "Control Lab.",
+				"iitr_o": "6362"
+			},
+			{
+				"name": "Data Acquisition Lab.",
+				"iitr_o": "6352"
+			},
+			{
+				"name": "Electric Drives Lab. I",
+				"iitr_o": "6361"
+			},
+			{
+				"name": "Electric Drives Lab. II",
+				"iitr_o": "6357"
+			},
+			{
+				"name": "Electric Science Lab.",
+				"iitr_o": "6356"
+			},
+			{
+				"name": "Fabrication & Assembly Lab.",
+				"iitr_o": "6379"
+			},
+			{
+				"name": "High Voltage Lab.",
+				"iitr_o": "6520"
+			},
+			{
+				"name": "Inst. Signal Proc. Lab.",
+				"iitr_o": "6369"
+			},
+			{
+				"name": "Microprocessors Lab.",
+				"iitr_o": "6367"
+			},
+			{
+				"name": "Microprocess & Comp. Lab.",
+				"iitr_o": "6294"
+			},
+			{
+				"name": "Power Systems Lab.",
+				"iitr_o": "6366"
+			},
+			{
+				"name": "P. S. S. Lab.",
+				"iitr_o": "6405"
+			},
+			{
+				"name": "R. T. Lab.",
+				"iitr_o": "6380"
+			},
+			{
+				"name": "SOS Lab.",
+				"iitr_o": "6383"
+			},
+			{
+				"name": "Virtual Lab.",
+				"iitr_o": "4501"
+			},
+			{
+				"name": "Auditorium",
+				"iitr_o": "6350"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6353"
+			},
+			{
+				"name": "Faculty Common Room",
+				"iitr_o": "6368"
+			},
+			{
+				"name": "Confrence Room",
+				"iitr_o": "4515"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "4518",
+				"iitr_r": "6378"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6376"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6354"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4455"
+			}
+		]
+	},
+	{
+		"name": "Electronics and Communication Engineering",
+		"photo": "ECE",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5235"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4335"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5368"
+			},
+			{
+				"name": "Debashis Ghosh",
+				"designation": "Head Of Department",
+				"iitr_o": "5634",
+				"iitr_r": "5394",
+				"email": "ghoshfec",
+				"profilePic": "ghoshfec.jpg"
+			},
+			{
+				"name": "M V Kartikeyan",
+				"designation": "Professor",
+				"iitr_o": "5727",
+				"iitr_r": "5513",
+				"email": "kartikfec",
+				"profilePic": "6955--4X6___MATTE.jpg"
+			},
+			{
+				"name": "Madhav J. Nigam",
+				"designation": "Professor",
+				"iitr_o": "5659",
+				"iitr_r": "5315",
+				"email": "mkndnfec",
+				"profilePic": "mkndnfec.jpg"
+			},
+			{
+				"name": "Dharmendra Singh",
+				"designation": "Professor",
+				"iitr_o": "5695",
+				"iitr_r": "5351",
+				"email": "dharmfec",
+				"profilePic": "dharmfec_dharmfec.jpg"
+			},
+			{
+				"name": "Vijay Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5609",
+				"iitr_r": "5195",
+				"email": "vijecfec",
+				"profilePic": "vijecfec.jpg"
+			},
+			{
+				"name": "Sudeb Dasgupta",
+				"designation": "Associate Professor",
+				"iitr_o": "5666",
+				"iitr_r": "5201",
+				"email": "sudebfec",
+				"profilePic": "cover.jpg"
+			},
+			{
+				"name": "Nagendra P. Pathak",
+				"designation": "Associate Professor",
+				"iitr_o": "5771",
+				"iitr_r": "6771",
+				"email": "nagppfec",
+				"profilePic": "nagppfec_0.jpg"
+			},
+			{
+				"name": "Amalendu Patnaik",
+				"designation": "Associate Professor",
+				"iitr_o": "5850",
+				"iitr_r": "6850",
+				"email": "apfecfec",
+				"profilePic": "apfecfec.jpg"
+			},
+			{
+				"name": "Sanjeev Manhas",
+				"designation": "Associate Professor",
+				"iitr_o": "5147",
+				"iitr_r": "5174",
+				"email": "samanfec",
+				"profilePic": "samanfec.jpg"
+			},
+			{
+				"name": "Bulusu Anand",
+				"designation": "Associate Professor",
+				"iitr_o": "5347",
+				"iitr_r": "6347",
+				"email": "anandfec",
+				"profilePic": "anandfec.jpg"
+			},
+			{
+				"name": "Brajesh Kumar Kaushik",
+				"designation": "Associate Professor",
+				"iitr_o": "5662",
+				"iitr_r": "5160",
+				"email": "bkk23fec",
+				"profilePic": "bkk23fec.jpg",
+				"website": "http://scholar.google.co.in/citations?user=k8ZqlzYAAAAJ"
+			},
+			{
+				"name": "Anshul Tyagi",
+				"designation": "Assistant Professor",
+				"iitr_o": "5688",
+				"iitr_r": "6688",
+				"email": "tyagifec",
+				"profilePic": "tyagifec_1.jpg"
+			},
+			{
+				"name": "Vinod Pankajakshan",
+				"designation": "Assistant Professor",
+				"iitr_o": "5898",
+				"iitr_r": "6898",
+				"email": "vinodfec",
+				"profilePic": "vinodfec.jpg"
+			},
+			{
+				"name": "Siddhartha Chakravorty",
+				"designation": "Assistant Professor",
+				"iitr_o": "5663",
+				"email": "scecefec",
+				"profilePic": "scecefec.jpg"
+			},
+			{
+				"name": "Arnab Datta",
+				"designation": "Assistant Professor",
+				"iitr_o": "5464",
+				"iitr_r": "5104",
+				"email": "arnabfec",
+				"profilePic": "arnabfec.jpg"
+			},
+			{
+				"name": "Rajib Kumar Panigrahi",
+				"designation": "Assistant Professor",
+				"iitr_o": "4767",
+				"iitr_r": "6767",
+				"email": "rajibfec",
+				"profilePic": "rajibfec.jpg"
+			},
+			{
+				"name": "Brijesh Kumar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4791",
+				"iitr_r": "6791",
+				"email": "brjeshfec",
+				"profilePic": "brijesh_0.jpg"
+			},
+			{
+				"name": "Bishnu Prasad Das",
+				"designation": "Assistant Professor",
+				"iitr_o": "4798",
+				"iitr_r": "6798",
+				"email": "bpdasfec",
+				"profilePic": "bpdasfec_0.jpg"
+			},
+			{
+				"name": "Pyari Mohan Pradhan",
+				"designation": "Assistant Professor",
+				"iitr_o": "4807",
+				"iitr_r": "6807",
+				"email": "pmpradhan.fec",
+				"profilePic": "pmp14fec_0.JPG"
+			},
+			{
+				"name": "Karun Rawat",
+				"designation": "Assistant Professor",
+				"iitr_o": "4830",
+				"iitr_r": "6808",
+				"email": "karunfec",
+				"profilePic": "karunfec_0.jpg"
+			},
+			{
+				"name": "Meenakshi Rawat",
+				"designation": "Assistant Professor",
+				"iitr_o": "4808",
+				"iitr_r": "6808",
+				"email": "rawatfec",
+				"profilePic": "Author-1_photo.jpg",
+				"website": "http://www.ucalgary.ca/mrawat/"
+			},
+			{
+				"name": "S.N. Sinha",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5661",
+				"iitr_r": "5008",
+				"phoneBSNL": "270780",
+				"email": "snsecfec",
+				"profilePic": "Self-2.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6559"
+			},
+			{
+				"name": "Faculty Room",
+				"iitr_o": "6450"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6401"
+			},
+			{
+				"name": "Communication Systems Lab.",
+				"iitr_o": "6224",
+				"email": ""
+			},
+			{
+				"name": "Control Systems Lab.",
+				"iitr_o": "6411"
+			},
+			{
+				"name": "Digital Electronics Lab.",
+				"iitr_o": "6412"
+			},
+			{
+				"name": "D.S.T. Sp. Project Lab.",
+				"iitr_o": "6453"
+			},
+			{
+				"name": "Electronics Lab.",
+				"iitr_o": "6439"
+			},
+			{
+				"name": "Microelectronics Lab.",
+				"iitr_o": "6485"
+			},
+			{
+				"name": "Microwave Lab.",
+				"iitr_o": "6413"
+			},
+			{
+				"name": "RFIC Fabrication Facility",
+				"iitr_o": "6455"
+			},
+			{
+				"name": "Remote Sensing Project Lab.",
+				"iitr_o": "6443"
+			},
+			{
+				"name": "Signal Processing Lab.",
+				"iitr_o": "6442"
+			},
+			{
+				"name": "Sponsored Project Lab.",
+				"iitr_o": "6407"
+			},
+			{
+				"name": "Standards Lab.",
+				"iitr_o": "6409"
+			},
+			{
+				"name": "V.L.S.I. Design Lab.",
+				"iitr_o": "6448"
+			},
+			{
+				"name": "IITR Center of Excellency in Telecommunication",
+				"iitr_o": "4417"
+			},
+			{
+				"name": "Wireless Communication Lab.",
+				"iitr_o": "6441"
+			},
+			{
+				"name": "Workshop",
+				"iitr_o": "6452"
+			},
+			{
+				"name": "Auditorium",
+				"iitr_o": "6440"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "6406"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6402"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6403"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4456"
+			}
+		]
+	},
+	{
+		"name": "Humanities and Social Sciences",
+		"photo": "HS",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5234",
+				"email": "hums"
+			},
+			{
+				"name": "S.P. Singh",
+				"designation": "Head Of Department",
+				"iitr_o": "5337",
+				"iitr_r": "5442",
+				"phoneBSNL": "276068",
+				"email": "singhfhs",
+				"profilePic": "Photo-SPS_2.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4334"
+			},
+			{
+				"name": "Pashupati Jha",
+				"designation": "Professor",
+				"iitr_o": "5306",
+				"iitr_r": "5419",
+				"email": "pashufhs",
+				"profilePic": "pashufhs.jpg"
+			},
+			{
+				"name": "D K Nauriyal",
+				"designation": "Professor",
+				"iitr_o": "5387",
+				"iitr_r": "5258",
+				"phoneBSNL": "270502",
+				"email": "dknarfhs",
+				"profilePic": "dknarfhs.jpg"
+			},
+			{
+				"name": "Renu Rastogi",
+				"designation": "Professor",
+				"iitr_o": "5388",
+				"iitr_r": "5040",
+				"email": "renurfhs",
+				"profilePic": "rr-photo.jpg"
+			},
+			{
+				"name": "Rashmi Gaur",
+				"designation": "Professor",
+				"iitr_o": "5336",
+				"iitr_r": "5641",
+				"phoneBSNL": "276903",
+				"email": "rgaurfhs",
+				"profilePic": "rgaurfhs.jpg"
+			},
+			{
+				"name": "Nagendra Kumar",
+				"designation": "Professor",
+				"iitr_o": "5711",
+				"iitr_r": "5719",
+				"email": "nagenfhs",
+				"profilePic": "nagenfhs_3.jpg"
+			},
+			{
+				"name": "Binod Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "5895",
+				"iitr_r": "6895",
+				"email": "binodfhs",
+				"profilePic": "binodfhs.jpg"
+			},
+			{
+				"name": "Smita Jha",
+				"designation": "Associate Professor",
+				"iitr_o": "5899",
+				"iitr_r": "6899",
+				"email": "runalfhs",
+				"profilePic": "runalfhs_1.jpg"
+			},
+			{
+				"name": "Anindya Jayanta Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "5355",
+				"iitr_r": "5412",
+				"email": "anindfhs",
+				"profilePic": "anindfhs_1.jpg"
+			},
+			{
+				"name": "Pooja Garg",
+				"designation": "Assistant Professor",
+				"iitr_o": "5477",
+				"iitr_r": "5483",
+				"email": "gargpfhs",
+				"profilePic": "gargpfhs_1.jpg"
+			},
+			{
+				"name": "Rachita Gulati",
+				"designation": "Assistant Professor",
+				"iitr_o": "5683",
+				"iitr_r": "5286",
+				"email": "rgfhsfhs",
+				"profilePic": "rgfhsfhs_1.png"
+			},
+			{
+				"name": "Subir Sen",
+				"designation": "Assistant Professor",
+				"iitr_o": "4799",
+				"iitr_r": "6799",
+				"email": "subirfhs",
+				"profilePic": "Face.png"
+			},
+			{
+				"name": "Falguni Pattanaik",
+				"designation": "Assistant Professor",
+				"iitr_o": "4837",
+				"iitr_r": "6837",
+				"email": "falgunip.fhs",
+				"profilePic": "Falguni.JPG"
+			},
+			{
+				"name": "Ram Manohar Singh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4840",
+				"iitr_r": "6840",
+				"email": "rmsingh.fhs",
+				"profilePic": "rmsingh.fhs_0.JPG"
+			},
+			{
+				"name": "Rahul K. Gairola",
+				"designation": "Assistant Professor",
+				"iitr_o": "4853",
+				"iitr_r": "6853",
+				"email": "rahulfhs",
+				"profilePic": "rahulfhs_4.jpg",
+				"website": "https://in.linkedin.com/in/rahulkgairola"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6560"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6464"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6462"
+			},
+			{
+				"name": "Language Lab.",
+				"iitr_o": "6466"
+			},
+			{
+				"name": "Psychology Lab.",
+				"iitr_o": "6465"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6463"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4457"
+			}
+		]
+	},
+	{
+		"name": "Hydrology",
+		"photo": "HY",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5236",
+				"email": "hydro"
+			},
+			{
+				"name": "D S Arya",
+				"designation": "Head Of Department",
+				"iitr_o": "5370",
+				"iitr_r": "5473",
+				"phoneBSNL": "279570",
+				"email": "dsaryfhy",
+				"profilePic": "dsaryfhy_DSApp.JPG"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4336"
+			},
+			{
+				"name": "N K Goel",
+				"designation": "Professor",
+				"iitr_o": "5814",
+				"iitr_r": "5185",
+				"phoneBSNL": "274770",
+				"email": "goelnfhy",
+				"profilePic": "30032011026.jpg"
+			},
+			{
+				"name": "Himanshu Joshi",
+				"designation": "Professor",
+				"iitr_o": "5390",
+				"iitr_r": "5403",
+				"phoneBSNL": "270625",
+				"email": "joshifhy",
+				"profilePic": "joshifhy_joshifhy.JPG"
+			},
+			{
+				"name": "M. Perumal",
+				"designation": "Professor",
+				"iitr_o": "5817",
+				"iitr_r": "5011",
+				"email": "perumfhy",
+				"profilePic": "perumfhy.jpg"
+			},
+			{
+				"name": "Manoj Jain",
+				"designation": "Associate Professor",
+				"iitr_o": "5845",
+				"iitr_r": "6845",
+				"email": "mjainfhy",
+				"profilePic": "mjainfhy.jpg"
+			},
+			{
+				"name": "Brijesh Kumar Yadav",
+				"designation": "Associate Professor",
+				"iitr_o": "4755",
+				"iitr_r": "6755",
+				"email": "brijkfhy",
+				"profilePic": "brijkfhy.jpg"
+			},
+			{
+				"name": "Sumit Sen",
+				"designation": "Assistant Professor",
+				"iitr_o": "4754",
+				"iitr_r": "6754",
+				"email": "ssenhfhy",
+				"profilePic": "ssenhfhy_sumitsen.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6561"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6514"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6532"
+			},
+			{
+				"name": "Geophysical Investigation Lab.",
+				"iitr_o": "6518"
+			},
+			{
+				"name": "Ground Water Lab.",
+				"iitr_o": "6516"
+			},
+			{
+				"name": "Remote Sensing Lab.",
+				"iitr_o": "6533"
+			},
+			{
+				"name": "Water Quality Lab. 1",
+				"iitr_o": "6534"
+			},
+			{
+				"name": "Water Quality Lab. 2",
+				"iitr_o": "6519"
+			},
+			{
+				"name": "Water Quality Lab. First Floor",
+				"iitr_o": "6534"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6515"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_r": "4435"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6535"
+			},
+			{
+				"name": "Water Quality Lab.",
+				"iitr_o": "6519"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4458"
+			}
+		]
+	},
+	{
+		"name": "Management Studies",
+		"photo": "DM",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5014",
+				"email": "doms"
+			},
+			{
+				"name": "Zillur Rahman",
+				"designation": "Head Of Department",
+				"iitr_o": "5081",
+				"phoneBSNL": "276039",
+				"email": "yusuffdm",
+				"profilePic": "DSC_0075.JPG"
+			},
+			{
+				"name": "Office Kamlesh",
+				"iitr_o": "4216",
+				"iitr_r": "4490"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5565"
+			},
+			{
+				"name": "Santosh Rangnekar",
+				"designation": "Professor",
+				"iitr_o": "5422",
+				"iitr_r": "5478",
+				"email": "snrgnfdm",
+				"profilePic": "snrgnfdm_2.jpg"
+			},
+			{
+				"name": "Vinay Kumar Nangia",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5617",
+				"iitr_r": "5615",
+				"phoneBSNL": "279784",
+				"email": "nangvfdm",
+				"profilePic": "nangvfdm_nangvfdm.jpg"
+			},
+			{
+				"name": "J P Singh",
+				"designation": "Professor",
+				"iitr_o": "5783",
+				"iitr_r": "5766",
+				"email": "jatinfdm",
+				"profilePic": "jatinfdm_1.jpg"
+			},
+			{
+				"name": "Anil K. Sharma",
+				"designation": "Professor",
+				"iitr_o": "5632",
+				"iitr_r": "5101",
+				"email": "anilfdm",
+				"profilePic": "anilfdm_4.jpg"
+			},
+			{
+				"name": "Rajat Agarwal",
+				"designation": "Associate Professor",
+				"iitr_o": "5737",
+				"iitr_r": "5108",
+				"email": "rajatfdm",
+				"profilePic": "rajatfdm_Scan1.jpg"
+			},
+			{
+				"name": "Vinay Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "5175",
+				"iitr_r": "5876",
+				"email": "vinayfdm",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Mukesh Kumar Barua",
+				"designation": "Associate Professor",
+				"iitr_o": "5678",
+				"iitr_r": "5190",
+				"email": "baruafdm",
+				"profilePic": "baruafdm_1.jpg"
+			},
+			{
+				"name": "Usha Lenka",
+				"designation": "Associate Professor",
+				"iitr_o": "5816",
+				"iitr_r": "5357",
+				"email": "ushalenka",
+				"profilePic": "ushalfdm_2.jpg"
+			},
+			{
+				"name": "Jogendra Kumar Nayak",
+				"designation": "Assistant Professor",
+				"iitr_o": "4758",
+				"iitr_r": "6758",
+				"email": "jogknfdm",
+				"profilePic": "jogknfdm_4.jpg"
+			},
+			{
+				"name": "M K Rao",
+				"designation": "Assistant Professor",
+				"iitr_o": "4759",
+				"iitr_r": "6759",
+				"email": "mkraofdm",
+				"profilePic": "mkraofdm.jpg"
+			},
+			{
+				"name": "Rajib Lochan Dhar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4760",
+				"iitr_r": "6760",
+				"email": "rajibfdm",
+				"profilePic": "rajibfdm.jpg"
+			},
+			{
+				"name": "Gaurav Dixit",
+				"designation": "Assistant Professor",
+				"iitr_o": "4829",
+				"iitr_r": "6829",
+				"email": "gauravdixit.fdm",
+				"profilePic": "gauravdixit.fdm_gauravdixit.jpg"
+			},
+			{
+				"name": "Anbanandam Ramesh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4765",
+				"iitr_r": "6765",
+				"email": "ram77fdm",
+				"profilePic": "ram77fdm.jpg"
+			},
+			{
+				"name": "Sujata Kar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4821",
+				"iitr_r": "6821",
+				"profilePic": "s.karfdm_0.JPG"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6562"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6536"
+			},
+			{
+				"name": "Placement Room 1",
+				"iitr_o": "4600"
+			},
+			{
+				"name": "Placement Room 2",
+				"iitr_o": "4225"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6417"
+			},
+			{
+				"name": "Project Lab.",
+				"iitr_o": "6539"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6537"
+			},
+			{
+				"name": "Multi Purpose Hall",
+				"iitr_o": "6538"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "4267"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6391"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4536"
+			}
+		]
+	},
+	{
+		"name": "Mathematics",
+		"photo": "MA",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5249",
+				"email": "maths"
+			},
+			{
+				"name": "V K Katiyar",
+				"designation": "Head Of Department",
+				"iitr_o": "5085",
+				"iitr_r": "5268",
+				"phoneBSNL": "271791",
+				"email": "vktmafma",
+				"profilePic": "vktmafma.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4349"
+			},
+			{
+				"name": "Fax",
+				"iitr_o": "6571"
+			},
+			{
+				"name": "S P Sharma",
+				"designation": "Professor",
+				"iitr_o": "5207",
+				"iitr_r": "5141",
+				"phoneBSNL": "277198",
+				"email": "sspprfma",
+				"profilePic": "sspprfma.jpg"
+			},
+			{
+				"name": "T R Gulati",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5338",
+				"email": "trgorfma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Rama Bhargava",
+				"designation": "Professor",
+				"iitr_o": "5039",
+				"phoneBSNL": "9319650553",
+				"email": "rbharfma",
+				"profilePic": "rbharfma.jpg"
+			},
+			{
+				"name": "P N Agarwal",
+				"designation": "Professor",
+				"iitr_o": "5033",
+				"iitr_r": "5267",
+				"phoneBSNL": "276934",
+				"email": "pnappfma",
+				"profilePic": "sir.bmp"
+			},
+			{
+				"name": "Roshan Lal",
+				"designation": "Professor",
+				"iitr_o": "5151",
+				"iitr_r": "5065",
+				"phoneBSNL": "272795",
+				"email": "rlatmfma",
+				"profilePic": "rlatmfma.jpg"
+			},
+			{
+				"name": "R C Mittal",
+				"designation": "Professor",
+				"iitr_o": "5392",
+				"iitr_r": "5193",
+				"phoneBSNL": "9319912030",
+				"email": "rcmmmfma",
+				"profilePic": "rcmmmfma.jpg"
+			},
+			{
+				"name": "Sunita Gakkhar",
+				"designation": "Professor",
+				"iitr_o": "5171",
+				"iitr_r": "5693",
+				"email": "sungkfma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "M L Mittal",
+				"designation": "Professor",
+				"iitr_o": "5170",
+				"iitr_r": "5313",
+				"phoneBSNL": "271688",
+				"email": "mymitfma",
+				"profilePic": "mymitfma_1.JPG"
+			},
+			{
+				"name": "N. Sukavanam",
+				"designation": "Professor",
+				"iitr_o": "5341",
+				"iitr_r": "5271",
+				"phoneBSNL": "277589",
+				"email": "nsukvfma",
+				"profilePic": "nsukvfma_0.jpg"
+			},
+			{
+				"name": "Kusum Deep",
+				"designation": "Professor",
+				"iitr_o": "5339",
+				"phoneBSNL": "9837164078",
+				"email": "kusumfma",
+				"profilePic": "kusumfma_kusumfma.jpg"
+			},
+			{
+				"name": "Tanuja Srivastava",
+				"designation": "Professor",
+				"iitr_o": "5084",
+				"iitr_r": "5123",
+				"phoneBSNL": "271793",
+				"email": "tanujfma",
+				"profilePic": "tanujfma.jpg"
+			},
+			{
+				"name": "Shiv Prasad Yadav",
+				"designation": "Professor",
+				"iitr_o": "5340",
+				"iitr_r": "5269",
+				"email": "yadavfma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "P. Bera",
+				"designation": "Associate Professor",
+				"iitr_o": "5071",
+				"iitr_r": "5624",
+				"email": "pberafma",
+				"profilePic": "20140123_180822.jpg"
+			},
+			{
+				"name": "Aditi Gangopadhyay",
+				"designation": "Associate Professor",
+				"iitr_o": "5829",
+				"iitr_r": "5646",
+				"email": "aditifma",
+				"profilePic": "aditifma_1.JPG"
+			},
+			{
+				"name": "A. Swaminathan",
+				"designation": "Associate Professor",
+				"iitr_o": "5182",
+				"iitr_r": "6182",
+				"email": "swamifma",
+				"profilePic": "swamifma.jpg"
+			},
+			{
+				"name": "Sandip Banerjee",
+				"designation": "Associate Professor",
+				"iitr_o": "5697",
+				"iitr_r": "5126",
+				"email": "sandofma",
+				"profilePic": "sandofma_sandofma.jpg"
+			},
+			{
+				"name": "Madhu Jain",
+				"designation": "Associate Professor",
+				"iitr_o": "5521",
+				"iitr_r": "5506",
+				"phoneBSNL": "9412811021",
+				"email": "madhufma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Pratibha",
+				"designation": "Associate Professor",
+				"iitr_o": "5230",
+				"email": "pratifma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Uaday Singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5430",
+				"iitr_r": "5466",
+				"email": "uadayfma",
+				"profilePic": "uadayfma_3.JPG"
+			},
+			{
+				"name": "Maheshanand",
+				"designation": "Associate Professor",
+				"iitr_o": "5543",
+				"iitr_r": "5044",
+				"email": "mahesfma",
+				"profilePic": "mahesfma.jpg"
+			},
+			{
+				"name": "Sanjeev Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5824",
+				"iitr_r": "5512",
+				"email": "malikafma",
+				"profilePic": "malikfma_malikfma.jpg"
+			},
+			{
+				"name": "Dwijendra Narain Pandey",
+				"designation": "Associate Professor",
+				"iitr_o": "5735",
+				"iitr_r": "5030",
+				"email": "dwijpfma",
+				"profilePic": "dwijpfma.jpg"
+			},
+			{
+				"name": "S K Gupta",
+				"designation": "Associate Professor",
+				"iitr_o": "5379",
+				"iitr_r": "5149",
+				"email": "guptafma",
+				"profilePic": "guptafma_0.JPG"
+			},
+			{
+				"name": "Ameeya Kumar Nayak",
+				"designation": "Associate Professor",
+				"iitr_o": "4777",
+				"iitr_r": "6777",
+				"email": "nayakfma",
+				"profilePic": "nayakfma.jpg"
+			},
+			{
+				"name": "Ram Krishna Pandey",
+				"designation": "Assistant Professor",
+				"iitr_o": "4796",
+				"iitr_r": "6796",
+				"email": "ramkpfma",
+				"profilePic": "DSC_0016.jpg"
+			},
+			{
+				"name": "Ankik Kumar Giri",
+				"designation": "Assistant Professor",
+				"iitr_o": "4818",
+				"iitr_r": "6818",
+				"email": "ankikgiri.fma",
+				"profilePic": "ankikgiri.fma_ankikgiri.png",
+				"website": "http://ankikgiri.webs.com/"
+			},
+			{
+				"name": "Ram Jiwari",
+				"designation": "Assistant Professor",
+				"iitr_o": "4820",
+				"iitr_r": "6820",
+				"phoneBSNL": "8191957249",
+				"email": "ram03fma",
+				"profilePic": "ram03fma_6.jpg",
+				"website": "http://jiwari.com/"
+			},
+			{
+				"name": "R R Bhargava",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5768",
+				"iitr_r": "5823",
+				"email": "rajrbfma",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6563"
+			},
+			{
+				"name": "Biomechenics Lab.",
+				"iitr_o": "6374"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4406"
+			},
+			{
+				"name": "Parallel Computing Lab.",
+				"iitr_o": "6570"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_r": "4580"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6517"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4459"
+			}
+		]
+	},
+	{
+		"name": "Mettalurgical & Materials Engineering",
+		"photo": "MT",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5606",
+				"email": "metal"
+			},
+			{
+				"name": "Anjan Sil",
+				"designation": "Head Of Department",
+				"iitr_o": "5073",
+				"iitr_r": "5627",
+				"email": "asil1fmt",
+				"profilePic": "asil1fmt_5.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4343"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5243"
+			},
+			{
+				"name": "Sumeer K. Nath",
+				"designation": "Professor",
+				"iitr_o": "5722",
+				"phoneBSNL": "270602",
+				"email": "Indiafmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Prakriti K.Ghosh",
+				"designation": "Professor",
+				"iitr_o": "5699",
+				"iitr_r": "5082",
+				"phoneBSNL": "271654",
+				"email": "prakgfmt",
+				"profilePic": "DSC_0049_1.JPG"
+			},
+			{
+				"name": "R. Jayaganathan",
+				"designation": "Professor",
+				"iitr_o": "5869",
+				"iitr_r": "5870",
+				"email": "rdayafmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "B S S Daniel",
+				"designation": "Professor",
+				"iitr_o": "5751",
+				"iitr_r": "5760",
+				"email": "s4danfmt",
+				"profilePic": "s4danfmt.jpg"
+			},
+			{
+				"name": "Ujjwal Prakash",
+				"designation": "Associate Professor",
+				"iitr_o": "5574",
+				"iitr_r": "6574",
+				"email": "ujwalfmt",
+				"profilePic": "ujwalfmt.jpg"
+			},
+			{
+				"name": "G P Chaudhari",
+				"designation": "Associate Professor",
+				"iitr_o": "5524",
+				"iitr_r": "6524",
+				"email": "chaudfmt",
+				"profilePic": "chaudfmt.jpg"
+			},
+			{
+				"name": "Devendra Singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5580",
+				"iitr_r": "5573",
+				"email": "dev27fmt",
+				"profilePic": "dev27fmt.jpg"
+			},
+			{
+				"name": "Vivek Pancholi",
+				"designation": "Associate Professor",
+				"iitr_o": "5426",
+				"iitr_r": "6426",
+				"email": "vivekfmt",
+				"profilePic": "vivekfmt_vivekfmt.jpg"
+			},
+			{
+				"name": "Devendra Puri",
+				"designation": "Assistant Professor",
+				"iitr_o": "5345",
+				"iitr_r": "5314",
+				"email": "dpurifmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Shravan Kumar",
+				"designation": "Assistant Professor",
+				"iitr_o": "5723",
+				"iitr_r": "5103",
+				"phoneBSNL": "277087",
+				"email": "shrvnfmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Mukesh Bhardwaj",
+				"designation": "Assistant Professor",
+				"iitr_o": "5074",
+				"iitr_r": "5640",
+				"email": "bhardfmt",
+				"profilePic": "bhardfmt.jpg"
+			},
+			{
+				"name": "Vikaram Dabhede",
+				"designation": "Assistant Professor",
+				"iitr_o": "5502",
+				"iitr_r": "6502",
+				"email": "vvdabfmtb",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "B. Venkata Manoj Kumar",
+				"designation": "Assistant Professor",
+				"iitr_o": "5420",
+				"iitr_r": "5812",
+				"phoneBSNL": "8755746590",
+				"email": "manojfmt",
+				"profilePic": "manojfmt.jpg"
+			},
+			{
+				"name": "Sadhan Ghosh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4762",
+				"iitr_r": "6762",
+				"email": "ghoshfmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Suhrit Mula",
+				"designation": "Assistant Professor",
+				"iitr_o": "5763",
+				"iitr_r": "5187",
+				"email": "smulafm",
+				"profilePic": "color-1.jpg"
+			},
+			{
+				"name": "Indranil Lahiri",
+				"designation": "Assistant Professor",
+				"iitr_o": "5261",
+				"iitr_r": "5867",
+				"email": "indrafmt",
+				"profilePic": "Photo-2_1.jpg"
+			},
+			{
+				"name": "Debrupa Lahiri",
+				"designation": "Assistant Professor",
+				"iitr_o": "5137",
+				"iitr_r": "5867",
+				"email": "dlahifmt",
+				"profilePic": "Photo_-_Debrupa_Lahiri.jpg"
+			},
+			{
+				"name": "Nikhil Dhawan",
+				"designation": "Assistant Professor",
+				"iitr_o": "4839",
+				"iitr_r": "6839",
+				"email": "ndhawan.fmt",
+				"profilePic": "NIkhil.jpg"
+			},
+			{
+				"name": "Sourav Das",
+				"designation": "Assistant Professor",
+				"iitr_o": "4862",
+				"iitr_r": "6862",
+				"email": "souravfmt",
+				"profilePic": "souravfmt_1.jpg"
+			},
+			{
+				"name": "Sai Ramudu Meka",
+				"designation": "Assistant Professor",
+				"iitr_o": "4860",
+				"iitr_r": "6860",
+				"email": "mekafmt",
+				"profilePic": "mekafmt_0.jpg"
+			},
+			{
+				"name": "K C Suresh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4868",
+				"iitr_r": "6868",
+				"email": "suresfmt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Satya Prakash",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5730",
+				"email": "truthfmt",
+				"profilePic": "truthfmt.jpg"
+			},
+			{
+				"name": "Vijaya Agarwala",
+				"iitr_o": "5738",
+				"iitr_r": "5032",
+				"phoneBSNL": "275559",
+				"email": "vijayfmt"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6565"
+			},
+			{
+				"name": "Research Scholars Room 1",
+				"iitr_o": "6179"
+			},
+			{
+				"name": "Research Scholars Room 2",
+				"iitr_o": "6180"
+			},
+			{
+				"name": "Ceramic Lab.",
+				"iitr_o": "6173"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6408"
+			},
+			{
+				"name": "Electro Mettallurgy Lab.",
+				"iitr_o": "6177"
+			},
+			{
+				"name": "Fabrication Lab.",
+				"iitr_o": "6488"
+			},
+			{
+				"name": "Heat Treatment Lab.",
+				"iitr_o": "6174"
+			},
+			{
+				"name": "Magnetic Materials Lab.",
+				"iitr_o": "6188"
+			},
+			{
+				"name": "Mat. Analysis Lab.",
+				"iitr_o": "6185"
+			},
+			{
+				"name": "Material Engg. Lab.",
+				"iitr_o": "6176"
+			},
+			{
+				"name": "Material Testing Lab.",
+				"iitr_o": "6499"
+			},
+			{
+				"name": "Metallography Lab.",
+				"iitr_o": "6175"
+			},
+			{
+				"name": "Semi Clean Lab.",
+				"iitr_o": "6181"
+			},
+			{
+				"name": "Surface Engineering Lab.",
+				"iitr_o": "6183"
+			},
+			{
+				"name": "T. & K. Lab.",
+				"iitr_o": "6172"
+			},
+			{
+				"name": "Tims Lab.",
+				"iitr_o": "6189"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6373"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "6184",
+				"iitr_r": "4407"
+			},
+			{
+				"name": "Store",
+				"iitr_o": "6178"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6487"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4461"
+			}
+		]
+	},
+	{
+		"name": "Mechanical & Industrial Engineering",
+		"photo": "ME",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5242",
+				"email": "hmied"
+			},
+			{
+				"name": "Dinesh Kumar",
+				"designation": "Head Of Department",
+				"iitr_o": "5670",
+				"iitr_r": "5309",
+				"phoneBSNL": "9412379354",
+				"email": "dinesfme",
+				"profilePic": "dinesfme.jpg"
+			},
+			{
+				"name": "Office Mohd. Nazim",
+				"iitr_o": "4342",
+				"iitr_r": "4872"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5665"
+			},
+			{
+				"name": "Pramod Kumar Jain",
+				"designation": "Professor",
+				"iitr_o": "5290",
+				"iitr_r": "5350",
+				"email": "pjainfme",
+				"profilePic": "PKJain-IITR-Photo.JPG"
+			},
+			{
+				"name": "Satish C Sharma",
+				"designation": "Professor",
+				"iitr_o": "5603",
+				"iitr_r": "5289",
+				"email": "sshmefme",
+				"profilePic": "sshmefme.jpg"
+			},
+			{
+				"name": "Akhilesh Gupta",
+				"designation": "Professor",
+				"iitr_o": "5613",
+				"iitr_r": "5192",
+				"phoneBSNL": "276880",
+				"email": "akhilfme",
+				"profilePic": "akhilfme_akhilfme.jpg"
+			},
+			{
+				"name": "Bhanu Mishra",
+				"designation": "Professor",
+				"iitr_o": "5679",
+				"iitr_r": "5295",
+				"phoneBSNL": "270175",
+				"email": "bhanufme",
+				"profilePic": "bhanufme.jpg"
+			},
+			{
+				"name": "B K Gandhi",
+				"designation": "Professor",
+				"iitr_o": "5544",
+				"iitr_r": "5144",
+				"email": "bkgmefme",
+				"profilePic": "bkgmefme_bkgmefme.jpg"
+			},
+			{
+				"name": "Ravi Kumar",
+				"designation": "Professor",
+				"iitr_o": "5740",
+				"iitr_r": "5117",
+				"email": "ravikfme",
+				"profilePic": "ravi-1_1.jpg"
+			},
+			{
+				"name": "Navneet Arora",
+				"designation": "Professor",
+				"iitr_o": "5685",
+				"iitr_r": "5667",
+				"phoneBSNL": "271000",
+				"email": "arorafme",
+				"profilePic": "arorafme.jpg"
+			},
+			{
+				"name": "Pradeep K. Sahoo",
+				"designation": "Professor",
+				"iitr_o": "5674",
+				"iitr_r": "5643",
+				"email": "sahoofme",
+				"profilePic": "sahoofme.jpg"
+			},
+			{
+				"name": "Pradeep Kumar",
+				"designation": "Professor",
+				"phoneBSNL": "9837423860",
+				"email": "kumarfme",
+				"profilePic": "kumarfme_kumarfme.JPG"
+			},
+			{
+				"name": "Dheerendra K Dwivedi",
+				"designation": "Professor",
+				"iitr_o": "5826",
+				"iitr_r": "5830",
+				"email": "dkd04fme",
+				"profilePic": "5588.jpg"
+			},
+			{
+				"name": "Anil Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "5696",
+				"iitr_r": "5288",
+				"phoneBSNL": "275011",
+				"email": "anilkfme",
+				"profilePic": "anilkfme_0.jpg"
+			},
+			{
+				"name": "V Huzur Saran",
+				"designation": "Associate Professor",
+				"iitr_o": "5682",
+				"phoneBSNL": "9897280044",
+				"email": "saranfme",
+				"profilePic": "V.H._Saran.jpg"
+			},
+			{
+				"name": "Krishna M Singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5414",
+				"iitr_r": "5497",
+				"email": "singhfme",
+				"profilePic": "singhfme.jpg"
+			},
+			{
+				"name": "Krishnan Murugesan",
+				"designation": "Associate Professor",
+				"iitr_o": "5635",
+				"iitr_r": "5660",
+				"email": "krimufme",
+				"profilePic": "krimufme.jpg"
+			},
+			{
+				"name": "Apurbba Kumar Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "5421",
+				"iitr_r": "5479",
+				"email": "akshafme",
+				"profilePic": "PP_2k13.jpg"
+			},
+			{
+				"name": "Pushparaj Mani Pathak",
+				"designation": "Associate Professor",
+				"iitr_o": "5608",
+				"iitr_r": "5631",
+				"email": "pushpfme",
+				"profilePic": "pushpfme_pmp3.jpg"
+			},
+			{
+				"name": "Indra Vir singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5888",
+				"iitr_r": "6888",
+				"email": "indrafme",
+				"profilePic": "indrafme.jpg"
+			},
+			{
+				"name": "Pradeep K Jha",
+				"designation": "Associate Professor",
+				"iitr_o": "5871",
+				"iitr_r": "6871",
+				"email": "pkjhafme",
+				"profilePic": "pkjhafme.jpg"
+			},
+			{
+				"name": "S P Harsha",
+				"designation": "Associate Professor",
+				"iitr_o": "5891",
+				"iitr_r": "6891",
+				"email": "surajfme",
+				"profilePic": "surajfme_surajfme.jpg"
+			},
+			{
+				"name": "Manish Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "5135",
+				"iitr_r": "5176",
+				"email": "mmishfme",
+				"profilePic": "mmishfme_mmishfme.JPG"
+			},
+			{
+				"name": "Sushanta Dutta",
+				"designation": "Associate Professor",
+				"iitr_o": "5410",
+				"iitr_r": "5432",
+				"email": "duttafme",
+				"profilePic": "visa_photo1.jpg"
+			},
+			{
+				"name": "Benny Karunakar",
+				"designation": "Associate Professor",
+				"iitr_o": "5492",
+				"iitr_r": "5741",
+				"email": "bennyfme",
+				"profilePic": "bennyfme.jpg"
+			},
+			{
+				"name": "Inderdeep Singh",
+				"designation": "Associate Professor",
+				"iitr_o": "5614",
+				"iitr_r": "5177",
+				"email": "inderfme",
+				"profilePic": "inderfme.jpg"
+			},
+			{
+				"name": "Aadallib Tariq",
+				"designation": "Associate Professor",
+				"iitr_o": "5728",
+				"iitr_r": "5514",
+				"email": "tariqfme",
+				"profilePic": "tariqfme.jpg"
+			},
+			{
+				"name": "Manas Mohan Mahapatra",
+				"designation": "Associate Professor",
+				"iitr_o": "5518",
+				"iitr_r": "5354",
+				"email": "manasfme",
+				"profilePic": "manasfme.jpg"
+			},
+			{
+				"name": "Akshay Dvivedi",
+				"designation": "Associate Professor",
+				"iitr_o": "5428",
+				"iitr_r": "5471",
+				"email": "dvaksfme",
+				"profilePic": "dvaksfme.jpg"
+			},
+			{
+				"name": "Sanjay H Upadhayay",
+				"designation": "Associate Professor",
+				"iitr_o": "5520",
+				"iitr_r": "5509",
+				"email": "shumefme",
+				"profilePic": "shumefme_1.jpg",
+				"website": "http://iitr-shupadhyay.weebly.com/"
+			},
+			{
+				"name": "Sudhakar Subudhi",
+				"designation": "Associate Professor",
+				"iitr_o": "4763",
+				"iitr_r": "6763",
+				"email": "subudfme",
+				"profilePic": "subudfme.jpg"
+			},
+			{
+				"name": "Dhish Kumar Saxena",
+				"designation": "Associate Professor",
+				"iitr_o": "4768",
+				"iitr_r": "6768",
+				"email": "dhishfme",
+				"profilePic": "dhishfme.jpg",
+				"website": "http://scholar.google.com/citations?user=cbAvO80AAAAJ&hl=en"
+			},
+			{
+				"name": "Kaushik Pal",
+				"designation": "Associate Professor",
+				"iitr_o": "4761",
+				"iitr_r": "6761",
+				"email": "palkfme",
+				"profilePic": "palkfme.jpg"
+			},
+			{
+				"name": "Ankit Bansal",
+				"designation": "Associate Professor",
+				"iitr_o": "4781",
+				"iitr_r": "6781",
+				"email": "abansfme",
+				"profilePic": "abansfme_0.JPG",
+				"website": "http://abansfme.weebly.com/"
+			},
+			{
+				"name": "Anil K",
+				"designation": "Assistant Professor",
+				"iitr_o": "5105",
+				"iitr_r": "5061",
+				"email": "anikrfme",
+				"profilePic": "anikrfme_1144.jpg"
+			},
+			{
+				"name": "Rahul S. Mulik",
+				"designation": "Assistant Professor",
+				"iitr_o": "5761",
+				"iitr_r": "5093",
+				"email": "rsmulfme",
+				"profilePic": "rsmulfme_photo2_1.jpg",
+				"website": "http://scholar.google.co.in/citations?user=3FvUR1cAAAAJ&hl=en&oi=ao"
+			},
+			{
+				"name": "Abinash Kumar Swain",
+				"designation": "Assistant Professor",
+				"iitr_o": "5277",
+				"email": "swainfme",
+				"profilePic": "swainfme_0.JPG"
+			},
+			{
+				"name": "Avinash Parashar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4801",
+				"iitr_r": "6801",
+				"email": "drap1fme",
+				"profilePic": "Parashar.jpg"
+			},
+			{
+				"name": "Arup Kumar Das",
+				"designation": "Assistant Professor",
+				"iitr_o": "4802",
+				"iitr_r": "6424",
+				"email": "akdasfme",
+				"profilePic": "akdasfme.jpg",
+				"website": "http://twophaseiitr.weebly.com/"
+			},
+			{
+				"name": "Manish M. Joglekar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4769",
+				"iitr_r": "6769",
+				"email": "jogknfdm",
+				"profilePic": "mmj81fme_1.jpg",
+				"website": "http://mmjoglekar.weebly.com/"
+			},
+			{
+				"name": "Siladitya Pal",
+				"designation": "Assistant Professor",
+				"iitr_o": "4846",
+				"iitr_r": "6846",
+				"email": "spal.fme",
+				"profilePic": "spal.fme_0.png"
+			},
+			{
+				"name": "Kirti Bhushan Mishra",
+				"designation": "Assistant Professor",
+				"iitr_o": "4857",
+				"iitr_r": "6857",
+				"email": "kirti.fme",
+				"profilePic": "kirti.fme_0.jpg"
+			},
+			{
+				"name": "B K Ramaniya",
+				"iitr_o": "5758",
+				"iitr_r": "5757",
+				"email": "kumarmme",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "D K Kapil",
+				"iitr_o": "4473",
+				"iitr_r": "4676",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Yashpal Singh",
+				"iitr_o": "4852",
+				"iitr_r": "6852",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "N K Mehta",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5675",
+				"email": "mehtafme",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "C P Gupta",
+				"designation": "Distinguished Professor",
+				"iitr_o": "5668",
+				"phoneBSNL": "279561",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Degala Venkata Kiran",
+				"designation": "Ramanujan Fellow",
+				"iitr_o": "5523",
+				"email": "dvkiranfme",
+				"profilePic": "dvkiranfme_1.jpg"
+			},
+			{
+				"name": "Dhanashri M. Joglekar",
+				"designation": "DST Inspire Faculty",
+				"email": "dhanashri.joglekar.fme",
+				"profilePic": "dhanashri.joglekar.fme_0.JPG"
+			},
+			{
+				"name": "R P Gakkhar",
+				"designation": "Visiting Professor",
+				"iitr_o": "5681",
+				"iitr_r": "5693",
+				"email": "gakhrfme",
+				"profilePic": "gakhrfme.jpg"
+			},
+			{
+				"name": "Ram Kumar Singh",
+				"designation": "Visiting Professor",
+				"iitr_o": "6564",
+				"email": "rksinghfme",
+				"profilePic": "rksinghfme_2.bmp"
+			},
+			{
+				"name": "Research Scholars\nRoom",
+				"iitr_o": "6596",
+				"email": ""
+			},
+			{
+				"name": "Adv. Manuf. Process Lab.",
+				"iitr_o": "6610"
+			},
+			{
+				"name": "Aerodynamics Lab.",
+				"iitr_o": "6606"
+			},
+			{
+				"name": "C.A .E. Lab. 1",
+				"iitr_o": "4411"
+			},
+			{
+				"name": "C.A. E. Lab. 2",
+				"iitr_o": "6601"
+			},
+			{
+				"name": "C.A. E. Lab East Wing",
+				"iitr_o": "4992"
+			},
+			{
+				"name": "C. F. D. Lab.",
+				"iitr_o": "6612"
+			},
+			{
+				"name": "Foundry Engineering Lab.",
+				"iitr_o": "6604"
+			},
+			{
+				"name": "F.R.P. Lab.",
+				"iitr_o": "6360"
+			},
+			{
+				"name": "Heat Transfer Lab.",
+				"iitr_o": "6611"
+			},
+			{
+				"name": "Machine Tool Lab.",
+				"iitr_o": "6600"
+			},
+			{
+				"name": "Machine Vibration & Noise Lab.",
+				"iitr_o": "6602"
+			},
+			{
+				"name": "Manufacturing Systems Lab.",
+				"iitr_o": "6607"
+			},
+			{
+				"name": "Measurements Lab.",
+				"iitr_o": "6599"
+			},
+			{
+				"name": "Mech. & Materials Lab.",
+				"iitr_o": "6608"
+			},
+			{
+				"name": "Microwave Material\nprocessing Lab.",
+				"iitr_o": "6620"
+			},
+			{
+				"name": "Refrigeration & A / C Lab.",
+				"iitr_o": "6603"
+			},
+			{
+				"name": "Robotics & Control Lab.",
+				"iitr_o": "6618"
+			},
+			{
+				"name": "Steam Power Engg. Lab.",
+				"iitr_o": "6597"
+			},
+			{
+				"name": "Tribology Lab.",
+				"iitr_o": "6609"
+			},
+			{
+				"name": "Vehicle Dynamics Lab.",
+				"iitr_o": "6476"
+			},
+			{
+				"name": "Welding Engg. Lab.",
+				"iitr_o": "6619"
+			},
+			{
+				"name": "Welding Met. Lab",
+				"iitr_o": "6613"
+			},
+			{
+				"name": "Welding Research Lab.",
+				"iitr_o": "6477"
+			},
+			{
+				"name": "Work Science Lab.",
+				"iitr_o": "6615"
+			},
+			{
+				"name": "Fire Research Lab.",
+				"iitr_o": "6630"
+			},
+			{
+				"name": "Committee Room-I",
+				"iitr_o": "6483"
+			},
+			{
+				"name": "Committee Room-II",
+				"iitr_o": "6479"
+			},
+			{
+				"name": "Drawing Office",
+				"iitr_o": "6605"
+			},
+			{
+				"name": "Instrument Workshop",
+				"iitr_o": "6480"
+			},
+			{
+				"name": "Machine Shop",
+				"iitr_o": "6482"
+			},
+			{
+				"name": "Office (Industrial Engg.)",
+				"iitr_o": "4231"
+			},
+			{
+				"name": "Office (Workshop)",
+				"iitr_o": "4251"
+			},
+			{
+				"name": "Welding Shop",
+				"iitr_o": "6484"
+			},
+			{
+				"name": "Workshop Gate",
+				"iitr_o": "6478"
+			},
+			{
+				"name": "Auditorium",
+				"iitr_o": "6598"
+			},
+			{
+				"name": "Caretaker",
+				"iitr_o": "4481"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6475"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4460"
+			}
+		]
+	},
+	{
+		"name": "Polymer & Paper Pulp",
+		"photo": "PPE",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "4303",
+				"phoneBSNL": "2714003",
+				"email": "hodpaper"
+			},
+			{
+				"name": "Yuvraj Singh Negi",
+				"designation": "Professor In-Charge",
+				"iitr_o": "4328",
+				"iitr_r": "4329",
+				"email": "ynegifpt",
+				"profilePic": "ynegifpt.jpg",
+				"website": "http://www.ysnegi.com/"
+			},
+			{
+				"name": "Steno",
+				"iitr_o": "4303"
+			},
+			{
+				"name": "Fax",
+				"iitr_o": "4311"
+			},
+			{
+				"name": "Satish Kumar",
+				"designation": "Professor",
+				"iitr_o": "4320",
+				"iitr_r": "4321",
+				"phoneBSNL": "3204755",
+				"email": "kumarfpt",
+				"profilePic": "kumarfpt.jpg"
+			},
+			{
+				"name": "J S Upadhyaya",
+				"iitr_o": "4316",
+				"iitr_r": "4317",
+				"phoneBSNL": "2714017",
+				"email": "jsu50fpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "A K Singh",
+				"iitr_o": "4318",
+				"iitr_r": "4319",
+				"phoneBSNL": "2714041",
+				"email": "ajaysfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Surendra P Singh",
+				"designation": "Professor",
+				"iitr_o": "4324",
+				"iitr_r": "4325",
+				"email": "spsptfpt",
+				"profilePic": "spsptfpt.jpg"
+			},
+			{
+				"name": "Sanjay Palsule",
+				"designation": "Associate Professor",
+				"iitr_o": "4326",
+				"iitr_r": "4327",
+				"email": "macrofpt",
+				"profilePic": "macrofpt_macrofpt.jpg"
+			},
+			{
+				"name": "C H Tyagi",
+				"iitr_o": "4330",
+				"iitr_r": "4331",
+				"phoneBSNL": "2714047",
+				"email": "tyagifpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Subhash C Sharma",
+				"designation": "Professor",
+				"iitr_o": "4332",
+				"iitr_r": "4347",
+				"email": "scs60fpt",
+				"profilePic": "scs60fpt_1.jpg"
+			},
+			{
+				"name": "Dharm Dutt",
+				"designation": "Professor",
+				"iitr_o": "4334",
+				"iitr_r": "4335",
+				"phoneBSNL": "2714036",
+				"email": "dduttfpt",
+				"profilePic": "138199.jpg"
+			},
+			{
+				"name": "Ram Kumar",
+				"designation": "Assistant Professor",
+				"iitr_o": "4336",
+				"phoneBSNL": "2960191",
+				"email": "ramkrfpt",
+				"profilePic": "ramkrfpt.jpg"
+			},
+			{
+				"name": "A K Jindal",
+				"iitr_o": "4337",
+				"phoneBSNL": "2716462",
+				"email": "akjinfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "R S Malik",
+				"iitr_o": "4340",
+				"iitr_r": "4341",
+				"phoneBSNL": "2714026",
+				"email": "malikfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Vikram Singh",
+				"designation": "Assistant Professor",
+				"iitr_o": "4342",
+				"iitr_r": "4343",
+				"phoneBSNL": "2714012",
+				"email": "vikssfpt",
+				"profilePic": "vikssfpt.jpg"
+			},
+			{
+				"name": "Uttam K. Ghosh",
+				"designation": "Associate Professor",
+				"iitr_o": "4344",
+				"iitr_r": "4345",
+				"phoneBSNL": "2714022",
+				"email": "ghoshfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Chhaya Sharma",
+				"designation": "Associate Professor",
+				"iitr_o": "4346",
+				"iitr_r": "4347",
+				"email": "chayafpt",
+				"profilePic": "chayafpt.jpg"
+			},
+			{
+				"name": "Vivek Kumar",
+				"designation": "Associate Professor",
+				"iitr_o": "4348",
+				"iitr_r": "4349",
+				"phoneBSNL": "2714045",
+				"email": "vivekfpt",
+				"profilePic": "vivekfpt.jpg"
+			},
+			{
+				"name": "N K Bhardwaj",
+				"iitr_o": "4350",
+				"email": "nishifpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Narayan Chandra Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "4352",
+				"iitr_r": "4353",
+				"email": "misrafpt",
+				"profilePic": "misrafpt.jpg"
+			},
+			{
+				"name": "Ajay Singh",
+				"iitr_o": "4354",
+				"iitr_r": "4355",
+				"email": "ajphyfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Milli Pant",
+				"designation": "Associate Professor",
+				"iitr_o": "4356",
+				"iitr_r": "4357",
+				"phoneBSNL": "9759561464",
+				"email": "millifpt",
+				"profilePic": "short-pic3.JPG"
+			},
+			{
+				"name": "Rajan Arora",
+				"designation": "Associate Professor",
+				"iitr_o": "4358",
+				"iitr_r": "4359",
+				"email": "rajanfpt",
+				"profilePic": "rajanfpt.jpg"
+			},
+			{
+				"name": "Ashu khanna",
+				"designation": "Assistant Professor",
+				"iitr_o": "4392",
+				"iitr_r": "4393",
+				"email": "ashukfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sanjit Kumar Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "4398",
+				"iitr_r": "4399",
+				"phoneBSNL": "9548774358",
+				"email": "skm01fpt",
+				"profilePic": "skm01fpt.jpg"
+			},
+			{
+				"name": "Jaydev",
+				"designation": "Assistant Professor",
+				"iitr_o": "4396",
+				"iitr_r": "4397",
+				"email": "jaydafpt",
+				"profilePic": "jaydafpt_jaydafpt.jpg"
+			},
+			{
+				"name": "Yogesh",
+				"iitr_o": "4322",
+				"iitr_r": "4323",
+				"email": "yksptfpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Pradip Kumar Bala",
+				"iitr_o": "4390",
+				"iitr_r": "4391",
+				"email": "pbalafpt",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Sujay Chattopadhayay",
+				"designation": "Associate Professor",
+				"iitr_o": "4374",
+				"iitr_r": "4375",
+				"email": "sujayfpt",
+				"profilePic": "sujayfpt.jpg"
+			},
+			{
+				"name": "Manojkumar C Ramtek",
+				"designation": "Assistant Professor",
+				"iitr_o": "4416",
+				"iitr_r": "4417",
+				"phoneBSNL": "8881633065",
+				"email": "manojfpt",
+				"profilePic": "manojfpt.jpg"
+			},
+			{
+				"name": "Amiya K Ray",
+				"designation": "Emeritus Professor",
+				"iitr_o": "4314",
+				"iitr_r": "4315",
+				"phoneBSNL": "9411673400",
+				"email": "akrayfpt",
+				"profilePic": "akrayfpt.jpg"
+			},
+			{
+				"name": "Examination",
+				"iitr_o": "4385"
+			},
+			{
+				"name": "Pulp Lab.",
+				"iitr_o": "4405"
+			},
+			{
+				"name": "Paper Lab.",
+				"iitr_o": "4406"
+			},
+			{
+				"name": "Electronics Lab.",
+				"iitr_o": "4411"
+			},
+			{
+				"name": "Electrical Lab.",
+				"iitr_o": "4409"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4410"
+			},
+			{
+				"name": "Physics Lab.",
+				"iitr_o": "4408"
+			},
+			{
+				"name": "Chemistry Lab. / Recovery Lab.",
+				"iitr_o": "4407"
+			},
+			{
+				"name": "Unit Operation / Polymer Lab.",
+				"iitr_o": "4412"
+			}
+		]
+	},
+	{
+		"name": "Physics",
+		"photo": "PH",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5248",
+				"email": "physi"
+			},
+			{
+				"name": "Rajesh Srivastava",
+				"designation": "Head Of Department",
+				"iitr_o": "5754",
+				"iitr_r": "5283",
+				"email": "rajsrfph",
+				"profilePic": "rajsrfph.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4348"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "6662"
+			},
+			{
+				"name": "A K Jain",
+				"designation": "Professor",
+				"iitr_o": "5753",
+				"iitr_r": "5199",
+				"phoneBSNL": "274144",
+				"email": "ajainfph",
+				"profilePic": "Ashok_Photo.jpg"
+			},
+			{
+				"name": "Byas Dev Indu",
+				"designation": "Professor",
+				"iitr_o": "5131",
+				"iitr_r": "5132",
+				"email": "indubfph",
+				"profilePic": "indubfph.jpg"
+			},
+			{
+				"name": "Ravindra Nath",
+				"designation": "Professor",
+				"iitr_o": "5752",
+				"iitr_r": "5111",
+				"email": "rnathfph",
+				"profilePic": "rnathfph.jpg"
+			},
+			{
+				"name": "Gauri Shankar Singh",
+				"designation": "Professor",
+				"iitr_o": "5210",
+				"iitr_r": "5498",
+				"email": "gssaafph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Vir Singh",
+				"designation": "Professor",
+				"iitr_o": "5756",
+				"iitr_r": "5516",
+				"phoneBSNL": "275637",
+				"email": "virphfph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Tashi Nautiyal",
+				"designation": "Professor",
+				"iitr_o": "5755",
+				"iitr_r": "5064",
+				"email": "tashifph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Kanhaiya Lal Yadav",
+				"designation": "Professor",
+				"iitr_o": "5744",
+				"iitr_r": "5166",
+				"email": "klalyfph",
+				"profilePic": "DSC_0659.JPG",
+				"website": "http://scholar.google.co.in/citations?user=piTGPrUAAAAJ"
+			},
+			{
+				"name": "Davinder Kaur Walia",
+				"designation": "Professor",
+				"iitr_o": "5407",
+				"iitr_r": "5474",
+				"phoneBSNL": "9760031912",
+				"email": "dkaurfph",
+				"profilePic": "dkaurfph.jpg"
+			},
+			{
+				"name": "G D Verma",
+				"designation": "Professor",
+				"iitr_o": "5353",
+				"iitr_r": "5238",
+				"email": "gdvarfph",
+				"profilePic": "gdvarfph.jpg"
+			},
+			{
+				"name": "Vipul Rastogi",
+				"designation": "Associate Professor",
+				"iitr_o": "5333",
+				"iitr_r": "5604",
+				"email": "vipulfph",
+				"profilePic": "vipulfph.jpg"
+			},
+			{
+				"name": "Aalok Mishra",
+				"designation": "Associate Professor",
+				"iitr_o": "5404",
+				"iitr_r": "5303",
+				"email": "aalokfph",
+				"profilePic": "self_PI_09.jpg"
+			},
+			{
+				"name": "Binoy Krishna Patra",
+				"designation": "Associate Professor",
+				"iitr_o": "5179",
+				"iitr_r": "5222",
+				"email": "binoyfph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Ajay Wasan",
+				"designation": "Associate Professor",
+				"iitr_o": "5016",
+				"iitr_r": "5680",
+				"email": "wasanfph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Anirban Mitra",
+				"designation": "Associate Professor",
+				"iitr_o": "5652",
+				"iitr_r": "5415",
+				"email": "mitrafph",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Paramasivan Arumugam",
+				"designation": "Associate Professor",
+				"iitr_o": "5712",
+				"iitr_r": "5721",
+				"email": "aruphfph",
+				"profilePic": "aruphfph.jpg"
+			},
+			{
+				"name": "Rajdeep Chatterjee",
+				"designation": "Associate Professor",
+				"iitr_o": "5698",
+				"iitr_r": "6698",
+				"email": "rcfphfph",
+				"profilePic": "rcfphfph.jpg"
+			},
+			{
+				"name": "Tulika Maitra",
+				"designation": "Associate Professor",
+				"iitr_o": "5764",
+				"iitr_r": "5769",
+				"email": "tulimfph",
+				"profilePic": "photo.jpg"
+			},
+			{
+				"name": "Anil K. Gourishetty",
+				"designation": "Assistant Professor",
+				"iitr_o": "5133",
+				"iitr_r": "5162",
+				"email": "anilgfph",
+				"profilePic": "anilgfph.jpg"
+			},
+			{
+				"name": "M V Sunil Krishna",
+				"designation": "Assistant Professor",
+				"iitr_o": "5335",
+				"iitr_r": "5440",
+				"email": "sunilfph",
+				"profilePic": "sunilfph_20.JPG"
+			},
+			{
+				"name": "Lalita Sharma",
+				"designation": "Assistant Professor",
+				"iitr_o": "5729",
+				"iitr_r": "5372",
+				"email": "lalitfph",
+				"profilePic": "lalitfph.jpg"
+			},
+			{
+				"name": "Praveen C Srivastva",
+				"designation": "Assistant Professor",
+				"iitr_o": "5598",
+				"iitr_r": "5274",
+				"email": "pcsrifph",
+				"profilePic": "pcsrifph.jpg"
+			},
+			{
+				"name": "Monojit Bag",
+				"designation": "Assistant Professor",
+				"email": "mbagfph",
+				"profilePic": "mbagfph_0.jpg",
+				"website": "https://sites.google.com/site/monojitbag/home"
+			},
+			{
+				"name": "Moumita Maiti",
+				"designation": "Assistant Professor",
+				"iitr_o": "5454",
+				"iitr_r": "5485",
+				"email": "moumifph",
+				"profilePic": "moumifph_0.jpg"
+			},
+			{
+				"name": "Ajay Y Deo",
+				"designation": "Assistant Professor",
+				"iitr_o": "5566",
+				"iitr_r": "5568",
+				"email": "aydeofph",
+				"profilePic": "aydeofph.jpg"
+			},
+			{
+				"name": "S Huliyar Natraj",
+				"designation": "Assistant Professor",
+				"iitr_o": "5655",
+				"iitr_r": "5005",
+				"email": "hnrajfph",
+				"profilePic": "myphoto.png"
+			},
+			{
+				"name": "Puneet Jain",
+				"designation": "Assistant Professor",
+				"iitr_o": "4787",
+				"iitr_r": "6787",
+				"email": "pjainfph",
+				"profilePic": "Puneet10Jan14.jpg"
+			},
+			{
+				"name": "P. Sanyal",
+				"designation": "Assistant Professor",
+				"iitr_o": "4797",
+				"iitr_r": "6797",
+				"email": "prabsfph",
+				"profilePic": "mygoodphoto.jpg"
+			},
+			{
+				"name": "Vivek K. Malik",
+				"designation": "Assistant Professor",
+				"iitr_o": "4812",
+				"iitr_r": "6812",
+				"email": "vivekfph",
+				"profilePic": "Photo_36.jpg"
+			},
+			{
+				"name": "Sumanta Sarkhel",
+				"designation": "Assistant Professor",
+				"iitr_o": "4817",
+				"iitr_r": "6817",
+				"email": "sarkhel.fph",
+				"profilePic": "sarkhel.fph_0.jpg"
+			},
+			{
+				"name": "Soumitra Satapathi",
+				"designation": "Assistant Professor",
+				"iitr_o": "4813",
+				"iitr_r": "6819",
+				"email": "ssphf.fph",
+				"profilePic": "0e41dae.jpg",
+				"website": "http://www.soumitrasatapathi.com/"
+			},
+			{
+				"name": "Yogesh Kumar Sharma",
+				"designation": "Assistant Professor",
+				"iitr_o": "4861",
+				"email": "yogeshfph",
+				"profilePic": "yksptfpt_1.jpg",
+				"website": "https://scholar.google.com/citations?user=fHIPxucAAAAJ&hl=en"
+			},
+			{
+				"name": "Ishwar Singh Tyagi",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5748",
+				"iitr_r": "5278",
+				"email": "ist11fph",
+				"profilePic": "ist11fph.jpg"
+			},
+			{
+				"name": "Meena Kothyari",
+				"designation": "Scientific Officer",
+				"email": "meenapms",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "5759"
+			},
+			{
+				"name": "Research Scholars Room 1",
+				"iitr_o": "6666"
+			},
+			{
+				"name": "Research Scholars\nRoom 3",
+				"iitr_o": "6681"
+			},
+			{
+				"name": "Atmospheric physics Lab.",
+				"iitr_o": "6667"
+			},
+			{
+				"name": "Atomic & laser\nPhysics Lab.",
+				"iitr_o": "6671"
+			},
+			{
+				"name": "B.Tech. Lab.",
+				"iitr_o": "6433"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4413"
+			},
+			{
+				"name": "Electrical Properties Lab.",
+				"iitr_o": "6676"
+			},
+			{
+				"name": "Electronics Lab.",
+				"iitr_o": "6434"
+			},
+			{
+				"name": "F. P. & D. Lab.",
+				"iitr_o": "6675"
+			},
+			{
+				"name": "Functional Nanomaterials Lab.",
+				"iitr_o": "6680"
+			},
+			{
+				"name": "H. T. S. Lab.",
+				"iitr_o": "6674"
+			},
+			{
+				"name": "Lightening Lab.",
+				"iitr_o": "6677"
+			},
+			{
+				"name": "M. Sc. Integrated Lab.",
+				"iitr_o": "6682"
+			},
+			{
+				"name": "Nuclear Data Centre.",
+				"iitr_o": "6672"
+			},
+			{
+				"name": "Nuclear Physics Lab.",
+				"iitr_o": "6670"
+			},
+			{
+				"name": "Photonic Lab.",
+				"iitr_o": "6673"
+			},
+			{
+				"name": "Smart Materials Lab.",
+				"iitr_o": "6679"
+			},
+			{
+				"name": "Solid State Lab.",
+				"iitr_o": "6432"
+			},
+			{
+				"name": "Space Science Lab.",
+				"iitr_o": "6678"
+			},
+			{
+				"name": "Radiation Detectors Spectroscopy Lab.",
+				"iitr_o": "6686"
+			},
+			{
+				"name": "High power Laser Laboratory",
+				"iitr_o": "6195"
+			},
+			{
+				"name": "Conference Room",
+				"iitr_o": "6665"
+			},
+			{
+				"name": "Store Keeper",
+				"iitr_o": "6663",
+				"iitr_r": "6572"
+			},
+			{
+				"name": "Caretaker\nC.P.Singh",
+				"iitr_r": "4534"
+			},
+			{
+				"name": "East Block",
+				"iitr_o": "6032"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6664"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4462"
+			}
+		]
+	},
+	{
+		"name": "Water Resource D&M",
+		"photo": "WRT",
+		"contacts": [
+			{
+				"name": "Head Of Deptt.",
+				"iitr_o": "5251",
+				"phoneBSNL": "272773",
+				"email": "wrdtc"
+			},
+			{
+				"name": "S K Mishra",
+				"designation": "Head Of Department",
+				"iitr_o": "5457",
+				"email": "skm61fwt",
+				"profilePic": "skm.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4351"
+			},
+			{
+				"name": "Deepak Khare",
+				"designation": "Professor",
+				"iitr_o": "5393",
+				"iitr_r": "5152",
+				"phoneBSNL": "279640",
+				"email": "kharefwt",
+				"profilePic": "kharefwt.jpg"
+			},
+			{
+				"name": "S K Tripathi",
+				"designation": "Professor",
+				"iitr_o": "5780",
+				"iitr_r": "5786",
+				"email": "sankufwt",
+				"profilePic": "sankufwt.jpg"
+			},
+			{
+				"name": "Nayan Sharma",
+				"designation": "Professor",
+				"iitr_o": "5781",
+				"iitr_r": "5762",
+				"email": "nayanfwt",
+				"profilePic": "nayanfwt.jpg"
+			},
+			{
+				"name": "M L Kansal",
+				"designation": "Professor",
+				"iitr_o": "5749",
+				"iitr_r": "5140",
+				"email": "mlkgkfwt",
+				"profilePic": "mlkgkfwt.jpg"
+			},
+			{
+				"name": "Ashish Pandey",
+				"designation": "Associate Professor",
+				"iitr_o": "5872",
+				"iitr_r": "6872",
+				"email": "ashisfwt",
+				"profilePic": "ashisfwt.jpg"
+			},
+			{
+				"name": "T R Chelliah",
+				"designation": "Assistant Professor",
+				"iitr_o": "5554",
+				"iitr_r": "5172",
+				"email": "thangfwt",
+				"profilePic": "thangfwt.jpg"
+			},
+			{
+				"name": "Sunita Devi",
+				"iitr_o": "6692",
+				"iitr_r": "5623",
+				"phoneBSNL": "9536883521",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "Devadutta Das",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5251",
+				"email": "devdsfwt",
+				"profilePic": "devdsfwt.jpg"
+			},
+			{
+				"name": "Umesh Chandra Chaube",
+				"designation": "Emeritus Professor",
+				"iitr_o": "5779",
+				"iitr_r": "5767",
+				"email": "chaubfwt",
+				"profilePic": "chaubfwt.jpg"
+			},
+			{
+				"name": "Gopal Chauhan",
+				"designation": "On Contract Professor",
+				"iitr_o": "5775",
+				"email": "gopalfwt",
+				"profilePic": "gopalfwt.jpg"
+			},
+			{
+				"name": "Guest Faculty",
+				"iitr_o": "6567"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "4409"
+			},
+			{
+				"name": "Electrical Lab.",
+				"iitr_o": "6481"
+			},
+			{
+				"name": "Ground Water Lab.",
+				"iitr_o": "6693"
+			},
+			{
+				"name": "I. W. M. Lab.",
+				"iitr_o": "6687"
+			},
+			{
+				"name": "I. W. R. S. Office",
+				"iitr_o": "6690"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "4684"
+			},
+			{
+				"name": "River Engineering Lab.",
+				"iitr_o": "6486"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "6474"
+			},
+			{
+				"name": "Store Keeper",
+				"iitr_r": "4584"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "6295"
+			},
+			{
+				"name": "General",
+				"iitr_o": "4464"
+			}
+		]
+	},
+	{
+		"name": "Center Of Disaster Management",
+        "photo": "",
+		"contacts": [
+			{
+				"name": "B K Maheshwari",
+				"designation": "Head",
+				"iitr_o": "5401",
+				"iitr_r": "5504",
+				"email": "coe_dmm",
+				"profilePic": "bkmahfeq.jpg"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "6616"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "6617"
+			},
+			{
+				"name": "Hony. Secretary (I.S.W.E.)",
+				"iitr_o": "5724",
+				"iitr_r": "5060",
+				"email": "garryfce"
+			},
+			{
+				"name": "Climate change-W./S-/C./H. Lab.",
+				"iitr_o": "6315"
+			},
+			{
+				"name": "Earthquake/Landslide Risk Assessment Lab.",
+				"iitr_o": "4593"
+			},
+			{
+				"name": "High Performance Computing Lab.",
+				"iitr_o": "6314"
+			},
+			{
+				"name": "Industrial/Man made Hazard Lab.",
+				"iitr_o": "6316"
+			},
+			{
+				"name": "Project Room Simulation Lab.",
+				"iitr_o": "6414"
+			},
+			{
+				"name": "Office Room Simulation Lab.",
+				"iitr_o": "4247"
+			},
+			{
+				"name": "Entry Gate Simulation Lab.",
+				"iitr_o": "4429"
+			},
+			{
+				"name": "Shake Table Lab. Of Earthqake Risk",
+				"iitr_o": "6422"
+			},
+			{
+				"name": "Insident Management Lab.",
+				"iitr_o": "6423"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "4385"
+			}
+		]
+	},
+	{
+		"name": "Centre Of Nanotechnology",
+		"photo": "http://www.iitr.ac.in/centers/NT/assets/images/1.jpg",
+		"contacts": [
+			{
+				"name": "R Jayaganthan",
+				"designation": "Head",
+				"iitr_o": "5490",
+				"iitr_r": "5870",
+				"email": "nano",
+				"profilePic": "default.jpg"
+			},
+			{
+				"name": "P Gopinath",
+				"designation": "Associate Professor",
+				"iitr_o": "5650",
+				"iitr_r": "5356",
+				"email": "pgopifnt",
+				"profilePic": "Gopi_new_pic_for_website.jpg",
+				"website": "https://scholar.google.com/citations?user=AiSVvYsAAAAJ&hl=en"
+			},
+			{
+				"name": "Y K Sharma",
+				"iitr_o": "4861",
+				"iitr_r": "6861"
+			},
+			{
+				"name": "Faculty Room",
+				"iitr_o": "6451"
+			},
+			{
+				"name": "Research Lab.",
+				"iitr_o": "6186"
+			},
+			{
+				"name": "M. Tech. Lab. 1",
+				"iitr_o": "6187"
+			},
+			{
+				"name": "M.Tech. Lab. 2",
+				"iitr_o": "6489"
+			},
+			{
+				"name": "Computer Lab.",
+				"iitr_o": "6491"
+			},
+			{
+				"name": "Wet Lab.",
+				"iitr_o": "6492"
+			},
+			{
+				"name": "Nanobio Lab.",
+				"iitr_o": "6494"
+			},
+			{
+				"name": "High Temperature Lab.",
+				"iitr_o": "6495"
+			},
+			{
+				"name": "Research Scholars Room",
+				"iitr_o": "6428"
+			}
+		]
+	},
+	{
+		"name": "Continuing Education Center",
+        "photo": "",
+		"contacts": [
+			{
+				"name": "B K Gandhi",
+				"designation": "Coordinator",
+				"iitr_o": "5227",
+				"iitr_r": "5144",
+				"email": "contd"
+			},
+			{
+				"name": "Office",
+				"iitr_o": "4327"
+			},
+			{
+				"name": "FAX",
+				"iitr_o": "5545"
+			},
+			{
+				"name": "Visitors Room",
+				"iitr_o": "4637"
+			},
+			{
+				"name": "Committee Room",
+				"iitr_o": "4638"
+			}
+		]
+	},
+	{
+		"name": "Center For Transportation System",
+		"photo": "http://www.iitr.ac.in/centers/CTRANS/images/about-slider/1.jpg",
+		"contacts": [
+			{
+				"name": "Office",
+				"iitr_o": "4230"
+			},
+			{
+				"name": "MORTH Chair Prof.",
+				"iitr_o": "4576"
+			},
+			{
+				"name": "ICT Application Lab.",
+				"iitr_o": "6420"
+			},
+			{
+				"name": "Biofuel Lab.",
+				"iitr_o": "4568"
+			},
+			{
+				"name": "Trans. Information Lab",
+				"iitr_o": "4422"
+			},
+			{
+				"name": "Laboratory",
+				"iitr_o": "6305"
+			},
+			{
+				"name": "Library",
+				"iitr_o": "4996"
+			}
+		]
+	}
+]

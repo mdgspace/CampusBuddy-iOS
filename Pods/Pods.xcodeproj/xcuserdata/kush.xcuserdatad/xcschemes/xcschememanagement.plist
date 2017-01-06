@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FMMosaicLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Campus Buddy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Campus BuddyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Campus BuddyUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SKPhotoBrowser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>255FCAE5959E8C1A774ABB7F99079755</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>593B6A1245C74047BBCC38005DDEBAB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7486B3E625DC987CAFEE0750AFF09D88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84CACE4181AEB862C66D1066D7B32746</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91D1E5EC6548968F5D81C88C8FF765C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>966313C82488A35D712E486DD95701F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
