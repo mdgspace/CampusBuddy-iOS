@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C12F9178AC12C0DAD9B8C03 /* Pods_Campus_BuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF1E1771121F6E76129B22E /* Pods_Campus_BuddyUITests.framework */; };
+		4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */; };
 		43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090DF01E1E745C0010FBF8 /* AppDelegate.swift */; };
 		43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43090DF41E1E745C0010FBF8 /* Main.storyboard */; };
 		43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43090DF71E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld */; };
@@ -30,6 +31,10 @@
 		43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */; };
 		43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */ = {isa = PBXBuildFile; fileRef = 43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */; };
 		43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */; };
+		437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B821E214ECB006CACEC /* FacebookPage.swift */; };
+		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
+		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
+		43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */; };
 		43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED79D01E1FA93100E4FE5D /* Extensions.swift */; };
 		56F3CDF3E73E5FF460E438DE /* Pods_Campus_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677FEF90A8AE6CD3BA95DA9 /* Pods_Campus_Buddy.framework */; };
 		7B2E0E7D4493DD8A4BFD1F34 /* Pods_Campus_BuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0153D060F89A2D4FE5119E3E /* Pods_Campus_BuddyTests.framework */; };
@@ -56,6 +61,7 @@
 		0153D060F89A2D4FE5119E3E /* Pods_Campus_BuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campus_BuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3677FEF90A8AE6CD3BA95DA9 /* Pods_Campus_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campus_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B13FE198E5D2C87E4FBFE57 /* Pods-Campus BuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus BuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus BuddyTests/Pods-Campus BuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPagesSelectionTableViewController.swift; sourceTree = "<group>"; };
 		43090DED1E1E745C0010FBF8 /* Campus Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43090DF01E1E745C0010FBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43090DF51E1E745C0010FBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +90,10 @@
 		43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfContactTableViewCell.swift; sourceTree = "<group>"; };
 		43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfessorContactatIItR.json; sourceTree = "<group>"; };
 		43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		437C4B821E214ECB006CACEC /* FacebookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPage.swift; sourceTree = "<group>"; };
+		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
+		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
+		43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPageCollectionViewCell.swift; sourceTree = "<group>"; };
 		43ED79D01E1FA93100E4FE5D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		707C6EC0B3251A10BE57957A /* Pods-Campus BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus BuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus BuddyUITests/Pods-Campus BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		95B69A8251AFED4D8BD7DDA6 /* Pods-Campus Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus Buddy/Pods-Campus Buddy.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +142,14 @@
 				707C6EC0B3251A10BE57957A /* Pods-Campus BuddyUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4300504B1E20F7A30049870F /* Notices */ = {
+			isa = PBXGroup;
+			children = (
+				4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */,
+			);
+			name = Notices;
 			sourceTree = "<group>";
 		};
 		43090DE41E1E745C0010FBF8 = {
@@ -210,6 +228,7 @@
 		43090E231E1E7AAD0010FBF8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43AB113D1E21B27800A780CD /* CollectionViewCells */,
 				43ED79CC1E1F97A400E4FE5D /* TableViewCells */,
 				43090E331E1E7E080010FBF8 /* Tabs */,
 			);
@@ -219,6 +238,7 @@
 		43090E241E1E7AB30010FBF8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				437C4B811E214EBB006CACEC /* Facebook */,
 				43ED79CF1E1F98C500E4FE5D /* Professor */,
 				43ED79CE1E1F98AB00E4FE5D /* DepartmentClasses */,
 			);
@@ -265,6 +285,7 @@
 		43090E331E1E7E080010FBF8 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				4300504B1E20F7A30049870F /* Notices */,
 				43090E341E1E7E130010FBF8 /* Contacts */,
 				43ED79CD1E1F980700E4FE5D /* About */,
 			);
@@ -281,12 +302,30 @@
 			name = Contacts;
 			sourceTree = "<group>";
 		};
+		437C4B811E214EBB006CACEC /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				437C4B821E214ECB006CACEC /* FacebookPage.swift */,
+				437C4B841E214FAC006CACEC /* FacebookResources.swift */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		43AB113D1E21B27800A780CD /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
 		43ED79CC1E1F97A400E4FE5D /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
 				43090E361E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift */,
 				43090E3B1E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift */,
 				43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */,
+				43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -612,6 +651,8 @@
 			files = (
 				43090E471E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift in Sources */,
 				43090E2C1E1E7B300010FBF8 /* Utils.swift in Sources */,
+				43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */,
+				437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */,
 				43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */,
 				43090E431E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift in Sources */,
 				43090E2A1E1E7B300010FBF8 /* ActivityIndicator.swift in Sources */,
@@ -624,9 +665,12 @@
 				43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */,
 				43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */,
 				43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */,
+				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
 				43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */,
+				4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */,
 				43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */,
 				43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */,
+				437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

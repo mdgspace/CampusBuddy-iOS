@@ -36,7 +36,9 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Search Bar
+        self.navigationController?.navigationBar.isTranslucent = false
+        self.searchController.searchBar.isTranslucent = false
+        // Search Bars
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchResultsUpdater = self
         searchController.searchBar.backgroundColor = ColorCode().appThemeColor
@@ -45,6 +47,7 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
         searchController.searchBar.inputView?.tintColor = ColorCode().appThemeColor
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
+        self.navigationController?.navigationBar.translatesAutoresizingMaskIntoConstraints = true
         
         //JSON Parsing
         jsonParsingFromFile()
@@ -204,16 +207,13 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
                 } else{
                     contact = Professors[indexPath.row]
                 }
-                
-                let url = "http://people.iitr.ernet.in/facultyphoto/\(contact.profilePic!)"
-                
                 ContactView.namedata = contact.name!
                 ContactView.LandlineorMobiledata = "\(contact.phoneBSNL!)"
                 ContactView.officemobiledata = "\(contact.office!)"
                 ContactView.residancemobiledata = "\(contact.residence!)"
                 ContactView.designationData = contact.designation!
                 ContactView.emaildata = contact.email!
-                ContactView.imagrurldata = url
+                ContactView.imagrurldata = contact.profilePic!
                 ContactView.departmentname = contact.profdepartment!
             }
         }

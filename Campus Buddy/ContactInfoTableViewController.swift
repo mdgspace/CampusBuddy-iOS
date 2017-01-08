@@ -32,6 +32,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
+        self.tableView.isScrollEnabled = false
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "Contact Info"
         cells.append("Name")
@@ -65,14 +66,6 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
         cells.append("Save to Contacts")
         cells.append("Mail ")
         
-      
-
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,7 +96,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             cello.ProfNameLabel.text = namedata
             cello.ProfNameLabel.font = UIFont(name:"HelveticaNeue-Bold", size: 16.0)
             cello.ProfDepartmentLabel.text = departmentname
-            cello.ImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(imagrurldata)")!,placeholderImage:#imageLiteral(resourceName: "person"))
+            cello.ImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(self.imagrurldata)")!,placeholderImage:#imageLiteral(resourceName: "person"))
             cello.ImageView.layer.cornerRadius = (cello.ImageView.frame.width)/2
             return cello
             

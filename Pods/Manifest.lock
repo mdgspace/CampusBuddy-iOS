@@ -1,8 +1,32 @@
 PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
   - Crashlytics (3.8.3):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
-  - FMMosaicLayout (0.1.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.18.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.18.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.18.0):
+    - FBSDKCoreKit
   - GoogleMaps (2.1.1):
     - GoogleMaps/Maps (= 2.1.1)
   - GoogleMaps/Base (2.1.1)
@@ -16,7 +40,9 @@ PODS:
 DEPENDENCIES:
   - Crashlytics
   - Fabric
-  - FMMosaicLayout
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
   - GoogleMaps
   - SDWebImage (~> 3.8)
   - SKPhotoBrowser (from `https://github.com/suzuki-0000/SKPhotoBrowser.git`, branch `swift3`)
@@ -32,13 +58,19 @@ CHECKOUT OPTIONS:
     :git: https://github.com/suzuki-0000/SKPhotoBrowser.git
 
 SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
-  FMMosaicLayout: c0febf6876c987c425d7e2176d034fa7a2c98cb5
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 15fef8804a4629f98c6f4e55e81a76c9d725d85e
+  FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
+  FBSDKShareKit: 0b8d6cc3f103c75297eb3c62caec284a2ccf1b9e
   GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SKPhotoBrowser: 14b08bef65c1720f6edc728ab7f2b1f8ca76f453
 
-PODFILE CHECKSUM: 3a3c320693ab4e78f3111746db4566d9598f66f7
+PODFILE CHECKSUM: 7ecd9c2e8565a4311e6d1bf2746d1d2c07f85038
 
 COCOAPODS: 1.1.1
