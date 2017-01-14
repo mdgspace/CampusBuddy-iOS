@@ -31,6 +31,12 @@
 		43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */; };
 		43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */ = {isa = PBXBuildFile; fileRef = 43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */; };
 		43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */; };
+		431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
+		431EFF941E29A2B70065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
+		431EFF951E29A2B80065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
+		433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */; };
+		433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */; };
+		433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13FD1E26BB4200744CD2 /* FbPost.swift */; };
 		437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B821E214ECB006CACEC /* FacebookPage.swift */; };
 		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
 		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
@@ -90,6 +96,11 @@
 		43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfContactTableViewCell.swift; sourceTree = "<group>"; };
 		43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfessorContactatIItR.json; sourceTree = "<group>"; };
 		43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		431EFF921E2994590065B850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		431EFF961E29A3E20065B850 /* Campus Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Campus Buddy.entitlements"; sourceTree = "<group>"; };
+		433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPostsTableViewController.swift; sourceTree = "<group>"; };
+		433D13FD1E26BB4200744CD2 /* FbPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPost.swift; sourceTree = "<group>"; };
 		437C4B821E214ECB006CACEC /* FacebookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPage.swift; sourceTree = "<group>"; };
 		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
 		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
@@ -148,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */,
+				433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */,
 			);
 			name = Notices;
 			sourceTree = "<group>";
@@ -177,6 +189,7 @@
 		43090DEF1E1E745C0010FBF8 /* Campus Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				431EFF961E29A3E20065B850 /* Campus Buddy.entitlements */,
 				43090DF01E1E745C0010FBF8 /* AppDelegate.swift */,
 				43090E211E1E7A9F0010FBF8 /* Modals */,
 				43090E221E1E7AA70010FBF8 /* Views */,
@@ -185,6 +198,7 @@
 				43090E251E1E7ABE0010FBF8 /* Utilities */,
 				43090E261E1E7AC50010FBF8 /* Supporting Files */,
 				43090DFA1E1E745C0010FBF8 /* Assets.xcassets */,
+				431EFF921E2994590065B850 /* GoogleService-Info.plist */,
 				43090DFF1E1E745C0010FBF8 /* Info.plist */,
 			);
 			path = "Campus Buddy";
@@ -285,6 +299,7 @@
 		43090E331E1E7E080010FBF8 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				43363BF11E2930B8006DEB11 /* TabBarController */,
 				4300504B1E20F7A30049870F /* Notices */,
 				43090E341E1E7E130010FBF8 /* Contacts */,
 				43ED79CD1E1F980700E4FE5D /* About */,
@@ -302,11 +317,19 @@
 			name = Contacts;
 			sourceTree = "<group>";
 		};
+		43363BF11E2930B8006DEB11 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
 		437C4B811E214EBB006CACEC /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
 				437C4B821E214ECB006CACEC /* FacebookPage.swift */,
 				437C4B841E214FAC006CACEC /* FacebookResources.swift */,
+				433D13FD1E26BB4200744CD2 /* FbPost.swift */,
 			);
 			name = Facebook;
 			sourceTree = "<group>";
@@ -326,6 +349,7 @@
 				43090E3B1E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift */,
 				43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */,
 				43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */,
+				433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -443,6 +467,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = JTK792GD3V;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					43090E031E1E745C0010FBF8 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -485,6 +514,7 @@
 			files = (
 				43090DFE1E1E745C0010FBF8 /* LaunchScreen.storyboard in Resources */,
 				43090DFB1E1E745C0010FBF8 /* Assets.xcassets in Resources */,
+				431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */,
 				43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */,
 				43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */,
 			);
@@ -494,6 +524,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431EFF941E29A2B70065B850 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431EFF951E29A2B80065B850 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +695,9 @@
 				43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */,
 				43090E2F1E1E7B830010FBF8 /* ColorCode.swift in Sources */,
 				43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */,
+				433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */,
+				433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */,
+				433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */,
 				43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */,
 				43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */,
 				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
@@ -823,6 +858,7 @@
 			baseConfigurationReference = D13207689AA3889C9CE3F7D5 /* Pods-Campus Buddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Campus Buddy/Campus Buddy.entitlements";
 				DEVELOPMENT_TEAM = JTK792GD3V;
 				INFOPLIST_FILE = "Campus Buddy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -838,6 +874,7 @@
 			baseConfigurationReference = 95B69A8251AFED4D8BD7DDA6 /* Pods-Campus Buddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Campus Buddy/Campus Buddy.entitlements";
 				DEVELOPMENT_TEAM = JTK792GD3V;
 				INFOPLIST_FILE = "Campus Buddy/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

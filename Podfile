@@ -13,6 +13,8 @@ target 'Campus Buddy' do
     pod 'FacebookShare'
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
 
   # Pods for Campus Buddy
 

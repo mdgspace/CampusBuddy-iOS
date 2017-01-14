@@ -299,12 +299,10 @@ class DepartmentProfTableViewController: UITableViewController , UIAlertViewDele
                 ContactView.residancemobiledata = "\(contact.residence!)"
                 ContactView.designationData = contact.designation!
                 ContactView.emaildata = contact.email!
-                ContactView.imagrurldata = contact.profilePic!
                 ContactView.departmentname = DepartmentName
             }
         }
     }
-    
     //Message Controller Delegate
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         self.dismiss(animated: true, completion: nil)

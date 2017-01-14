@@ -39,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Campus Buddy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,11 +72,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BEA1473FC59D216F29D851AF7BA03C6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>332F91393FB1DE033D370B4CEDDD5FCF</key>
 		<dict>
 			<key>primary</key>
@@ -82,12 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4ABC7B7C848E7BEC3245AC8944CE5EC4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>54CFDB6A994B21D991D0520CDAA2B193</key>
+		<key>49F8FE61ADABE0F2490C1299E5FC1468</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,7 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>C5B80060FE8C664DF08841000F41D515</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DDBCFDE490CDFDABF6F16A26F346932D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF83518F136365941EE2011D8F499521</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA994BC2FFB9A8E528A7F78A0D8D3A6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

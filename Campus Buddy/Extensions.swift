@@ -13,11 +13,24 @@ extension UIStoryboard {
     
     class func MainStoryboard() -> UIStoryboard { return UIStoryboard(name: "Main", bundle: Bundle.main) }
     
-    
-    class func postDisplayNavigationScreen() -> UINavigationController {
-        return (MainStoryboard().instantiateViewController(withIdentifier: "PostDisplayNavigationController") as? UINavigationController)!
+    class func pageSelectionScreen() -> UIViewController {
+        return MainStoryboard().instantiateViewController(withIdentifier: "PageSelectionScreen")
+    }
+    class func noticeNavigationScreen() -> UINavigationController{
+        return MainStoryboard().instantiateViewController(withIdentifier: "FbPostsTableNavigationController") as! UINavigationController
+    }
+    class func home() -> UITabBarController{
+        return MainStoryboard().instantiateViewController(withIdentifier: "HomeTabBar") as! UITabBarController
         
     }
+    class func postDisplayScreen() -> UIViewController {
+        return MainStoryboard().instantiateViewController(withIdentifier: "FbPostsTableViewController")
+    }
+    class func demoNavigation() -> UINavigationController{
+        return MainStoryboard().instantiateViewController(withIdentifier: "DempNavigation") as! UINavigationController
+    }
+    
+   
     
 }
 
@@ -45,4 +58,42 @@ extension String {
         let data = self.data(using: String.Encoding.utf8)
         return data!.base64EncodedString(options: Data.Base64EncodingOptions(rawValue: 0))
     }
+}
+extension Date {
+    
+    func convertStringtoDate(startTimeString: String) -> Date{
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        let date = dateFormatter.date(from: startTimeString)!
+        
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.year, .month, .day, .hour], from: date)
+        let finalDate = calendar.date(from: components)
+        
+        return finalDate!
+    }
+    
+    func dayDifferenceFromDate(date : Date) -> String{
+        let calendar = NSCalendar.current
+        if calendar.isDateInYesterday(date) { return "Yesterday" }
+        else if calendar.isDateInToday(date) { return "Today" }
+        else if calendar.isDateInTomorrow(date) { return "Tomorrow" }
+        else {
+            let startOfNow = calendar.startOfDay(for: Date())
+            let startOfTimeStamp = calendar.startOfDay(for: date)
+            let components = calendar.dateComponents([.day], from: startOfNow, to: startOfTimeStamp)
+            let day = components.day
+            if day! < 1 { return "\(abs(day!)) days ago" }
+            else { return "In \(day) days" }
+        }
+    }
+    
+    func getRelativeDate(from string: String)-> String{
+        
+        let convertedDate = convertStringtoDate(startTimeString: string)
+        
+        return dayDifferenceFromDate(date: convertedDate)
+    }
+
 }

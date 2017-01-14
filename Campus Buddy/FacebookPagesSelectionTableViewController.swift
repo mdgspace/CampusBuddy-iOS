@@ -7,43 +7,49 @@
 //
 
 import UIKit
+import CoreData
 import SDWebImage
 import FacebookCore
+import FirebaseMessaging
 
 class FacebookPagesSelectionTableViewController: UITableViewController {
+    
     @IBOutlet weak var selectedPagesView: UICollectionView!
     
     @IBOutlet weak var doneButton: UIBarButtonItem!
+    
     var accessToken = AccessToken(appId:"772744622840259",authenticationToken:"772744622840259|63e7300f4f21c5f430ecb740b428a10e",userId:"797971310246511",grantedPermissions: nil, declinedPermissions:nil)
     var fbPageList = [FacebookPage]()
     var selectedPages = [FacebookPage]()
-    
-    //var imageView = UIView(frame: CGRect(x: 20, y: 20, width: 20, height: 20))
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        getSelectedPages()
+        
+        self.tableView.tableFooterView?.frame = CGRect.zero
         selectedPagesView.delegate = self
         selectedPagesView.dataSource = self
-        
         doneButton.isEnabled = false
         ActivityIndicator.shared.showProgressView(uiView: self.view)
         AccessToken.current = accessToken
         
         let pageList = FacebookResources().getPageIDList()
-        AccessToken.current = accessToken
+        
         let connection = GraphRequestConnection()
         
         for pageId in pageList{
             
-            let graphPath = "/\((pageId))"
+            let graphPath = "/\(pageId)"
             let parameters: [String : Any]? = ["fields": "picture.type(normal), name"]
             let httpMethod: GraphRequestHTTPMethod = .GET
             let apiVersion: GraphAPIVersion = .defaultVersion
             let request = GraphRequest(graphPath: graphPath, parameters: parameters!, accessToken:  AccessToken.current, httpMethod: httpMethod, apiVersion: apiVersion)
-            connection.add(request, batchEntryName: nil) { (response, result) in
+            
+            connection.add(request, batchParameters: ["":""], completion: { (response, result) in
                 switch result {
                 case .success(let response):
+                    
                     let name = response.dictionaryValue?["name"] as! String
                     let id = response.dictionaryValue?["id"] as! String
                     
@@ -56,18 +62,16 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
                 case .failed(let error):
                     print("Custom Graph Request Failed: \(error)")
                 }
-                
-            }
+            })
         }
-        
         connection.start()
-        ActivityIndicator.shared.hideProgressView()
 
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
 
     // MARK: - Table view data source
@@ -77,14 +81,25 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if fbPageList.count == 0{
+            self.tableView.tableFooterView?.frame = CGRect.zero
+            print("Unable to get the list")
+            
+        }else{
+            ActivityIndicator.shared.hideProgressView()
+        }
+
         return fbPageList.count
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return 60.0
+        if fbPageList.count == 0{
+            return 0.0
+        }else{
+            return 60.0
+        }
     }
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "PageSelectionCell", for: indexPath) as! SelectFBPageTableViewCell
         cell.pageName?.text = fbPageList[indexPath.row].name
         cell.pageImageView.sd_setImage(with: URL(string:fbPageList[indexPath.row].picUrl!))
@@ -129,14 +144,97 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
     }
     
     @IBAction func cancelButtonPressed(_ sender: Any) {
+    self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func doneButtonPressed(_ sender: Any) {
+        for selectedPage in selectedPages{
+            updateFacebookPageCoreData(with: selectedPage.pageId!)
+
+                FIRMessaging.messaging().subscribe(toTopic: "/topics/ios_\((selectedPage.pageId)!)")
+            
+        }
+       
+        let nav = UIStoryboard.postDisplayScreen()
+        self.navigationController?.show(nav, sender: self)
+        
+        
     }
+    
+    
+    //MARK: CoreDataStack
+    
+    func updateFacebookPageCoreData(with pageId:String){
+        let moc = getContext()
+        
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "SelectedFacebookPagesCoreDataObject")
+        request.predicate = NSPredicate(format: "pageId = %@", pageId)
+        
+        do {
+            let pages = try moc.fetch(request)
+                    if pages.count == 0 {
+                        //retrieve the entity that we just created
+                        let entity =  NSEntityDescription.entity(forEntityName: "SelectedFacebookPagesCoreDataObject", in: moc)
+                        let transc = NSManagedObject(entity: entity!, insertInto: moc)
+                        
+                        //set the entity values
+                        transc.setValue(pageId, forKey: "pageId")
+                        debugPrint("Succesfully saved")
+                        
+                        //save the object
+                        do {
+                            try moc.save()
+                            print("Saved!")
+                        } catch let error as NSError  {
+                            print("Could not save \(error), \(error.userInfo)")
+                        }
+                    }else{
+                        debugPrint("Already have it")
+                            }
+        }catch let error as NSError  {
+            print("Could not execute fetch Request \(error), \(error.userInfo)")
+        }
+}
+}
+
+func getSelectedPages(){
+    
+    let moc = getContext()
+    
+    let request = NSFetchRequest<NSFetchRequestResult>(entityName: "SelectedFacebookPagesCoreDataObject")
+    
+    var sd1 = NSSortDescriptor(key: "pageId", ascending: true)
+    
+    request.sortDescriptors = [sd1]
+    
+        do {
+        let pages = try moc.fetch(request)
+            
+        for page in pages{
+            let page = page as! SelectedFacebookPagesCoreDataObject
+            print("AAAAA **** \(page.pageId)")
+        }
+        
+        }catch let error as NSError  {
+        print("Could not get pages \(error), \(error.userInfo)")
+        }
+        //save the object
+        do {
+        try moc.save()
+        print("Saved!")
+        } catch let error as NSError  {
+        print("Could not save \(error), \(error.userInfo)")
+        }
+
 
 }
+
+func getContext() -> NSManagedObjectContext {
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    return appDelegate.managedObjectContext
+}
+// MARK: CollectionVeiw Extension
 extension FacebookPagesSelectionTableViewController : UICollectionViewDelegateFlowLayout,UICollectionViewDelegate,UICollectionViewDataSource{
-    //1
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
