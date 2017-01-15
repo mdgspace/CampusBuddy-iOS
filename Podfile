@@ -7,7 +7,9 @@ target 'Campus Buddy' do
 
     pod 'SDWebImage', '~>3.8'
     pod 'SKPhotoBrowser', :git => 'https://github.com/suzuki-0000/SKPhotoBrowser.git', :branch => 'swift3'
-    pod 'GoogleMaps'
+    pod 'GooglePlacePicker', '= 2.1.0'
+    pod 'GooglePlaces', '= 2.1.0'
+    pod 'GoogleMaps', '= 2.1.0'
     pod 'FacebookCore'
     pod 'FacebookLogin'
     pod 'FacebookShare'

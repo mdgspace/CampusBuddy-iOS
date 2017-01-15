@@ -34,11 +34,36 @@
 		431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
 		431EFF941E29A2B70065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
 		431EFF951E29A2B80065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
+		43277E3A1E2AB7C000863831 /* IITRLocationsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 43277E391E2AB7C000863831 /* IITRLocationsInfo.json */; };
+		43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43277E3C1E2AC9BF00863831 /* IITRLocation.swift */; };
+		43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */; };
 		433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */; };
 		433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */; };
 		433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13FD1E26BB4200744CD2 /* FbPost.swift */; };
 		437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B821E214ECB006CACEC /* FacebookPage.swift */; };
 		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
+		4392FB521E2AEBCA00E3D8BD /* BackgroundMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */; };
+		4392FB531E2AEBCA00E3D8BD /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */; };
+		4392FB541E2AEBCA00E3D8BD /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */; };
+		4392FB551E2AEBCA00E3D8BD /* SplitPaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */; };
+		4392FB591E2AEBDC00E3D8BD /* PickAPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */; };
+		4392FB5A1E2AEBDC00E3D8BD /* PickAPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */; };
+		4392FB631E2AEBFA00E3D8BD /* PlaceAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */; };
+		4392FB641E2AEBFA00E3D8BD /* PlaceAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */; };
+		4392FB651E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */; };
+		4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */; };
+		4392FB671E2AEBFA00E3D8BD /* PlaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */; };
+		4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */; };
+		4392FB691E2AEBFA00E3D8BD /* PlaceNameHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */; };
+		4392FB701E2AEC1800E3D8BD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */; };
+		4392FB711E2AEC1800E3D8BD /* SDKDemoAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */; };
+		4392FB721E2AEC1800E3D8BD /* ShadowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */; };
+		4392FB731E2AEC1800E3D8BD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */; };
+		4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6F1E2AEC1800E3D8BD /* Styles.swift */; };
+		4392FB771E2AEDC400E3D8BD /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */; };
+		4392FB781E2AEDC400E3D8BD /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */; };
+		4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */; };
+		43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A985A31E2AB63300B64B50 /* MapViewController.swift */; };
 		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
 		43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */; };
 		43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED79D01E1FA93100E4FE5D /* Extensions.swift */; };
@@ -98,11 +123,36 @@
 		43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		431EFF921E2994590065B850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		431EFF961E29A3E20065B850 /* Campus Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Campus Buddy.entitlements"; sourceTree = "<group>"; };
+		43277E391E2AB7C000863831 /* IITRLocationsInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IITRLocationsInfo.json; sourceTree = "<group>"; };
+		43277E3C1E2AC9BF00863831 /* IITRLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IITRLocation.swift; sourceTree = "<group>"; };
+		43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPostsTableViewController.swift; sourceTree = "<group>"; };
 		433D13FD1E26BB4200744CD2 /* FbPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPost.swift; sourceTree = "<group>"; };
 		437C4B821E214ECB006CACEC /* FacebookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPage.swift; sourceTree = "<group>"; };
 		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
+		4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMapViewController.swift; sourceTree = "<group>"; };
+		4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContainerViewController.swift; sourceTree = "<group>"; };
+		4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
+		4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitPaneViewController.swift; sourceTree = "<group>"; };
+		4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickAPlaceViewController.swift; sourceTree = "<group>"; };
+		4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickAPlaceViewController.xib; sourceTree = "<group>"; };
+		4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAttributeCell.swift; sourceTree = "<group>"; };
+		4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAttributeCell.xib; sourceTree = "<group>"; };
+		4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailTableViewDataSource.swift; sourceTree = "<group>"; };
+		4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceDetailViewController.xib; sourceTree = "<group>"; };
+		4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceNameHeader.swift; sourceTree = "<group>"; };
+		4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceNameHeader.xib; sourceTree = "<group>"; };
+		4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKDemoAPIKey.swift; sourceTree = "<group>"; };
+		4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowLineView.swift; sourceTree = "<group>"; };
+		4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		4392FB6F1E2AEC1800E3D8BD /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
+		4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		43A985A31E2AB63300B64B50 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
 		43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPageCollectionViewCell.swift; sourceTree = "<group>"; };
 		43ED79D01E1FA93100E4FE5D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -252,6 +302,8 @@
 		43090E241E1E7AB30010FBF8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */,
+				43277E3B1E2AC98100863831 /* Locations */,
 				437C4B811E214EBB006CACEC /* Facebook */,
 				43ED79CF1E1F98C500E4FE5D /* Professor */,
 				43ED79CE1E1F98AB00E4FE5D /* DepartmentClasses */,
@@ -274,6 +326,7 @@
 		43090E261E1E7AC50010FBF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43277E391E2AB7C000863831 /* IITRLocationsInfo.json */,
 				43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */,
 			);
 			name = "Supporting Files";
@@ -299,6 +352,7 @@
 		43090E331E1E7E080010FBF8 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				43A985A21E2AB61E00B64B50 /* Maps */,
 				43363BF11E2930B8006DEB11 /* TabBarController */,
 				4300504B1E20F7A30049870F /* Notices */,
 				43090E341E1E7E130010FBF8 /* Contacts */,
@@ -317,9 +371,18 @@
 			name = Contacts;
 			sourceTree = "<group>";
 		};
+		43277E3B1E2AC98100863831 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				43277E3C1E2AC9BF00863831 /* IITRLocation.swift */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
 		43363BF11E2930B8006DEB11 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */,
 			);
 			name = TabBarController;
 			sourceTree = "<group>";
@@ -332,6 +395,74 @@
 				433D13FD1E26BB4200744CD2 /* FbPost.swift */,
 			);
 			name = Facebook;
+			sourceTree = "<group>";
+		};
+		4392FB4D1E2AEB8C00E3D8BD /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */,
+				4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */,
+				4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */,
+				4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */,
+				4392FB6F1E2AEC1800E3D8BD /* Styles.swift */,
+				4392FB6A1E2AEC0300E3D8BD /* PlaceDetail */,
+				4392FB5B1E2AEBE500E3D8BD /* PickAPlace */,
+				4392FB561E2AEBCE00E3D8BD /* Containers */,
+			);
+			name = Reference;
+			sourceTree = "<group>";
+		};
+		4392FB561E2AEBCE00E3D8BD /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */,
+				4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */,
+				4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */,
+				4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */,
+			);
+			name = Containers;
+			sourceTree = "<group>";
+		};
+		4392FB5B1E2AEBE500E3D8BD /* PickAPlace */ = {
+			isa = PBXGroup;
+			children = (
+				4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */,
+				4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */,
+			);
+			name = PickAPlace;
+			sourceTree = "<group>";
+		};
+		4392FB6A1E2AEC0300E3D8BD /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */,
+				4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */,
+				4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */,
+				4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */,
+				4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */,
+				4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */,
+				4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */,
+			);
+			name = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		4392FB791E2AEDC800E3D8BD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */,
+				4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		43A985A21E2AB61E00B64B50 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				43A985A31E2AB63300B64B50 /* MapViewController.swift */,
+				4392FB791E2AEDC800E3D8BD /* Support */,
+				4392FB4D1E2AEB8C00E3D8BD /* Reference */,
+			);
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		43AB113D1E21B27800A780CD /* CollectionViewCells */ = {
@@ -468,6 +599,9 @@
 						DevelopmentTeam = JTK792GD3V;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -512,10 +646,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4392FB641E2AEBFA00E3D8BD /* PlaceAttributeCell.xib in Resources */,
+				4392FB5A1E2AEBDC00E3D8BD /* PickAPlaceViewController.xib in Resources */,
 				43090DFE1E1E745C0010FBF8 /* LaunchScreen.storyboard in Resources */,
 				43090DFB1E1E745C0010FBF8 /* Assets.xcassets in Resources */,
 				431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */,
+				4392FB691E2AEBFA00E3D8BD /* PlaceNameHeader.xib in Resources */,
 				43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */,
+				4392FB671E2AEBFA00E3D8BD /* PlaceDetailViewController.xib in Resources */,
+				43277E3A1E2AB7C000863831 /* IITRLocationsInfo.json in Resources */,
 				43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,29 +820,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4392FB541E2AEBCA00E3D8BD /* InsetViewController.swift in Sources */,
 				43090E471E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift in Sources */,
 				43090E2C1E1E7B300010FBF8 /* Utils.swift in Sources */,
+				4392FB701E2AEC1800E3D8BD /* RoundedButton.swift in Sources */,
 				43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */,
 				437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */,
+				4392FB731E2AEC1800E3D8BD /* ShadowView.swift in Sources */,
 				43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */,
 				43090E431E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift in Sources */,
+				4392FB551E2AEBCA00E3D8BD /* SplitPaneViewController.swift in Sources */,
 				43090E2A1E1E7B300010FBF8 /* ActivityIndicator.swift in Sources */,
+				4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */,
 				43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */,
+				4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */,
+				4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */,
 				43090E2B1E1E7B300010FBF8 /* DeviceSizes.swift in Sources */,
+				4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */,
 				43090E451E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift in Sources */,
+				4392FB771E2AEDC400E3D8BD /* CGRect+Extensions.swift in Sources */,
+				4392FB651E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift in Sources */,
 				43090E421E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift in Sources */,
+				4392FB711E2AEC1800E3D8BD /* SDKDemoAPIKey.swift in Sources */,
 				43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */,
 				43090E2F1E1E7B830010FBF8 /* ColorCode.swift in Sources */,
 				43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */,
 				433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */,
 				433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */,
 				433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */,
+				4392FB721E2AEC1800E3D8BD /* ShadowLineView.swift in Sources */,
+				4392FB531E2AEBCA00E3D8BD /* BaseContainerViewController.swift in Sources */,
 				43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */,
 				43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */,
+				4392FB631E2AEBFA00E3D8BD /* PlaceAttributeCell.swift in Sources */,
+				4392FB781E2AEDC400E3D8BD /* NotificationObserver.swift in Sources */,
+				43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */,
+				43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */,
+				43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */,
 				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
 				43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */,
 				4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */,
 				43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */,
+				4392FB521E2AEBCA00E3D8BD /* BackgroundMapViewController.swift in Sources */,
+				4392FB591E2AEBDC00E3D8BD /* PickAPlaceViewController.swift in Sources */,
 				43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */,
 				437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */,
 			);

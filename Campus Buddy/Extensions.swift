@@ -30,6 +30,10 @@ extension UIStoryboard {
         return MainStoryboard().instantiateViewController(withIdentifier: "DempNavigation") as! UINavigationController
     }
     
+    class func mapNavigation() -> UINavigationController{
+        return MainStoryboard().instantiateViewController(withIdentifier: "MapsNavigationController") as! UINavigationController
+    }
+    
    
     
 }

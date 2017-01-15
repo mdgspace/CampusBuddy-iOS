@@ -12,6 +12,10 @@ import FacebookCore
 import Firebase
 import FirebaseMessaging
 import UserNotifications
+import GoogleMaps
+import GooglePlaces
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate{
@@ -23,6 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Facebook
         SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        //Maps
+        // Provide the Places API with your API key.
+        GMSPlacesClient.provideAPIKey(kPlacesAPIKey)
+        // Provide the Maps API with your API key. We need to provide this as well because the Place
+        // Picker displays a Google Map.
+        GMSServices.provideAPIKey(kMapsAPIKey)
         
         //Firebase
         FIRApp.configure()
@@ -52,13 +63,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
                                                name: .firInstanceIDTokenRefresh,
                                                object: nil)
         
+        
         if (UserDefaults.standard.value(forKey: "selected") != nil){
             if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-                debugPrint("AAAA AHAA Entered Here")
                 let home = UIStoryboard.home()
                 self.window?.rootViewController = home
                 let first = home.viewControllers?.first
                 first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                
+                
             }else{
                 debugPrint("BBBB AHAA Entered Here")
                 let home = UIStoryboard.home()
