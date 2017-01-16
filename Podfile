@@ -17,7 +17,7 @@ target 'Campus Buddy' do
     pod 'Crashlytics'
     pod 'Firebase/Core'
     pod 'Firebase/Messaging'
-
+    pod ‘Alamofire’
   # Pods for Campus Buddy
 
   target 'Campus BuddyTests' do

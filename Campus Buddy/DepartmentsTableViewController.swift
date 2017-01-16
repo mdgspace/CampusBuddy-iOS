@@ -24,7 +24,6 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
     let searchController = UISearchController(searchResultsController: nil)
     var Departments = [DepartmentCell]()
     var Professors = [ProfContactCell]()
-    var filterdepartments = [DepartmentCell]()
     var filterProfessors = [ProfContactCell]()
     var resdoffstdcode = "0133228 " // std code for roorkee and starting landline
     let std_code_bsnl = "01332"  //std code for roorkee
@@ -32,14 +31,31 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
     var bsnlPhone = ""
     var bsnltocall = ""
     
+    var alphabeticalIndexTitles = ["A", "B", "C", "D","E", "F", "G", "H","I", "J", "K", "L", "M","N","O","P","Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    
+    
+    var profSections : [(index: Int, length :Int, title: String)] = Array()
+    var departmentSections: [(index: Int, length :Int, title: String)] = Array()
+
+    
     @IBOutlet var Switch : UISegmentedControl!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         self.navigationController?.navigationBar.isTranslucent = false
         self.searchController.searchBar.isTranslucent = false
-        // Search Bars
+        
+        self.tableView.sectionIndexBackgroundColor = UIColor.clear
+        
+        ActivityIndicator.shared.showProgressView(uiView: self.view)
+        
+        
+        tableView.bounces = false
         tableView.tableHeaderView = searchController.searchBar
+        // Search Bars
         searchController.searchResultsUpdater = self
         searchController.searchBar.backgroundColor = ColorCode().appThemeColor
         searchController.searchBar.tintColor = UIColor.white
@@ -56,7 +72,8 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
             
             let department = department as! NSDictionary
             let departmentname = department.value(forKey: "name") as! String
-            let photourl = department.value(forKey:"photo") as! String
+            
+            let photourl = department.value(forKey:"photo") != nil ? department.value(forKey:"photo")  as! String : ""
             let departmentContacts = department.value(forKey:"contacts") as! [NSMutableDictionary]
             
             for departmentContact in departmentContacts{
@@ -79,17 +96,72 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
         Departments.sort{$0.DepartmentNAME < $1.DepartmentNAME}
         Professors.sort{$0.name! < $1.name!}
         
+        
+        var index = 0
+        
+        for i in 0..<Departments.count {
+            
+            let commonPrefix = Departments[i].DepartmentNAME.commonPrefix(with: Departments[index].DepartmentNAME, options: .caseInsensitive)
+            
+            if (commonPrefix.characters.count == 0) {
+                
+                let string = Departments[index].DepartmentNAME.uppercased()
+                
+                let firstCharacter = string[string.startIndex]
+                
+                let title = "\(firstCharacter)"
+                
+                let newSection = (index: index, length: i - index, title: title)
+                
+                departmentSections.append(newSection)
+                
+                index = i
+                
+            }
+            
+        }
+        
+        var proIndex = 0
+        
+        for j in 0..<Professors.count {
+            
+            let name = Professors[j].name!
+            let commonProfPrefix = name.commonPrefix(with: Professors[proIndex].name!, options: .caseInsensitive)
+            
+            if (commonProfPrefix.characters.count == 0) {
+                
+                let stringName = Professors[proIndex].name!
+                
+                let spring =  stringName.uppercased()
+                
+                let character = spring[spring.startIndex]
+                
+                let newTitle = "\(character)"
+                
+                let newprofSection = (index: proIndex, length: j - proIndex, title: newTitle)
+                
+                profSections.append(newprofSection)
+                
+                proIndex = j
+                
+            }
+            
+        }
+        
         self.tableView.reloadData()
     }
     
+   
     
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
         self.resignFirstResponder()
     }
+    
     // Search Filters
     func filterContentForSearchText(searchText: String, scope: String = "All") {
+        
         filterProfessors = Professors.filter {
             Professor in
             return Professor.name!.lowercased().contains(searchText.lowercased()) || Professor.profdepartment!.lowercased().contains(searchText.lowercased())
@@ -98,68 +170,154 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
     }
     
     func jsonParsingFromFile(){
+        
+        /*
+ if(Reachability.isConnectedToNetwork()){
+            
+            let json_url = "https://www.sdsmdg.ml/cb/contacts.json"
+            
+            Network().getRequestWithoutHeader(json_url, params: ["":"" as AnyObject], completion: { (result:Any, code:Int) in
+                self.DepartmentsArray = result as! NSMutableArray
+              //  self.DepartmentsArray = result.arrayValue
+            }, failed: { (error) in
+                debugPrint("\(error)")
+                
+                let path: NSString = Bundle.main.path(forResource: "ProfessorContactatIItR", ofType: ".json")! as NSString
+                let Departmentdata : Data = try! NSData(contentsOfFile: path as String, options: Data.ReadingOptions.dataReadingMapped) as Data
+                let jsonarray: NSArray!=(try! JSONSerialization.jsonObject(with: Departmentdata, options: JSONSerialization.ReadingOptions.mutableContainers)) as! NSArray
+                self.DepartmentsArray = jsonarray as! NSMutableArray
+                
+            })
+            
+        }else{
+            */
         let path: NSString = Bundle.main.path(forResource: "ProfessorContactatIItR", ofType: ".json")! as NSString
         let Departmentdata : Data = try! NSData(contentsOfFile: path as String, options: Data.ReadingOptions.dataReadingMapped) as Data
         let jsonarray: NSArray!=(try! JSONSerialization.jsonObject(with: Departmentdata, options: JSONSerialization.ReadingOptions.mutableContainers)) as! NSArray
         DepartmentsArray = jsonarray as! NSMutableArray
-    }
+        
+        ActivityIndicator.shared.hideProgressView()
+        
+        }
+    
+   // }
     
     override  func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int{
-        return 1
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        
         if (searchController.isActive && searchController.searchBar.text != ""){
-            return filterProfessors.count
+            
+            return 1
+            
         }else{
-            switch Switch.selectedSegmentIndex
-            {
+            switch Switch.selectedSegmentIndex {
             case 0:
-                return Departments.count
+                return departmentSections.count
             case 1:
-                return Professors.count
+                return profSections.count
             default:
                 return 0
             }
         }
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
+        if (searchController.isActive && searchController.searchBar.text != ""){
+            return "Top Name Matches"
+        }else{
+        switch Switch.selectedSegmentIndex {
+        case 0:
+            return departmentSections[section].title
+        case 1:
+            return profSections[section].title
+        default:
+            return ""
+        }
+    }
+    }
+    override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        if (searchController.isActive && searchController.searchBar.text != ""){
+            return nil
+        }else{
+        switch Switch.selectedSegmentIndex {
+        case 0:
+            return departmentSections.map { $0.title }
+        case 1:
+            return profSections.map { $0.title }
+        default:
+            return nil
+        }
+        }
+    }
+    override func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int{
+        return index
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        
+        if (searchController.isActive && searchController.searchBar.text != ""){
+            return filterProfessors.count
+        }else{
+            
+        switch Switch.selectedSegmentIndex {
+        case 0:
+            return departmentSections[section].length
+        case 1:
+            return profSections[section].length
+        default:
+            return 0
+        }
+        }
+    }
+    
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DepartmentCell", for: indexPath) as! DepartmentTableViewCell
         let department : DepartmentCell
         var professor : ProfContactCell
+        
         if (searchController.isActive && searchController.searchBar.text != ""){
+            
             professor = filterProfessors[indexPath.row]
             cell.Subtitle.isHidden = false
             cell.Title.text = professor.name
             cell.Subtitle.text = professor.profdepartment
-            cell.departmentImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(professor.profilePic!)")!, placeholderImage: #imageLiteral(resourceName: "person"))
-            cell.departmentImageView.layer.cornerRadius = (cell.departmentImageView.frame.width)/2
-        }
-        else
-        {
             
+            if (professor.profilePic! != "default.jpg" || professor.profilePic! !=  ""){
+                cell.departmentImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(professor.profilePic!)")!, placeholderImage: #imageLiteral(resourceName: "person"))
+            }else{
+                cell.departmentImageView.image = #imageLiteral(resourceName: "person")
+            }
+             cell.departmentImageView.layer.cornerRadius = (cell.departmentImageView.frame.width)/2
+        }else{
             switch Switch.selectedSegmentIndex
             {
             case 0:
                 cell.Subtitle.isHidden = true
-                department = Departments[indexPath.row]
+                department = Departments[departmentSections[indexPath.section].index + indexPath.row]
                 cell.Title.text = department.DepartmentNAME
-               cell.departmentImageView.sd_setImage(with: URL(string:"http://www.iitr.ac.in/departments/\(department.DepartmentPhotoUrl)/assets/images/top1.jpg")!, placeholderImage:#imageLiteral(resourceName: "department"))
+                if ((department.DepartmentPhotoUrl).characters.count <= 4){
+                cell.departmentImageView.sd_setImage(with: URL(string:"http://www.iitr.ac.in/departments/\(department.DepartmentPhotoUrl)/assets/images/top1.jpg")!, placeholderImage:#imageLiteral(resourceName: "department"))
+            }else{
+                cell.departmentImageView.sd_setImage(with: URL(string:"\(department.DepartmentPhotoUrl)")!, placeholderImage:#imageLiteral(resourceName: "department"))
+            }
                 cell.departmentImageView.layer.cornerRadius = (cell.departmentImageView.frame.width)/2
             case 1:
                 cell.Subtitle.isHidden = false
-                professor = Professors[indexPath.row]
+                professor = Professors[profSections[indexPath.section].index + indexPath.row]
                 cell.Title.text = professor.name
                 cell.Subtitle.text = professor.profdepartment
-                cell.departmentImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\((professor.profilePic)!)")!,placeholderImage:#imageLiteral(resourceName: "person"))
+                if (professor.profilePic! != "default.jpg"){
+                    cell.departmentImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(professor.profilePic!)")!, placeholderImage: #imageLiteral(resourceName: "person"))
+                }else{
+                    cell.departmentImageView.image = #imageLiteral(resourceName: "person")
+                }
+
                 cell.departmentImageView.layer.cornerRadius = (cell.departmentImageView.frame.width)/2
                 
             default:
@@ -183,15 +341,11 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
         if (segue.identifier == "ShowDepartmentContacts"){
             let ProfListView = segue.destination as! DepartmentProfTableViewController
             if let indexPath = self.tableView.indexPathForSelectedRow{
-                let Department : DepartmentCell
-                if (searchController.isActive && searchController.searchBar.text != ""){
-                    Department = filterdepartments[indexPath.row]
-                }else {
-                    Department = Departments[indexPath.row]
-                }
+                let Department : DepartmentCell = Departments[departmentSections[indexPath.section].index + indexPath.row]
                 ProfListView.DepartmentProfcontacts = Department.DepartmentContacts
                 ProfListView.DepartmentName = Department.DepartmentNAME
             }
@@ -205,7 +359,7 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
                 if (searchController.isActive && searchController.searchBar.text != ""){
                     contact = filterProfessors[indexPath.row]
                 } else{
-                    contact = Professors[indexPath.row]
+                    contact = Professors[profSections[indexPath.section].index + indexPath.row]
                 }
                 ContactView.namedata = contact.name!
                 ContactView.LandlineorMobiledata = "\(contact.phoneBSNL!)"
@@ -418,11 +572,12 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
         
         
     }
-    
+
     
     @IBAction func SwitchChanged(sender: AnyObject) {
-        
+        ActivityIndicator.shared.showProgressView(uiView: self.view)
         self.tableView.reloadData()
+        ActivityIndicator.shared.hideProgressView()
     }
     
 }

@@ -34,6 +34,8 @@ class DepartmentProfTableViewController: UITableViewController , UIAlertViewDele
         
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem?.image = UIImage(named: "back")
+        tableView.bounces = false
+        
         // Search Bar
         tableView.tableHeaderView = searchController.searchBar
         searchController.searchResultsUpdater = self
@@ -113,7 +115,12 @@ class DepartmentProfTableViewController: UITableViewController , UIAlertViewDele
             contact = ProfContacts[indexPath.row]
         }
         cell.ProfessorName.text = contact.name!
-        cell.ProfImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\((contact.profilePic)!)")!,placeholderImage:#imageLiteral(resourceName: "person"))
+        if (contact.profilePic! != "default.jpg"){
+            cell.ProfImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(contact.profilePic!)")!, placeholderImage: #imageLiteral(resourceName: "person"))
+        }else{
+            cell.ProfImageView.image = #imageLiteral(resourceName: "person")
+        }
+       
         cell.ProfImageView.layer.cornerRadius = (cell.ProfImageView.frame.width)/2
         if (contact.designation != nil){
             cell.Profdesignation.text = contact.designation!
@@ -302,6 +309,7 @@ class DepartmentProfTableViewController: UITableViewController , UIAlertViewDele
                 ContactView.residancemobiledata = "\(contact.residence!)"
                 ContactView.designationData = contact.designation!
                 ContactView.emaildata = contact.email!
+                ContactView.imagrurldata = contact.profilePic!
                 ContactView.departmentname = DepartmentName
             }
         }

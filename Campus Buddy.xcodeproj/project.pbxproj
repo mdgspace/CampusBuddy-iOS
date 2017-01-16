@@ -42,6 +42,8 @@
 		433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13FD1E26BB4200744CD2 /* FbPost.swift */; };
 		437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B821E214ECB006CACEC /* FacebookPage.swift */; };
 		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
+		43832B091E2D13A500BF617D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B081E2D13A500BF617D /* Reachability.swift */; };
+		43832B0B1E2D15C100BF617D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B0A1E2D15C100BF617D /* Network.swift */; };
 		4392FB521E2AEBCA00E3D8BD /* BackgroundMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */; };
 		4392FB531E2AEBCA00E3D8BD /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */; };
 		4392FB541E2AEBCA00E3D8BD /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */; };
@@ -131,6 +133,8 @@
 		433D13FD1E26BB4200744CD2 /* FbPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPost.swift; sourceTree = "<group>"; };
 		437C4B821E214ECB006CACEC /* FacebookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPage.swift; sourceTree = "<group>"; };
 		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
+		43832B081E2D13A500BF617D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		43832B0A1E2D15C100BF617D /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMapViewController.swift; sourceTree = "<group>"; };
 		4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContainerViewController.swift; sourceTree = "<group>"; };
 		4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +306,8 @@
 		43090E241E1E7AB30010FBF8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				43832B0A1E2D15C100BF617D /* Network.swift */,
+				43832B081E2D13A500BF617D /* Reachability.swift */,
 				43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */,
 				43277E3B1E2AC98100863831 /* Locations */,
 				437C4B811E214EBB006CACEC /* Facebook */,
@@ -352,8 +358,8 @@
 		43090E331E1E7E080010FBF8 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
-				43A985A21E2AB61E00B64B50 /* Maps */,
 				43363BF11E2930B8006DEB11 /* TabBarController */,
+				43A985A21E2AB61E00B64B50 /* Maps */,
 				4300504B1E20F7A30049870F /* Notices */,
 				43090E341E1E7E130010FBF8 /* Contacts */,
 				43ED79CD1E1F980700E4FE5D /* About */,
@@ -834,6 +840,7 @@
 				4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */,
 				43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */,
 				4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */,
+				43832B0B1E2D15C100BF617D /* Network.swift in Sources */,
 				4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */,
 				43090E2B1E1E7B300010FBF8 /* DeviceSizes.swift in Sources */,
 				4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */,
@@ -858,6 +865,7 @@
 				43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */,
 				43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */,
 				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
+				43832B091E2D13A500BF617D /* Reachability.swift in Sources */,
 				43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */,
 				4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */,
 				43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */,

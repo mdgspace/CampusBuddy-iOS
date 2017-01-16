@@ -40,7 +40,7 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return 4
     }
     
     @IBAction func RateUS(sender: AnyObject) {
@@ -70,6 +70,8 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
             cell.textLabel?.text = "Open our Website"
         case 2:
             cell.textLabel?.text = "Disclaimer"
+        case 3:
+            cell.textLabel?.text = "How to use app?"
             
         default:
             cell.textLabel?.text = ""
@@ -165,9 +167,8 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
             }))
             
             self.present(Alert, animated: true, completion: nil)
-            
-            
-            
+        case 3:
+            UIApplication.shared.openURL(URL(string :"https://mdg.sdslabs.co/")!)
         default:
             UIApplication.shared.openURL(URL(string :"https://mdg.sdslabs.co/")!)
         }

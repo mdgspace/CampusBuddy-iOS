@@ -96,7 +96,14 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             cello.ProfNameLabel.text = namedata
             cello.ProfNameLabel.font = UIFont(name:"HelveticaNeue-Bold", size: 16.0)
             cello.ProfDepartmentLabel.text = departmentname
-            cello.ImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(self.imagrurldata)")!,placeholderImage:#imageLiteral(resourceName: "person"))
+            
+            if (self.imagrurldata != "default.jpg"){
+                
+               cello.ImageView.sd_setImage(with: URL(string:"http://people.iitr.ernet.in/facultyphoto/\(self.imagrurldata)")!, placeholderImage: #imageLiteral(resourceName: "person"))
+                
+            }else{
+                cello.ImageView.image = #imageLiteral(resourceName: "person")
+            }
             cello.ImageView.layer.cornerRadius = (cello.ImageView.frame.width)/2
             return cello
             

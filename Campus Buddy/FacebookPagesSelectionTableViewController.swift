@@ -13,6 +13,7 @@ import FacebookCore
 import FirebaseMessaging
 
 class FacebookPagesSelectionTableViewController: UITableViewController {
+    @IBOutlet weak var cancelButton: UIBarButtonItem!
     
     @IBOutlet weak var selectedPagesView: UICollectionView!
     
@@ -26,7 +27,6 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
         super.viewDidLoad()
         
         getSelectedPages()
-        
         self.tableView.tableFooterView?.frame = CGRect.zero
         selectedPagesView.delegate = self
         selectedPagesView.dataSource = self
@@ -86,14 +86,16 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
             print("Unable to get the list")
             
         }else{
+            
             ActivityIndicator.shared.hideProgressView()
+            
         }
 
         return fbPageList.count
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
         if fbPageList.count == 0{
-            return 0.0
+            return UITableViewAutomaticDimension
         }else{
             return 60.0
         }
@@ -160,6 +162,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
         
         
     }
+   
     
     
     //MARK: CoreDataStack
@@ -198,7 +201,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController {
 }
 
 func getSelectedPages(){
-    
+    var array = [FacebookPage]()
     let moc = getContext()
     
     let request = NSFetchRequest<NSFetchRequestResult>(entityName: "SelectedFacebookPagesCoreDataObject")
@@ -212,7 +215,8 @@ func getSelectedPages(){
             
         for page in pages{
             let page = page as! SelectedFacebookPagesCoreDataObject
-            print("AAAAA **** \(page.pageId)")
+            print("Found **** \(page.pageId)")
+//            array.append(page)
         }
         
         }catch let error as NSError  {
@@ -225,8 +229,6 @@ func getSelectedPages(){
         } catch let error as NSError  {
         print("Could not save \(error), \(error.userInfo)")
         }
-
-
 }
 
 func getContext() -> NSManagedObjectContext {

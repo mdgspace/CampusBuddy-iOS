@@ -36,7 +36,7 @@
         <scene sceneID="Yx8-il-FKc">
             <objects>
                 <tableViewController storyboardIdentifier="PageSelectionScreen" id="Wn6-Rz-Yj1" customClass="FacebookPagesSelectionTableViewController" customModule="Campus_Buddy" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GS3-JX-WIv">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GS3-JX-WIv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -87,6 +87,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="cancelButton" destination="es5-GI-oQs" id="8Mk-iE-LCo"/>
                         <outlet property="doneButton" destination="R9S-Cr-hJa" id="DqR-hV-tbf"/>
                         <outlet property="selectedPagesView" destination="L7n-GT-2Ce" id="CRF-YK-8pD"/>
                     </connections>
@@ -292,9 +293,9 @@
         <!--Departments Table View Controller-->
         <scene sceneID="UiD-vx-X29">
             <objects>
-                <tableViewController id="eFK-fU-m3a" customClass="DepartmentsTableViewController" customModule="Campus_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController extendedLayoutIncludesOpaqueBars="YES" clearsSelectionOnViewWillAppear="NO" id="eFK-fU-m3a" customClass="DepartmentsTableViewController" customModule="Campus_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Ko-GB-xJh">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
@@ -306,13 +307,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RON-sL-ReX">
-                                            <rect key="frame" x="11" y="8" width="44" height="44"/>
+                                            <rect key="frame" x="11" y="8.5" width="36" height="36"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="RON-sL-ReX" secondAttribute="height" multiplier="1:1" id="6DC-n8-FMk"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IoN-7s-hM3">
-                                            <rect key="frame" x="63" y="8" width="279" height="21"/>
+                                            <rect key="frame" x="55" y="8.5" width="279" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="IoN-7s-hM3" secondAttribute="height" multiplier="93:7" id="bpc-Wk-KzW"/>
                                             </constraints>
@@ -321,7 +322,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Qr4-lK-gbA">
-                                            <rect key="frame" x="63" y="30" width="271" height="22"/>
+                                            <rect key="frame" x="55" y="30.5" width="185" height="15"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="Qr4-lK-gbA" secondAttribute="height" multiplier="271:22" id="XKx-wb-eoO"/>
                                             </constraints>
@@ -387,11 +388,12 @@
         <!--Professors-->
         <scene sceneID="433-zf-xiw">
             <objects>
-                <tableViewController title="Professors" id="o8v-nH-Qns" customClass="DepartmentProfTableViewController" customModule="Campus_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Professors" extendedLayoutIncludesOpaqueBars="YES" id="o8v-nH-Qns" customClass="DepartmentProfTableViewController" customModule="Campus_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="63" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Kh-6J-usv">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.23137254900000001" green="0.08235294118" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ProfContactCell" rowHeight="63" id="CMV-H8-tXU" customClass="ProfContactTableViewCell" customModule="Campus_Buddy" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="63"/>
@@ -737,7 +739,7 @@ with love by the students of</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MDG_logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="dxz-Xb-HiP">
-                                    <rect key="frame" x="61" y="262.5" width="252" height="149"/>
+                                    <rect key="frame" x="61" y="263" width="252" height="149"/>
                                     <gestureRecognizers/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="dxz-Xb-HiP" secondAttribute="height" multiplier="252:149" id="1X2-vn-nKN"/>
@@ -836,7 +838,7 @@ with love by the students of</string>
         <image name="pins" width="376" height="125"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qpn-l6-uWJ"/>
+        <segue reference="s14-Z6-F2a"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.36078431370000003" green="0.23137254900000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

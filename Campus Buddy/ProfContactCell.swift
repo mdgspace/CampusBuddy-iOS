@@ -7,9 +7,7 @@
 //
 
 import Foundation
-class ProfContactCell
-
-{
+class ProfContactCell {
     var name: String?
     var designation: String?
     var office: String?
