@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "mdg_logo.png",
+      "filename" : "GitHub-Mark-Light-120px-plus.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "mdg_logo.png@2x.png",
       "scale" : "2x"
     },
     {

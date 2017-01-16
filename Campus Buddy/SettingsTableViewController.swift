@@ -45,9 +45,6 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
     
     @IBAction func RateUS(sender: AnyObject) {
         
-        
-        
-        
     }
     @IBAction func FbLink(sender: AnyObject) {
         UIApplication.shared.openURL(URL(string :"https://www.facebook.com/mdgiitr/")!)
@@ -55,8 +52,11 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
     }
     
     @IBAction func GitLink(sender: AnyObject) {
-        
         UIApplication.shared.openURL(URL(string :"https://github.com/sdsmdg")!)
+    }
+    
+    @IBAction func openit(_ sender: UITapGestureRecognizer) {
+        UIApplication.shared.openURL(URL(string :"https://mdg.sdslabs.co/")!)
     }
     
     
@@ -67,7 +67,7 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
         case 0:
             cell.textLabel?.text = "Share with Friends"
         case 1:
-            cell.textLabel?.text = "Open the Website"
+            cell.textLabel?.text = "Open our Website"
         case 2:
             cell.textLabel?.text = "Disclaimer"
             
@@ -81,11 +81,15 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
     }
     
     
-
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.isSelected = false
+        
         switch  indexPath.row {
         case 0:
-            let ShareAlert = UIAlertController(title: "Choose a method to send", message: "Share", preferredStyle: .actionSheet)
+            let ShareAlert = UIAlertController(title: "Loved our App", message: "Share with your friends", preferredStyle: .alert)
             ShareAlert.addAction(UIAlertAction(title: "Send Message" , style: .default, handler: { action in
                 let messageVC = MFMessageComposeViewController()
                 messageVC.body = "Hey There, Campus BUddy App"
@@ -98,14 +102,11 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
                 if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeFacebook){
                     
                     let Facebooksheet: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-                    Facebooksheet.setInitialText("Hey There, Campus BUddy App")
+                    Facebooksheet.setInitialText("Hello Friends, Checkout the new Campus Buddy iOS App.")
                     self.present(Facebooksheet, animated: true, completion: nil)
                     
                     
-                }
-                    
-                else
-                {
+                }else{
                     
                     let AccountAlert = UIAlertController(title: "Accounts", message: "Please Login Facebook in your settings", preferredStyle: .alert)
                     AccountAlert.addAction(UIAlertAction(title: "OK" , style: .default, handler: { action in
@@ -116,20 +117,30 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
                 }
                 
             }))
-            ShareAlert.addAction(UIAlertAction(title: "Whatsapp" , style: .default, handler: { action in
-                UIApplication.shared.openURL(URL(string :"mailto:sdsmobilelabs@gmail.com")!)
-                
-            }))
-            ShareAlert.addAction(UIAlertAction(title: "Cancel", style: .destructive , handler: { action in
-                
-                
-            }))
             
+            ShareAlert.addAction(UIAlertAction(title: "Whatsapp" , style: .default, handler: { action in
+                
+                var urlString = "Hello Friends, Checkout the new Campus Buddy iOS App."
+                var urlStringEncoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+                var url  = URL(string: "whatsapp://send?text=\(urlStringEncoded!)")
+                
+                //  if UIApplication.shared.canOpenURL(url!) {
+                UIApplication.shared.openURL(url!)
+                // }
+                
+                
+            }))
+            ShareAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel , handler: { action in
+                
+                
+            }))
             
             self.present(ShareAlert, animated: true, completion: nil)
+            
         case 1:
             UIApplication.shared.openURL(
                 URL(string :"https://mdg.sdslabs.co/")!)
+            
         case 2:
             let  Alert = UIAlertController(title: "Disclaimer", message:
                 "This is a test app made by a student's group and we don't take any responsibility for any information present in the app." + "\n" + "However, we welcome any feedback.", preferredStyle: UIAlertControllerStyle.alert)
@@ -140,10 +151,10 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
                 
             }))
             
-            Alert.addAction(UIAlertAction(title: "Academic Calendar", style: .default , handler: { action in
-                UIApplication.shared.openURL(URL(string :"http://www.iitr.ac.in/academics/pages/Academic_Calender.html")!)
-                
-            }))
+//            Alert.addAction(UIAlertAction(title: "Academic Calendar", style: .default , handler: { action in
+//                UIApplication.shared.openURL(URL(string :"http://www.iitr.ac.in/academics/pages/Academic_Calender.html")!)
+//                
+//            }))
             Alert.addAction(UIAlertAction(title: "Telephone Directory", style: .default , handler: { action in
                 UIApplication.shared.openURL(URL(string :"http://www.iitr.ac.in/Main/pages/Telephone+Telephone_Directory.html")!)
                 
@@ -162,75 +173,9 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
         }
     }
     
-    func messageComposeViewController(_ didFinishWithcontroller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
-//        switch (result.rawValue) {
-//            
-//        case MessageComposeResultSent.rawValue:
-//            print("Mesaage was Sent")
-//            self.dismissViewControllerAnimated(true, completion: nil)
-//        case MessageComposeResultFailed.rawValue:
-//            print("Mesaage was Failed")
-//            self.dismissViewControllerAnimated(true, completion: nil)
-//        case MessageComposeResultCancelled.rawValue:
-//            print("Mesaage was Cancelled")
-//            self.dismissViewControllerAnimated(true, completion: nil)
-//        default:
-//            break
-//        }
+    //Message Controller Delegate
+    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        self.dismiss(animated: true, completion: nil)
     }
-    /*
-     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-     let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-     
-     // Configure the cell...
-     
-     return cell
-     }
-     */
-    
-    /*
-     // Override to support conditional editing of the table view.
-     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
-     return true
-     }
-     */
-    
-    /*
-     // Override to support editing the table view.
-     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-     if editingStyle == .Delete {
-     // Delete the row from the data source
-     tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-     } else if editingStyle == .Insert {
-     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-     }
-     }
-     */
-    
-    /*
-     // Override to support rearranging the table view.
-     override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-     
-     }
-     */
-    
-    /*
-     // Override to support conditional rearranging of the table view.
-     override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-     // Return false if you do not want the item to be re-orderable.
-     return true
-     }
-     */
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }

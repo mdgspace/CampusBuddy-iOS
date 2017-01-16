@@ -345,15 +345,19 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
                 
             }
             if (contact.email != ""){
-                if MFMailComposeViewController.canSendMail() {
-                    let mail = MFMailComposeViewController()
-                    mail.mailComposeDelegate = self
-                    mail.setToRecipients(["\(contact.email!)"])
-                    mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-                    UIApplication.topViewController()?.present(mail, animated: true, completion: nil)
-                } else {
-                    print("CANNOT SEND MAIL")
-                }
+                
+                UIApplication.shared.openURL(URL(string :"mailto:\(contact.email!)")!)
+
+            //    if MFMailComposeViewController.canSendMail() {
+                
+//                    let mail = MFMailComposeViewController()
+//                    mail.mailComposeDelegate = self
+//                    mail.setToRecipients(["\(contact.email!)"])
+//                    mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
+//                    UIApplication.topViewController()?.present(mail, animated: true, completion: nil)
+//                } else {
+//                    print("CANNOT SEND MAIL")
+//                }
             }else {
                 let  passwordAlert = UIAlertController(title: "No Email Found", message: "Sorry , Cannot Mail :(", preferredStyle: UIAlertControllerStyle.alert)
                 

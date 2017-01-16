@@ -460,6 +460,10 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
         }
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.isSelected = false
+        
         if (cells.count == 5)
         {
             if ( indexPath.row == 0)
@@ -549,15 +553,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             }
             if ( indexPath.row == 4)
             {
-                if MFMailComposeViewController.canSendMail() {
-                    let mail = MFMailComposeViewController()
-                    mail.mailComposeDelegate = self
-                    mail.setToRecipients([emaildata+"@iitr.ac.in"])
-                    mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-                    UIApplication.topViewController()?.present(mail, animated: true, completion: nil)
-                } else {
-                    print("CANNOT SEND MAIL")
-                }
+               UIApplication.shared.openURL(URL(string :"mailto:\(emaildata)@iitr.ac.in")!)
             }
             
             
@@ -656,16 +652,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             }
             if ( indexPath.row == 5)
             {
-                if MFMailComposeViewController.canSendMail() {
-                    let mail = MFMailComposeViewController()
-                    mail.mailComposeDelegate = self
-                    mail.setToRecipients([emaildata+"@iitr.ac.in"])
-                    mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-                    
-                    UIApplication.topViewController()?.present(mail, animated: true, completion: nil)
-                } else {
-                    print("CANNOT SEND MAIL")
-                }
+               UIApplication.shared.openURL(URL(string :"mailto:\(emaildata)@iitr.ac.in")!)
             }
         }
         if (cells.count == 7)
@@ -770,15 +757,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             }
             if ( indexPath.row == 6)
             {
-                if MFMailComposeViewController.canSendMail() {
-                    let mail = MFMailComposeViewController()
-                    mail.mailComposeDelegate = self
-                    mail.setToRecipients([emaildata+"@iitr.ac.in"])
-                    mail.setMessageBody("<p>You're so awesome!</p>", isHTML: true)
-                    UIApplication.topViewController()?.present(mail, animated: true, completion: nil)
-                } else {
-                    print("CANNOT SEND MAIL")
-                }
+              UIApplication.shared.openURL(URL(string :"mailto:\(emaildata)@iitr.ac.in")!)
             }
             
         }
