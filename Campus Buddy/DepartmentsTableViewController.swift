@@ -374,19 +374,21 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
     }
     
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        
         var contact : ProfContactCell
+        
         if (searchController.isActive && searchController.searchBar.text != ""){
             contact = filterProfessors[indexPath.row]
         }else{
-            contact = Professors[indexPath.row]
+            contact = Professors[profSections[indexPath.section].index + indexPath.row]
         }
         
         let call = UITableViewRowAction(style: .default, title: "Call") { action, index in
             let CallAlertView = UIAlertController( title: "Call", message: "Choose any number to call", preferredStyle: .actionSheet)
             
             self.LandlineorMobiledata =  contact.phoneBSNL!
-            
-            if ( self.LandlineorMobiledata != "" ){
+            if ( self.LandlineorMobiledata != "" )
+            {
                 if (String(self.LandlineorMobiledata[self.LandlineorMobiledata.startIndex]) == "9" ||  String(self.LandlineorMobiledata[self.LandlineorMobiledata.startIndex]) == "8") {
                     self.bsnlPhone = "Mobile: " + self.LandlineorMobiledata
                     self.bsnltocall = self.LandlineorMobiledata
@@ -428,11 +430,10 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
             self.present(CallAlertView, animated: true, completion: nil)
         }
         call.backgroundColor = ColorCode().appThemeColor
-
-        let message = UITableViewRowAction(style: .normal, title: "Message"){ action, index in
+        
+        let message = UITableViewRowAction(style: .normal, title: "Message") { action, index in
             let messageViewontroller = MFMessageComposeViewController()
             var recipents = [String]()
-            
             self.LandlineorMobiledata =  contact.phoneBSNL!
             if ( self.LandlineorMobiledata != "" )
             {
@@ -446,15 +447,6 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
                 } }
             
             
-            if (self.searchController.isActive && self.searchController.searchBar.text != "")
-            {
-                contact = self.filterProfessors[indexPath.row]
-            }
-            else
-            {
-                contact = self.Professors[indexPath.row]
-                
-            }
             let MessageAlertView = UIAlertController( title: "Send Message", message: "Choose any number to text", preferredStyle: .actionSheet)
             let number = self.resdoffstdcode + contact.office!
             
@@ -465,7 +457,6 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
                 self.messageProf(number: self.resdoffstdcode + contact.residence!)
                 
             })
-            
             let mobileaction = UIAlertAction(title: self.bsnlPhone, style: .default, handler: { (alert: UIAlertAction!) -> Void in
                 self.messageProf(number: self.bsnltocall)
             })

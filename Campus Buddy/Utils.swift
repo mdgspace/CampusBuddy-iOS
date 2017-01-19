@@ -29,6 +29,7 @@ class Utils {
     }
     
     
+    
     func checkNSUserDefault(_ key:String)->String{
         if(UserDefaults.standard.object(forKey: key) != nil){
             return (UserDefaults.standard.object(forKey: key) as! String)

@@ -46,20 +46,19 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
             cells.append((resdoffstdcode + residancemobiledata).removeWhitespace())
         }
         
-        if ( LandlineorMobiledata != "" )
-           {
-            if (String(LandlineorMobiledata[LandlineorMobiledata.startIndex]) == "9" ||  String(LandlineorMobiledata[LandlineorMobiledata.startIndex]) == "8") {
+        if ( LandlineorMobiledata != "" ){
+            if (LandlineorMobiledata.characters.count == 10) {
+                
                 bsnlPhone = "Mobile: " + LandlineorMobiledata
                 bsnltocall = LandlineorMobiledata
                 
             }
-            else
-            {
+            else{
                 bsnlPhone = "BSNL: " + std_code_bsnl + LandlineorMobiledata
                 bsnltocall = std_code_bsnl + LandlineorMobiledata
             }
             
-            cells.append((resdoffstdcode + LandlineorMobiledata).removeWhitespace())
+            cells.append((LandlineorMobiledata).removeWhitespace())
             
         }
         cells.append("Send Message")
@@ -134,7 +133,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"
@@ -224,7 +223,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"
@@ -246,7 +245,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"
@@ -338,7 +337,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"
@@ -360,7 +359,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"
@@ -383,7 +382,7 @@ class ContactInfoTableViewController: UITableViewController,CNContactViewControl
                     cell.textLabel?.text = "Office"
                 case (resdoffstdcode + residancemobiledata).removeWhitespace():
                     cell.textLabel?.text = "Residance"
-                case (resdoffstdcode + LandlineorMobiledata).removeWhitespace():
+                case (LandlineorMobiledata).removeWhitespace():
                     cell.textLabel?.text = "Phone"
                 default :
                     cell.textLabel?.text = "Office"

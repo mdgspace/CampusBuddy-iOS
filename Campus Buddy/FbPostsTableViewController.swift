@@ -22,8 +22,7 @@ class FbPostsTableViewController: UITableViewController{
         super.viewDidLoad()
         
         UserDefaults.standard.set(true, forKey: "selected")
-        debugPrint("DEfault Value Set :: \(UserDefaults.standard.value(forKey: "selected") as! Bool)")
-        
+
         self.tableView.estimatedRowHeight = 350.0
         ActivityIndicator.shared.showProgressView(uiView: self.view)
         AccessToken.current = accessToken
@@ -35,10 +34,6 @@ class FbPostsTableViewController: UITableViewController{
       
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
 
     // MARK: - Table view data source
 
@@ -74,11 +69,9 @@ class FbPostsTableViewController: UITableViewController{
             cell.postImageView.sd_setImage(with: fbPost.fullPictureUrl, placeholderImage: #imageLiteral(resourceName: "Rectangle"), options: .allowInvalidSSLCertificates) { (image, error, type, url) in
                 let height = image?.size.height
                 let width = image?.size.width
-                debugPrint("HHHH \(height)")
-                debugPrint("WWWW \(width)")
                     let aspectRatio = height!/width!
                     let newHeight = aspectRatio*(self.view.frame.size.width)
-                    cell.postImageView.frame.size = CGSize(width: self.view.frame.size.width, height: newHeight)
+                    cell.contentView.addConstraint(NSLayoutConstraint(item: cell.postImageView, attribute:.height, relatedBy: .equal, toItem: cell.postImageView, attribute: .height, multiplier: 1.0, constant: newHeight))
             }
         } else{
             cell.postImageView.image = nil
@@ -109,30 +102,11 @@ class FbPostsTableViewController: UITableViewController{
     func getSelectedPages()->[String]{
         
         var selectedPages = [String]()
-        let moc = getContext()
         
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "SelectedFacebookPagesCoreDataObject")
-        var sd1 = NSSortDescriptor(key: "pageId", ascending: true)
-        request.sortDescriptors = [sd1]
-        
-        do {
-            let pages = try moc.fetch(request)
-            
-            for page in pages{
-                let page = page as! SelectedFacebookPagesCoreDataObject
-                selectedPages.append((page.pageId)!)
-                print("Found page **** \((page.pageId)!) in Core Data")
-            }
-            
-        }catch let error as NSError  {
-            print("Could not get pages \(error), \(error.userInfo)")
-        }
-        //save the object
-        do {
-            try moc.save()
-            print("Saved!")
-        } catch let error as NSError  {
-            print("Could not save \(error), \(error.userInfo)")
+        let selects = PageCoreDataService.selectedPagesList.fetchedObjects
+        for selected in selects!{
+            let selected = selected as! FacebookPagesCoreDataObject
+            selectedPages.append(selected.pageId!)
         }
         
         return selectedPages

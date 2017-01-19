@@ -68,6 +68,7 @@
 		43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A985A31E2AB63300B64B50 /* MapViewController.swift */; };
 		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
 		43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */; };
+		43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E444921E31134D004FBE48 /* PageCoreDataService.swift */; };
 		43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED79D01E1FA93100E4FE5D /* Extensions.swift */; };
 		56F3CDF3E73E5FF460E438DE /* Pods_Campus_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677FEF90A8AE6CD3BA95DA9 /* Pods_Campus_Buddy.framework */; };
 		7B2E0E7D4493DD8A4BFD1F34 /* Pods_Campus_BuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0153D060F89A2D4FE5119E3E /* Pods_Campus_BuddyTests.framework */; };
@@ -159,6 +160,7 @@
 		43A985A31E2AB63300B64B50 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
 		43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		43E444921E31134D004FBE48 /* PageCoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCoreDataService.swift; sourceTree = "<group>"; };
 		43ED79D01E1FA93100E4FE5D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		707C6EC0B3251A10BE57957A /* Pods-Campus BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus BuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus BuddyUITests/Pods-Campus BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		95B69A8251AFED4D8BD7DDA6 /* Pods-Campus Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus Buddy/Pods-Campus Buddy.release.xcconfig"; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				437C4B821E214ECB006CACEC /* FacebookPage.swift */,
 				437C4B841E214FAC006CACEC /* FacebookResources.swift */,
 				433D13FD1E26BB4200744CD2 /* FbPost.swift */,
+				43E444921E31134D004FBE48 /* PageCoreDataService.swift */,
 			);
 			name = Facebook;
 			sourceTree = "<group>";
@@ -831,6 +834,7 @@
 				43090E2C1E1E7B300010FBF8 /* Utils.swift in Sources */,
 				4392FB701E2AEC1800E3D8BD /* RoundedButton.swift in Sources */,
 				43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */,
+				43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */,
 				437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */,
 				4392FB731E2AEC1800E3D8BD /* ShadowView.swift in Sources */,
 				43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */,

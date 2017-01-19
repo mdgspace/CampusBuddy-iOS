@@ -13,12 +13,15 @@ public class FacebookPage{
     var name: String?
     var pageId: String?
     var picUrl: String?
+    var iSelected: Bool?
     
-    init(name: String?,pageId:String?,picUrl:String?){
+    init(name: String?,pageId:String?,picUrl:String?,isSelected:Bool?){
         self.name = name
         self.pageId = pageId
         self.picUrl = picUrl
+        self.iSelected = isSelected
     }
+    
     init(_ name: String?,_ pageId:String?){
         self.name = name
         self.pageId = pageId

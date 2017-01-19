@@ -40,6 +40,10 @@ public struct FacebookResources{
     fbPageList.append("142847052545369")
     fbPageList.append("1534452020147921")
     fbPageList.append("837956583005626")
+    fbPageList.append("1620270901606509")
+    fbPageList.append("837956583005626")
+    fbPageList.append("1385673551661204")
+    fbPageList.append("700887566729461")
     return fbPageList
     }
    
