@@ -56,8 +56,6 @@ class FbPostsTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostTableViewCell", for: indexPath) as! PostTableViewCell
         
-        cell.postImageView.image = nil
-        
         let fbPost = fbPosts[indexPath.row]
         
         cell.groupNameLabel.text = fbPost.groupName
@@ -65,16 +63,25 @@ class FbPostsTableViewController: UITableViewController{
         cell.timeLabel.text = fbPost.createdRelativeTime
         cell.groupImageView.sd_setImage(with: URL(string:(fbPost.groupImage)!)!, placeholderImage: #imageLiteral(resourceName: "Rectangle"))
         
+     
         if fbPost.fullPictureUrl != nil {
             cell.postImageView.sd_setImage(with: fbPost.fullPictureUrl, placeholderImage: #imageLiteral(resourceName: "Rectangle"), options: .allowInvalidSSLCertificates) { (image, error, type, url) in
-                let height = image?.size.height
-                let width = image?.size.width
-                    let aspectRatio = height!/width!
-                    let newHeight = aspectRatio*(self.view.frame.size.width)
-                    cell.contentView.addConstraint(NSLayoutConstraint(item: cell.postImageView, attribute:.height, relatedBy: .equal, toItem: cell.postImageView, attribute: .height, multiplier: 1.0, constant: newHeight))
+                
+                let height = Int((image?.size.height)!)
+                let width = Int((image?.size.width)!)
+                    let aspectRatio = height/width
+                    let newHeight = Int(aspectRatio*(width))
+            
+                    cell.postImageView.frame.size = CGSize(width: width, height: height)
+                   // cell.addConstraintsWithFormat("|H:v0(\(newHeight))|", views: cell.postImageView)
+                
             }
+            cell.postImageView.translatesAutoresizingMaskIntoConstraints = false
+            
+            //  cell.postImageView.contentMode = .scaleAspectFit
+            cell.postImageView.layer.masksToBounds = true
         } else{
-            cell.postImageView.image = nil
+            cell.postImageView.frame = CGRect.zero
         }
         return cell
     }
@@ -90,7 +97,9 @@ class FbPostsTableViewController: UITableViewController{
     @IBAction func editButtonTapped(_ sender: Any) {
         
         UserDefaults.standard.set(false, forKey: "selected")
-       UIApplication.topViewController()?.present(UIStoryboard.pageSelectionScreen(), animated: true)
+        
+        self.navigationController?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+        
     }
   
     
@@ -123,7 +132,7 @@ class FbPostsTableViewController: UITableViewController{
             debugPrint("Entered")
             
             let graphPath = "/\(pageId)"
-            let parameters: [String : Any]? = ["fields": "posts{message,created_time,id,full_picture, link},name,picture"]
+            let parameters: [String : Any]? = ["fields": "posts.limit(5){message,created_time,id,full_picture, link},name,picture"]
             let httpMethod: GraphRequestHTTPMethod = .GET
             let apiVersion: GraphAPIVersion = .defaultVersion
             let request = GraphRequest(graphPath: graphPath, parameters: parameters!, accessToken:  AccessToken.current, httpMethod: httpMethod, apiVersion: apiVersion)

@@ -26,15 +26,28 @@ extension UIStoryboard {
     class func postDisplayScreen() -> UIViewController {
         return MainStoryboard().instantiateViewController(withIdentifier: "FbPostsTableViewController")
     }
-    class func demoNavigation() -> UINavigationController{
-        return MainStoryboard().instantiateViewController(withIdentifier: "DempNavigation") as! UINavigationController
-    }
     
     class func mapNavigation() -> UINavigationController{
         return MainStoryboard().instantiateViewController(withIdentifier: "MapsNavigationController") as! UINavigationController
     }
     
    
+    
+}
+
+extension UIView {
+    
+    func addConstraintsWithFormat(_ format: String, views: UIView...) {
+        
+        var viewsDictionary = [String: UIView]()
+        for (index, view) in views.enumerated() {
+            let key = "v\(index)"
+            viewsDictionary[key] = view
+            view.translatesAutoresizingMaskIntoConstraints = false
+        }
+        
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
+    }
     
 }
 

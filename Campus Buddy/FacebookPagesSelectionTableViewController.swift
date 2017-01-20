@@ -38,18 +38,16 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
         presentPages()
 
         
-        if (UserDefaults.standard.value(forKey: "selected") != nil){
-            if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-                cancelButton = nil
-            }else{
-                
-            }
-        }
+//        if (UserDefaults.standard.value(forKey: "selected") != nil){
+//            if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+//                self.navigationController?.navigationBar
+//            }else{
+//                self.navigationController?.navigationBar.addSubview(cancelButton)
+//            }
+//        }
 
         selectedPagesView.delegate = self
         selectedPagesView.dataSource = self
-        
-        doneButton.isEnabled = false
  
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -118,10 +116,14 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             self.tableView.tableHeaderView = selectedPagesView
         }else{
             updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: false)
+            FIRMessaging.messaging().unsubscribe(fromTopic: "/topics/ios_\(selectedPage.pageId!)")
         }
         
         if selectedPages?.sections == nil{
             print("NONE Selected")
+        }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
+            doneButton.isEnabled = false
+            self.tableView.tableHeaderView = nil
         }else{
             self.selectedPagesView.reloadData()
             doneButton.isEnabled = true
@@ -133,9 +135,6 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
         tableView.reloadRows(at: [indexPath], with: .none)
     }
     
-    @IBAction func cancelButtonPressed(_ sender: Any) {
-    self.dismiss(animated: true, completion: nil)
-    }
     
     @IBAction func doneButtonPressed(_ sender: Any) {
         
@@ -145,10 +144,8 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             let selected = selected as! FacebookPagesCoreDataObject
             FIRMessaging.messaging().subscribe(toTopic: "/topics/ios_\((selected.pageId)!)")
         }
-        
-        let nav = UIStoryboard.postDisplayScreen()
-        self.navigationController?.show(nav, sender: self)
-        
+
+        self.show(UIStoryboard.postDisplayScreen(), sender: self)
         
     }
     
