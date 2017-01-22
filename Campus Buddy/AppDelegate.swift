@@ -64,30 +64,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
                                                object: nil)
         
         
-        if (UserDefaults.standard.value(forKey: "selected") != nil){
-            if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-                let home = UIStoryboard.home()
-                self.window?.rootViewController = home
-                let first = home.viewControllers?.first
-                first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
-                
-                
+        if (UserDefaults.standard.value(forKey: "login") != nil){
+            if ((UserDefaults.standard.value(forKey: "login") as! Bool) == false){
+                let tutorialController = MainViewController()
+                self.window?.rootViewController = tutorialController
             }else{
-                debugPrint("BBBB AHAA Entered Here")
-                let home = UIStoryboard.home()
-                self.window?.rootViewController = home
-                let first = home.viewControllers?.first
-                first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                if (UserDefaults.standard.value(forKey: "selected") != nil){
+                    if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+                        let home = UIStoryboard.home()
+                        self.window?.rootViewController = home
+                        let first = home.viewControllers?.first
+                        first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                        
+                    }else{
+                        debugPrint("BBBB AHAA Entered Here")
+                        let home = UIStoryboard.home()
+                        self.window?.rootViewController = home
+                        let first = home.viewControllers?.first
+                        first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                    }
+                } else{
+                    debugPrint("CCCC AHAA Entered Here")
+                    let home = UIStoryboard.home()
+                    self.window?.rootViewController = home
+                    let first = home.viewControllers?.first
+                    first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                    
+                }
             }
-        } else{
-            debugPrint("CCCC AHAA Entered Here")
-            let home = UIStoryboard.home()
-            self.window?.rootViewController = home
-            let first = home.viewControllers?.first
-            first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
-            
         }
-   
         // Override point for customization after application launch.
         return true
     }

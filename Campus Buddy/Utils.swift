@@ -27,6 +27,18 @@ class Utils {
         myActivityIndicator.stopAnimating()
         myActivityIndicator.removeFromSuperview()
     }
+    func alertViewWithButton(_ vc: UIViewController, title: String, message: String,buttonText: String,action:((UIAlertAction) -> Swift.Void)? = nil)
+    {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: buttonText, style: .default, handler: action))
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))
+        vc.present(alert, animated: true, completion: nil)
+        let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+        
+        myActivityIndicator.stopAnimating()
+        myActivityIndicator.removeFromSuperview()
+    }
+    
     
     
     

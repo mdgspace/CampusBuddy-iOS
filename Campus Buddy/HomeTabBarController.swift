@@ -14,6 +14,7 @@ class HomeTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserDefaults.standard.set(true, forKey: "login")
        
         // Do any additional setup after loading the view.
     }

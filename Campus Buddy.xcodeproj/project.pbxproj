@@ -31,12 +31,16 @@
 		43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */; };
 		43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */ = {isa = PBXBuildFile; fileRef = 43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */; };
 		43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */; };
+		431B22C11E342EA3003280D0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B22C01E342EA3003280D0 /* Toast.swift */; };
 		431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
 		431EFF941E29A2B70065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
 		431EFF951E29A2B80065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
 		43277E3A1E2AB7C000863831 /* IITRLocationsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 43277E391E2AB7C000863831 /* IITRLocationsInfo.json */; };
 		43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43277E3C1E2AC9BF00863831 /* IITRLocation.swift */; };
 		43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */; };
+		4333E2F91E343A0600DF4708 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333E2F81E343A0600DF4708 /* MainViewController.swift */; };
+		4333E2FB1E343A3000DF4708 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333E2FA1E343A3000DF4708 /* PageCell.swift */; };
+		4333E2FD1E343A4400DF4708 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333E2FC1E343A4400DF4708 /* Page.swift */; };
 		433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */; };
 		433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */; };
 		433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13FD1E26BB4200744CD2 /* FbPost.swift */; };
@@ -124,11 +128,15 @@
 		43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfContactTableViewCell.swift; sourceTree = "<group>"; };
 		43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfessorContactatIItR.json; sourceTree = "<group>"; };
 		43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		431B22C01E342EA3003280D0 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		431EFF921E2994590065B850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		431EFF961E29A3E20065B850 /* Campus Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Campus Buddy.entitlements"; sourceTree = "<group>"; };
 		43277E391E2AB7C000863831 /* IITRLocationsInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IITRLocationsInfo.json; sourceTree = "<group>"; };
 		43277E3C1E2AC9BF00863831 /* IITRLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IITRLocation.swift; sourceTree = "<group>"; };
 		43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4333E2F81E343A0600DF4708 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4333E2FA1E343A3000DF4708 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		4333E2FC1E343A4400DF4708 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPostsTableViewController.swift; sourceTree = "<group>"; };
 		433D13FD1E26BB4200744CD2 /* FbPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPost.swift; sourceTree = "<group>"; };
@@ -298,6 +306,7 @@
 		43090E231E1E7AAD0010FBF8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4333E3051E343E3800DF4708 /* PageViewController */,
 				43AB113D1E21B27800A780CD /* CollectionViewCells */,
 				43ED79CC1E1F97A400E4FE5D /* TableViewCells */,
 				43090E331E1E7E080010FBF8 /* Tabs */,
@@ -323,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				43ED79D01E1FA93100E4FE5D /* Extensions.swift */,
+				431B22C01E342EA3003280D0 /* Toast.swift */,
 				43090E301E1E7B870010FBF8 /* ColorCode */,
 				43090E2D1E1E7B330010FBF8 /* ActivityIndicator */,
 				43090E281E1E7B300010FBF8 /* DeviceSizes.swift */,
@@ -385,6 +395,16 @@
 				43277E3C1E2AC9BF00863831 /* IITRLocation.swift */,
 			);
 			name = Locations;
+			sourceTree = "<group>";
+		};
+		4333E3051E343E3800DF4708 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4333E2FA1E343A3000DF4708 /* PageCell.swift */,
+				4333E2FC1E343A4400DF4708 /* Page.swift */,
+				4333E2F81E343A0600DF4708 /* MainViewController.swift */,
+			);
+			name = PageViewController;
 			sourceTree = "<group>";
 		};
 		43363BF11E2930B8006DEB11 /* TabBarController */ = {
@@ -843,14 +863,17 @@
 				43090E2A1E1E7B300010FBF8 /* ActivityIndicator.swift in Sources */,
 				4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */,
 				43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */,
+				4333E2FD1E343A4400DF4708 /* Page.swift in Sources */,
 				4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */,
 				43832B0B1E2D15C100BF617D /* Network.swift in Sources */,
 				4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */,
 				43090E2B1E1E7B300010FBF8 /* DeviceSizes.swift in Sources */,
 				4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */,
 				43090E451E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift in Sources */,
+				431B22C11E342EA3003280D0 /* Toast.swift in Sources */,
 				4392FB771E2AEDC400E3D8BD /* CGRect+Extensions.swift in Sources */,
 				4392FB651E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift in Sources */,
+				4333E2FB1E343A3000DF4708 /* PageCell.swift in Sources */,
 				43090E421E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift in Sources */,
 				4392FB711E2AEC1800E3D8BD /* SDKDemoAPIKey.swift in Sources */,
 				43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */,
@@ -867,6 +890,7 @@
 				4392FB781E2AEDC400E3D8BD /* NotificationObserver.swift in Sources */,
 				43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */,
 				43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */,
+				4333E2F91E343A0600DF4708 /* MainViewController.swift in Sources */,
 				43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */,
 				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
 				43832B091E2D13A500BF617D /* Reachability.swift in Sources */,

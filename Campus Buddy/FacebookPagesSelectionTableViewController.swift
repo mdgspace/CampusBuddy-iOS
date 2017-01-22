@@ -14,8 +14,6 @@ import FirebaseMessaging
 
 class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreDataServiceDelegate{
     
-    @IBOutlet weak var cancelButton: UIBarButtonItem!
-    
     @IBOutlet weak var selectedPagesView: UICollectionView!
     
     @IBOutlet weak var doneButton: UIBarButtonItem!
@@ -27,39 +25,27 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.title = "Subscribe a Page"
+        
+        self.navigationItem.hidesBackButton = true
+        
         AccessToken.current = accessToken
 
         self.tableView.tableFooterView?.frame = CGRect.zero
         
-        getListOfPages()
-        
         ActivityIndicator.shared.showProgressView(uiView: self.view)
         
-        presentPages()
-
-        
-//        if (UserDefaults.standard.value(forKey: "selected") != nil){
-//            if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-//                self.navigationController?.navigationBar
-//            }else{
-//                self.navigationController?.navigationBar.addSubview(cancelButton)
-//            }
-//        }
+        getListOfPages()
 
         selectedPagesView.delegate = self
         selectedPagesView.dataSource = self
- 
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        pageList = PageCoreDataService.pagesList
-        presentPages()
-
+        self.navigationItem.hidesBackButton = true
+        getListOfPages()
     }
 
-    
-
-    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -73,13 +59,17 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             self.tableView.tableFooterView?.frame = CGRect.zero
             print("Unable to get the list")
             return 0
+        }else if((pageList?.sections![section].numberOfObjects)! == 0){
+            Utils().delay(2.0, closure: { 
+                self.tableView.reloadData()
+            })
+            return 0
         }else{
             print("able to get the list with \((pageList?.sections![section].numberOfObjects)!)")
             ActivityIndicator.shared.hideProgressView()
             
             return (pageList?.sections![section].numberOfObjects)!
         }
-        
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
@@ -145,7 +135,8 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             FIRMessaging.messaging().subscribe(toTopic: "/topics/ios_\((selected.pageId)!)")
         }
 
-        self.show(UIStoryboard.postDisplayScreen(), sender: self)
+        UIApplication.topViewController()?.show(UIStoryboard.postDisplayScreen(), sender: self)
+        
         
     }
     
@@ -168,18 +159,18 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
                         for page in pages{
                         let page = page as! FacebookPagesCoreDataObject
                         page.isSelected = isSelected
-                        
-                            do {
-                                try moc.save()
-                                print("update Success!")
-                            } catch let error as NSError  {
-                                print("Could not save \(error), \(error.userInfo)")
-                            }
                         }
                         
                     }else{
                         debugPrint("No Page in Core Data")
                     }
+            
+            do {
+                try moc.save()
+                print("update Success!")
+            } catch let error as NSError  {
+                print("Could not save \(error), \(error.userInfo)")
+            }
         }catch let error as NSError  {
             print("Could not execute fetch Request \(error), \(error.userInfo)")
         }
@@ -189,6 +180,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
 func getListOfPages(){
     
     if Reachability.isConnectedToNetwork(){
+        
     let pageList = FacebookResources().getPageIDList()
     let connection = GraphRequestConnection()
     
@@ -219,6 +211,7 @@ func getListOfPages(){
                 })
     }
     connection.start()
+        
     }else{
         Utils().alertView(self, title: "You are not connected to Internet", message: "Please try Again")
     }
@@ -237,13 +230,13 @@ func getListOfPages(){
         self.selectedPagesView.reloadData()
         doneButton.isEnabled = true
     }
- 
+        presentPages()
 }
 
 func presentPages(){
         self.tableView.reloadData()
-        self.navigationItem.title = "Subscribe a Page"
-        
+    
+    
     }
 func PagesCoreDataContentChanged() {
         ActivityIndicator.shared.showProgressView(uiView: self.view)
@@ -311,7 +304,7 @@ extension FacebookPagesSelectionTableViewController : UICollectionViewDelegateFl
         
         let currentSelectedPage = selectedPages?.object(at: indexPath) as! FacebookPagesCoreDataObject
         
-        cell.pageImageView.sd_setImage(with: URL(string:currentSelectedPage.pic_url!)!, placeholderImage: #imageLiteral(resourceName: "person"))
+        cell.pageImageView.sd_setImage(with: URL(string:currentSelectedPage.pic_url!)!, placeholderImage: #imageLiteral(resourceName: "Rectangle"))
         
         cell.pageImageView.layer.cornerRadius = cell.pageImageView.frame.width*0.5
         cell.pageImageView.clipsToBounds = true

@@ -25,6 +25,11 @@ open class ColorCode{
     
     var imagesBackgroundColor: UIColor = UIColor(rgb: 0xe6e7e8)
     
+    var redColor: UIColor = UIColor(red: 255.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1)
+    
+    var toastGreenColor: UIColor = UIColor(rgb: 0x0C743B)
+    
+    var toastGrayColor: UIColor = UIColor(rgb: 0xAAAAAA)
     
     
     //var blueColorTheme: UIColor = UIColor(rgb: 0x313466)

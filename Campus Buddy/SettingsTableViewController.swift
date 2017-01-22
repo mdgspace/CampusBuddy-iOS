@@ -168,7 +168,9 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
             
             self.present(Alert, animated: true, completion: nil)
         case 3:
-            UIApplication.shared.openURL(URL(string :"https://mdg.sdslabs.co/")!)
+            UserDefaults.standard.set(true, forKey: "tutorial")
+            let tutorialController = MainViewController()
+            UIApplication.topViewController()?.present(tutorialController, animated: true, completion:nil)
         default:
             UIApplication.shared.openURL(URL(string :"https://mdg.sdslabs.co/")!)
         }

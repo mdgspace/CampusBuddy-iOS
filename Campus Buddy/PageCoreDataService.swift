@@ -141,20 +141,40 @@ public class PageCoreDataService: NSObject,NSFetchedResultsControllerDelegate{
             
             if (results.count == 0){
                 
-                 let transc = NSManagedObject(entity: entity!, insertInto: moc)
-                    //set the entity values
-                    transc.setValue(page.pageId!, forKey: "pageId")
-                    transc.setValue(page.name!, forKey: "name")
-                    transc.setValue(page.picUrl!, forKey: "pic_url")
+                let transc = NSManagedObject(entity: entity!, insertInto: moc)
+                //set the entity values
+                transc.setValue(page.pageId!, forKey: "pageId")
+                transc.setValue(page.name!, forKey: "name")
+                transc.setValue(page.picUrl!, forKey: "pic_url")
                 
-                do {
-                    try moc.save()
+            }else if (results.count == 1){
+                
+                let result = results[0] as! FacebookPagesCoreDataObject
+                
+                if(result.name != page.name){
+                   result.name = page.name
+                }
+                if(result.pic_url != page.picUrl){
+                    result.pic_url = page.picUrl
+                }
+            }else if (results.count > 1){
+                
+                for result in results{
+                    moc.delete(result as! NSManagedObject)
+                }
+                let transc = NSManagedObject(entity: entity!, insertInto: moc)
+                //set the entity values
+                transc.setValue(page.pageId!, forKey: "pageId")
+                transc.setValue(page.name!, forKey: "name")
+                transc.setValue(page.picUrl!, forKey: "pic_url")
+            }
+            do {
+                try moc.save()
                     print("Saved!")
                 } catch let error as NSError  {
                     print("Could not save \(error), \(error.userInfo)")
                 }
-            }
-        } catch _ {
+            } catch _ {
             //catch fetch error here
         }
     }
