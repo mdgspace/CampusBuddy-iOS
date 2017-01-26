@@ -52,7 +52,10 @@ class SplitPaneViewController: BaseContainerViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
+    self.navigationController?.navigationBar.layer.backgroundColor =  ColorCode().appThemeColor.cgColor
+    self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    self.navigationItem.backBarButtonItem?.tintColor = UIColor.white
     updatePreferredContentSize()
 
     // Configure the shadow view at the bottom of the view hierarchy.

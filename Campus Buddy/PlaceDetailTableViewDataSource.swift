@@ -19,17 +19,14 @@ import GooglePlaces
 enum PlaceProperty: Int {
   case placeID
   case coordinate
-  case openNowStatus
   case phoneNumber
   case website
   case formattedAddress
   case rating
-  case priceLevel
   case types
-  case attribution
 
   static func numberOfProperties() -> Int {
-    return 10
+    return 7
   }
 }
 
@@ -41,8 +38,7 @@ class PlaceDetailTableViewDataSource: NSObject, UITableViewDataSource, UITableVi
   private let place: GMSPlace
   private let blueCellIdentifier = "BlueCellIdentifier"
   private let extensionConstraint: NSLayoutConstraint
-  private let noneText = NSLocalizedString("PlaceDetails.MissingValue",
-                                           comment: "The value of a property which is missing")
+  private let noneText = "No Info Found"
   private let tableView: UITableView
   // Additional margin padding to use during layout. This is 0 for iOS versions 8.0 and above, while
   // on iOS 7 this needs to be hardcoded to 8 to ensure the correct layout.
@@ -132,30 +128,30 @@ class PlaceDetailTableViewDataSource: NSObject, UITableViewDataSource, UITableVi
     let cell = untyped as! PlaceAttributeCell
 
     // Disable selection.
-    cell.selectionStyle = .none
+    cell.selectionStyle = .gray
 
     // Set the relevant values.
     if let propertyType = PlaceProperty(rawValue: indexPath.item - 1) {
-      cell.propertyName.text = propertyType.localizedDescription()
       cell.propertyIcon.image = propertyType.icon()
 
       switch propertyType {
       case .placeID:
+        cell.propertyName.text = "Place ID"
         cell.propertyValue.text = place.placeID
       case .coordinate:
-        let format = NSLocalizedString("Places.Property.Coordinate.Format",
-                                       comment: "The format string for latitude, longitude")
-        cell.propertyValue.text = String(format: format, place.coordinate.latitude,
-                                         place.coordinate.longitude)
-      case .openNowStatus:
-        cell.propertyValue.text = text(for: place.openNowStatus)
+        cell.propertyName.text = "Get Directions"
+        cell.propertyValue.text = "\(place.coordinate.latitude) | \(place.coordinate.longitude)"
       case .phoneNumber:
+        cell.propertyName.text = "Phone Number"
         cell.propertyValue.text = place.phoneNumber ?? noneText
       case .website:
+        cell.propertyName.text = "Website"
         cell.propertyValue.text = place.website?.absoluteString ?? noneText
       case .formattedAddress:
+        cell.propertyName.text = "Address"
         cell.propertyValue.text = place.formattedAddress ?? noneText
       case .rating:
+        cell.propertyName.text = "Ratings"
         let rating = place.rating
         // As specified in the documentation for |GMSPlace|, a rating of 0.0 signifies that there
         // have not yet been any ratings for this location.
@@ -164,23 +160,44 @@ class PlaceDetailTableViewDataSource: NSObject, UITableViewDataSource, UITableVi
         } else {
           cell.propertyValue.text = noneText
         }
-      case .priceLevel:
-        cell.propertyValue.text = text(for: place.priceLevel)
       case .types:
+        cell.propertyName.text = "Type"
         cell.propertyValue.text = place.types.joined(separator: ", ")
-      case .attribution:
-        if let attributions = place.attributions {
-          cell.propertyValue.attributedText = attributions
-        } else {
-          cell.propertyValue.text = noneText
-        }
-      }
+    }
     } else {
-      fatalError("Unexpected row index")
+      print("ERRORRR ")
     }
 
     return cell
   }
+    
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let cell = self.tableView.cellForRow(at: indexPath) as! PlaceAttributeCell
+    
+    cell.isSelected = false
+    
+    if let propertyType = PlaceProperty(rawValue: indexPath.item - 1) {
+        switch propertyType {
+        case .coordinate:
+            
+           UIApplication.shared.openURL(URL(string: "comgooglemaps://?q=\(place.name.removeWhitespace())&center=\(Double(place.coordinate.latitude)),\(Double(place.coordinate.longitude))")!)
+            
+        case .phoneNumber:
+            if let number = place.phoneNumber {
+                
+                UIApplication.shared.openURL(
+                    URL(string: "tel://" + number.removeWhitespace())!)
+            }
+        case .website:
+            if let website = place.website?.absoluteString {
+                UIApplication.shared.openURL(URL(string: "\(website.removeWhitespace())")!)
+            }
+        default:
+            break
+        }
+    
+    }
+    }
 
   func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
     return place.name
@@ -291,9 +308,6 @@ extension PlaceProperty {
     case .coordinate:
       return NSLocalizedString("Places.Property.Coordinate",
                                comment: "Name for the Coordinate property")
-    case .openNowStatus:
-      return NSLocalizedString("Places.Property.OpenNowStatus",
-                               comment: "Name for the Open now status property")
     case .phoneNumber:
       return NSLocalizedString("Places.Property.PhoneNumber",
                                comment: "Name for the Phone number property")
@@ -306,15 +320,9 @@ extension PlaceProperty {
     case .rating:
       return NSLocalizedString("Places.Property.Rating",
                                comment: "Name for the Rating property")
-    case .priceLevel:
-      return NSLocalizedString("Places.Property.PriceLevel",
-                               comment: "Name for the Price level property")
     case .types:
       return NSLocalizedString("Places.Property.Types",
                                comment: "Name for the Types property")
-    case .attribution:
-      return NSLocalizedString("Places.Property.Attributions",
-                               comment: "Name for the Attributions property")
     }
   }
 
@@ -324,8 +332,6 @@ extension PlaceProperty {
       return UIImage(named: "place_id")
     case .coordinate:
       return UIImage(named: "coordinate")
-    case .openNowStatus:
-      return UIImage(named: "open_now")
     case .phoneNumber:
       return UIImage(named: "phone_number")
     case .website:
@@ -334,12 +340,8 @@ extension PlaceProperty {
       return UIImage(named: "address")
     case .rating:
       return UIImage(named: "rating")
-    case .priceLevel:
-      return UIImage(named: "price_level")
     case .types:
       return UIImage(named: "types")
-    case .attribution:
-      return UIImage(named: "attribution")
     }
   }
 }

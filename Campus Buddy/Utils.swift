@@ -16,7 +16,7 @@ class Utils {
         return CharacterSet.whitespaces
     }
     
-    
+
     func alertView(_ vc: UIViewController, title: String, message: String)
     {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)

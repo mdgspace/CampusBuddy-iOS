@@ -44,7 +44,7 @@ class PlaceDetailViewController: BaseContainerViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
     // Configure the table
     tableDataSource =
       PlaceDetailTableViewDataSource(place: place,
@@ -53,6 +53,11 @@ class PlaceDetailViewController: BaseContainerViewController {
     tableView.backgroundView = tableBackgroundView
     tableView.dataSource = tableDataSource
     tableView.delegate = tableDataSource
+    
+    self.navigationController?.navigationBar.layer.backgroundColor =  ColorCode().appThemeColor.cgColor
+    self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    
+    self.navigationItem.backBarButtonItem?.tintColor = UIColor.white
 
     // Configure the UI elements
     lookupPhoto()
@@ -168,4 +173,11 @@ class PlaceDetailViewController: BaseContainerViewController {
     tableDataSource.compactHeader = traitCollection.verticalSizeClass == .compact
   }
 
+  @IBAction func backButtonTapped() {
+    self.dismiss(animated: true, completion: nil)
+  }
+    
+   override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }

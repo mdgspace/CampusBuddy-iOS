@@ -14,7 +14,10 @@ class HomeTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         UserDefaults.standard.set(true, forKey: "login")
+        
+
        
         // Do any additional setup after loading the view.
     }
@@ -25,43 +28,7 @@ class HomeTabBarController: UITabBarController {
     }
     
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem){
-        switch item.tag{
-        case 3:
-            debugPrint("tapped")
-            let config = GMSPlacePickerConfig(viewport: nil)
-            let placePicker = GMSPlacePicker(config: config)
-            // Present it fullscreen.
-            placePicker.pickPlace { (place, error) in
-                
-                // Handle the selection if it was successful.
-                if let place = place {
-                    // Create the next view controller we are going to display and present it.
-                    //  self.mapViewController?.coordinate = place.coordinate
-                    let nextScreen = PlaceDetailViewController(place: place)
-                   // let controller = tabBar.viewWithTag(item.tag) as! UINavigationController
-//                    let home = UIStoryboard.home()
-//                    let third = home.viewControllers?[2]
-//                    //controller.show(nextScreen, sender: self)
-//                    third?.show(nextScreen, sender: self)
-                    UIApplication.topViewController()?.show(nextScreen, sender: self)
-                    
-                    //  push(viewController: nextScreen, animated: false)
-                    
-                } else if error != nil {
-                    // In your own app you should handle this better, but for the demo we are just going to log
-                    // a message.
-                    NSLog("An error occurred while picking a place: \(error)")
-                } else {
-                    NSLog("Looks like the place picker was canceled by the user")
-                }
-                
-                // Release the reference to the place picker, we don't need it anymore and it can be freed.
-                //   self.placePicker = nil
-            }
-        default:
-            break
-        }
-    
+        
     }
     
 

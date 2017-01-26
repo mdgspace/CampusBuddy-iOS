@@ -11,7 +11,7 @@ import UIKit
 
 open class ColorCode{
     
-    var appThemeColor: UIColor = UIColor(rgb: 0x5C3BB5)
+    var appThemeColor: UIColor = UIColor(rgb: 0x462D8A)
     var appThemeLightColor: UIColor = UIColor(red: 0.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)  
     var linksBlueColor: UIColor = UIColor(red: 29/255.0, green: 158/255.0, blue: 255/255.0, alpha: 1)
     var grayColor:UIColor = UIColor(red: 247/255.0, green: 247/255.0, blue: 249/255.0, alpha: 1)

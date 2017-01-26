@@ -14,43 +14,55 @@
  */
 
 import UIKit
+import GoogleMaps
 import GooglePlacePicker
 
 /// A view controller which displays a UI for opening the Place Picker. Once a place is selected
 /// it navigates to the place details screen for the selected location.
-class PickAPlaceViewController: UIViewController {
+class PickAPlaceViewController: UIViewController,GMSMapViewDelegate,GMSPanoramaViewDelegate{
   private var placePicker: GMSPlacePicker?
-  @IBOutlet private weak var pickAPlaceButton: UIButton!
-  @IBOutlet weak var buildNumberLabel: UILabel!
   var mapViewController: BackgroundMapViewController?
-
-  init() {
-    super.init(nibName: String(describing: type(of: self)), bundle: nil)
-  }
-
-  required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-  }
 
   override func viewDidLoad() {
     super.viewDidLoad()
+        setupView()
+     }
+    func setupView(){
+        let camera = GMSCameraPosition.camera(withLatitude: 29.865088, longitude: 77.896547, zoom: 12)
+        let mapView = GMSMapView.map(withFrame: .zero, camera: camera)
+        mapView.isMyLocationEnabled = false
+        mapView.delegate = self
+        
+        let position = CLLocationCoordinate2D(latitude: 29.865088, longitude: 77.896547)
+        let marker = GMSMarker(position: position)
+        
+        
+        // Add the marker to a GMSMapView object named mapView
+        marker.map = mapView
+        marker.appearAnimation = kGMSMarkerAnimationPop
+        marker.isDraggable = true
+        marker.tracksInfoWindowChanges = true
+        marker.title = "IIT Roorkee"
+        marker.tracksViewChanges = true
+        marker.snippet = "Tap to Explore"
+        mapView.selectedMarker = marker
+        
+        //self.view = panoView
+        self.view = mapView
 
-    // This is the size we would prefer to be.
-    self.preferredContentSize = CGSize(width: 330, height: 600)
-
-    // Configure our view.
-    view.backgroundColor = Colors.blue1
-    view.clipsToBounds = true
-
-    // Set the build number.
-    buildNumberLabel.text = "Places API Build: \(GMSPlacesClient.sdkVersion())"
-  }
-
-  @IBAction func buttonTapped() {
+    }
+ func buttonTapped() {
     // Create a place picker.
-    let config = GMSPlacePickerConfig(viewport: nil)
+    
+    let center = CLLocationCoordinate2DMake(29.865088, 77.896547)
+    let northEast = CLLocationCoordinate2DMake(center.latitude + 0.001, center.longitude + 0.001)
+    let southWest = CLLocationCoordinate2DMake(center.latitude - 0.001, center.longitude - 0.001)
+    let viewport = GMSCoordinateBounds(coordinate: northEast, coordinate: southWest)
+    
+    let config = GMSPlacePickerConfig(viewport: viewport)
+    
     let placePicker = GMSPlacePicker(config: config)
-
+    
     // Present it fullscreen.
     placePicker.pickPlace { (place, error) in
 
@@ -58,7 +70,8 @@ class PickAPlaceViewController: UIViewController {
       if let place = place {
         // Create the next view controller we are going to display and present it.
         let nextScreen = PlaceDetailViewController(place: place)
-        self.splitPaneViewController?.push(viewController: nextScreen, animated: false)
+        self.show(nextScreen, sender: self)
+        //self.splitPaneViewController?.push(viewController: nextScreen, animated: false)
         self.mapViewController?.coordinate = place.coordinate
       } else if error != nil {
         // In your own app you should handle this better, but for the demo we are just going to log
@@ -80,4 +93,51 @@ class PickAPlaceViewController: UIViewController {
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }
+
+   func mapView(_ mapView: GMSMapView, didTapAt coordinate: CLLocationCoordinate2D) {
+        print("You tapped at \(coordinate.latitude), \(coordinate.longitude)")
+    }
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+        
+        let  Alert = UIAlertController(title: "Explore IIT R", message:
+            "We have two options", preferredStyle: UIAlertControllerStyle.alert)
+        
+        
+        Alert.addAction(UIAlertAction(title: "3D IITR", style: .default , handler: { action in
+            
+            let panoView = GMSPanoramaView(frame: self.view.frame)
+            panoView.delegate = self
+            panoView.moveNearCoordinate(CLLocationCoordinate2DMake(29.865088, 77.896547))
+            let position = CLLocationCoordinate2D(latitude: 29.865088, longitude: 77.896547)
+            let marker = GMSMarker(position: position)
+        
+            // Add the marker to a GMSMapView object named mapView
+            marker.panoramaView = panoView
+            marker.appearAnimation = kGMSMarkerAnimationPop
+            marker.isDraggable = true
+            marker.tracksInfoWindowChanges = true
+            marker.title = "IIT Roorkee"
+            marker.tracksViewChanges = true
+            marker.snippet = "Tap to Explore"
+            panoView.moveNearCoordinate(CLLocationCoordinate2DMake(29.865088, 77.896547), radius: UInt.init(bitPattern: 1000))
+            panoView.streetNamesHidden = false
+            panoView.setAllGesturesEnabled(true)
+            self.view = panoView
+            
+        }))
+        Alert.addAction(UIAlertAction(title: "Pick A Place in IIT R", style: .default, handler: { (action) in
+            self.buttonTapped()
+        }))
+        
+        Alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+     self.present(Alert, animated: true, completion: nil)
+        
+    }
+
+    func panoramaView(_ panoramaView: GMSPanoramaView, didTap marker: GMSMarker) -> Bool {
+        self.setupView()
+        return true
+    }
+    
+
 }

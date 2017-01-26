@@ -176,6 +176,10 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
         }
     }
     
+
+    @IBAction func dismiss(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     //Message Controller Delegate
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         self.dismiss(animated: true, completion: nil)

@@ -50,25 +50,36 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
+        
     }
     
-
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "SELECT FACEBOOK PAGES"
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        if pageList?.sections == nil{
-            self.tableView.tableFooterView?.frame = CGRect.zero
-            print("Unable to get the list")
+        switch section {
+        case 1:
+         return 1
+        case 0:
+            if pageList?.sections == nil{
+                self.tableView.tableFooterView?.frame = CGRect.zero
+                print("Unable to get the list")
+                return 0
+            }else if((pageList?.sections![section].numberOfObjects)! == 0){
+                Utils().delay(2.0, closure: {
+                    self.tableView.reloadData()
+                })
+                return 0
+            }else{
+                print("able to get the list with \((pageList?.sections![section].numberOfObjects)!)")
+                ActivityIndicator.shared.hideProgressView()
+                
+                return (pageList?.sections![section].numberOfObjects)!
+            }
+
+        default:
             return 0
-        }else if((pageList?.sections![section].numberOfObjects)! == 0){
-            Utils().delay(2.0, closure: { 
-                self.tableView.reloadData()
-            })
-            return 0
-        }else{
-            print("able to get the list with \((pageList?.sections![section].numberOfObjects)!)")
-            ActivityIndicator.shared.hideProgressView()
-            
-            return (pageList?.sections![section].numberOfObjects)!
         }
     }
     
@@ -77,52 +88,74 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
     }
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PageSelectionCell", for: indexPath) as! SelectFBPageTableViewCell
-        let currentPage = pageList?.object(at: indexPath) as! FacebookPagesCoreDataObject
-        print("NAME *** \(currentPage.name)")
-        cell.pageName?.text = currentPage.name
-        cell.pageImageView.sd_setImage(with: URL(string:currentPage.pic_url!))
-        cell.pageImageView.layer.cornerRadius = cell.pageImageView.frame.width*0.5
-        
-        if (currentPage.isSelected){
-            cell.accessoryType = .checkmark
-        }else{
-            cell.accessoryType = .none
+        switch indexPath.section {
+            
+        case 1:
+            let cello = tableView.dequeueReusableCell(withIdentifier: "PageSelectionCell", for: indexPath) as! SelectFBPageTableViewCell
+            cello.pageName?.text = "NAME"
+            return cello
+            
+        case 0:
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "PageSelectionCell", for: indexPath) as! SelectFBPageTableViewCell
+            let currentPage = pageList?.object(at: indexPath) as! FacebookPagesCoreDataObject
+            print("NAME *** \(currentPage.name)")
+            cell.pageName?.text = currentPage.name
+            cell.pageImageView.sd_setImage(with: URL(string:currentPage.pic_url!))
+            cell.pageImageView.layer.cornerRadius = cell.pageImageView.frame.width*0.5
+            
+            if (currentPage.isSelected){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+            return cell
+
+        default:
+            let cello = tableView.dequeueReusableCell(withIdentifier: "PageSelectionCell", for: indexPath) as! SelectFBPageTableViewCell
+            cello.pageName?.text = "NAME"
+            return cello
         }
-        return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let selectedrow = tableView.cellForRow(at: indexPath) as! SelectFBPageTableViewCell
-        
-        selectedrow.isSelected = false
-        
-        let selectedPage = pageList?.object(at: indexPath) as! FacebookPagesCoreDataObject
-
-        if (selectedrow.accessoryType == .none){
-            updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: true)
-            selectedPagesView.frame.size = CGSize(width: self.view.frame.width, height: 110.0)
-            self.tableView.tableHeaderView = selectedPagesView
-        }else{
-            updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: false)
-            FIRMessaging.messaging().unsubscribe(fromTopic: "/topics/ios_\(selectedPage.pageId!)")
+        switch indexPath.section {
+        case 1:
+            break
+        case 0:
+            let selectedrow = tableView.cellForRow(at: indexPath) as! SelectFBPageTableViewCell
+            
+            selectedrow.isSelected = false
+            
+            let selectedPage = pageList?.object(at: indexPath) as! FacebookPagesCoreDataObject
+            
+            if (selectedrow.accessoryType == .none){
+                updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: true)
+                selectedPagesView.frame.size = CGSize(width: self.view.frame.width, height: 110.0)
+                self.tableView.tableHeaderView = selectedPagesView
+            }else{
+                updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: false)
+                FIRMessaging.messaging().unsubscribe(fromTopic: "/topics/ios_\(selectedPage.pageId!)")
+            }
+            
+            if selectedPages?.sections == nil{
+                print("NONE Selected")
+            }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
+                doneButton.isEnabled = false
+                self.tableView.tableHeaderView = nil
+            }else{
+                self.selectedPagesView.reloadData()
+                doneButton.isEnabled = true
+                let lastIndexPath = IndexPath(item: (selectedPages?.sections![0].numberOfObjects)!-1, section: 0)
+                selectedPagesView.scrollToItem(at: lastIndexPath, at: .right, animated: true)
+            }
+            
+            tableView.deselectRow(at: indexPath,animated:false)
+            tableView.reloadRows(at: [indexPath], with: .none)
+        default:
+            break
         }
-        
-        if selectedPages?.sections == nil{
-            print("NONE Selected")
-        }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
-            doneButton.isEnabled = false
-            self.tableView.tableHeaderView = nil
-        }else{
-            self.selectedPagesView.reloadData()
-            doneButton.isEnabled = true
-            let lastIndexPath = IndexPath(item: (selectedPages?.sections![0].numberOfObjects)!-1, section: 0)
-            selectedPagesView.scrollToItem(at: lastIndexPath, at: .right, animated: true)
-        }
-        
-        tableView.deselectRow(at: indexPath,animated:false)
-        tableView.reloadRows(at: [indexPath], with: .none)
+    
     }
     
     
@@ -136,8 +169,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
         }
 
         UIApplication.topViewController()?.show(UIStoryboard.postDisplayScreen(), sender: self)
-        
-        
+  
     }
     
     
@@ -224,7 +256,6 @@ func getListOfPages(){
         doneButton.isEnabled = false
         self.tableView.tableHeaderView = nil
     }else{
-        
         selectedPagesView.frame.size = CGSize(width: self.view.frame.width, height: 110.0)
         self.tableView.tableHeaderView = selectedPagesView
         self.selectedPagesView.reloadData()
@@ -242,7 +273,7 @@ func PagesCoreDataContentChanged() {
         ActivityIndicator.shared.showProgressView(uiView: self.view)
         self.tableView.reloadData()
     }
-    func selectedPageContentDidChange(){
+func selectedPageContentDidChange(){
         self.selectedPagesView.reloadData()
 
     }

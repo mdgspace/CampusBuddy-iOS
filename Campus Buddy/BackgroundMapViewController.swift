@@ -21,12 +21,12 @@ import GoogleMaps
 class BackgroundMapViewController: UIViewController, CAAnimationDelegate {
   // MARK: - Properties
   private var mapView: GMSMapView?
-  private let zoomLevel = Float(16.2)
+  private let zoomLevel = Float(12)
   private let animationDuration = CFTimeInterval(30)
   private var isAnimating = false
   private var reduceMotionChanged: NotificationObserver<BackgroundMapViewController>?
   private var lowPowerModeChanged: NotificationObserver<BackgroundMapViewController>?
- 
+
   /// The coordinate to animate the map around.
   var coordinate = CLLocationCoordinate2D(latitude: -33.8675, longitude: 151.2070) { // Sydney
     didSet {
@@ -96,7 +96,8 @@ class BackgroundMapViewController: UIViewController, CAAnimationDelegate {
       stopAnimatingMap()
 
       // Set the camera on the map to look at the specified coordinate.
-      mapView.camera = GMSCameraPosition(target: coordinate, zoom: zoomLevel, bearing: 0,viewingAngle: 0)
+      mapView.camera = GMSCameraPosition(target: coordinate, zoom: zoomLevel, bearing: 0,
+                                         viewingAngle: 0)
 
       if wasAnimating {
         startAnimatingMap()

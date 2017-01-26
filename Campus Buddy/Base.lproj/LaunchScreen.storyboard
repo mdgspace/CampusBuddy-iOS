@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D17a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -22,35 +22,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CB_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="occ-aX-KuG">
-                                <rect key="frame" x="97" y="110" width="180" height="180"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cap" translatesAutoresizingMaskIntoConstraints="NO" id="occ-aX-KuG">
+                                <rect key="frame" x="141" y="121" width="120" height="100"/>
                                 <color key="tintColor" red="0.36078431370000003" green="0.23137254900000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="occ-aX-KuG" secondAttribute="height" multiplier="1:1" id="rpm-3E-kk4"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MDG_logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="b9I-Cj-a21">
-                                <rect key="frame" x="137" y="494" width="100" height="60"/>
-                                <color key="tintColor" red="0.36078431370000003" green="0.23137254900000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="b9I-Cj-a21" secondAttribute="height" multiplier="5:3" id="hIp-Cl-N1W"/>
+                                    <constraint firstAttribute="width" secondItem="occ-aX-KuG" secondAttribute="height" multiplier="6:5" id="ves-PN-MC6"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.36078431370000003" green="0.23137254900000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.36078431370000003" green="0.23137254900000001" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.27450980392156865" green="0.1764705882352941" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.27450980392156865" green="0.1764705882352941" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="b9I-Cj-a21" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="121" id="L6w-A3-7ht"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="b9I-Cj-a21" secondAttribute="bottom" constant="111" id="Oal-gl-Mic"/>
-                            <constraint firstItem="occ-aX-KuG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PBv-ln-tcE"/>
-                            <constraint firstItem="b9I-Cj-a21" firstAttribute="top" secondItem="occ-aX-KuG" secondAttribute="bottom" constant="206" id="Qbt-CM-L7v"/>
-                            <constraint firstItem="occ-aX-KuG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="90" id="dJI-9z-sdI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="b9I-Cj-a21" secondAttribute="trailing" constant="122" id="dru-iq-huc"/>
-                            <constraint firstItem="occ-aX-KuG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="81" id="gjc-lD-bNL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="occ-aX-KuG" secondAttribute="trailing" constant="82" id="lvj-ir-fcT"/>
-                            <constraint firstItem="b9I-Cj-a21" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="r9b-PT-JaV"/>
+                            <constraint firstItem="occ-aX-KuG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="125" id="6Qr-bC-rsx"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="occ-aX-KuG" secondAttribute="bottom" constant="446" id="GnC-vP-T6U"/>
+                            <constraint firstItem="occ-aX-KuG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="101" id="g3H-RX-XB0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="occ-aX-KuG" secondAttribute="trailing" constant="98" id="yFN-JR-TSi"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CB_Logo" width="180" height="180"/>
-        <image name="MDG_logo-1" width="3070" height="1824"/>
+        <image name="Cap" width="181" height="181"/>
     </resources>
 </document>

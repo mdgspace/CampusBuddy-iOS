@@ -12,8 +12,8 @@ import FacebookCore
 import Firebase
 import FirebaseMessaging
 import UserNotifications
-import GoogleMaps
 import GooglePlaces
+import GoogleMaps
 
 
 
@@ -27,17 +27,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Facebook
         SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+                //Firebase
+        FIRApp.configure()
         
-        //Maps
+        
         // Provide the Places API with your API key.
         GMSPlacesClient.provideAPIKey(kPlacesAPIKey)
         // Provide the Maps API with your API key. We need to provide this as well because the Place
         // Picker displays a Google Map.
         GMSServices.provideAPIKey(kMapsAPIKey)
-        
-        //Firebase
-        FIRApp.configure()
-        
+
         
         if #available(iOS 10.0, *) {
             let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]

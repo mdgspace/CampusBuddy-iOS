@@ -81,7 +81,6 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
         self.tableView.tableFooterView?.frame = CGRect.zero
         return 1
     }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if fbPosts.count == 0{
@@ -98,17 +97,35 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostTableViewCell", for: indexPath) as! PostTableViewCell
         
         let post = fbPosts[indexPath.row]
-        
+        cell.imageConstraint.constant = 175.0
         cell.groupNameLabel.text = post.groupName
         cell.postContentTextView.text = post.content
+        cell.postImageView.contentMode = .scaleAspectFill
+        
+//        if (post.content == nil){
+//            cell.imageConstraint.constant = 0.0
+//        }
+        
         cell.timeLabel.text = post.createdRelativeTime
         cell.groupImageView.sd_setImage(with: URL(string:(post.groupImage)!)!, placeholderImage: #imageLiteral(resourceName: "Rectangle"))
+        
         if post.fullPictureUrl != nil {
             
-            cell.postImageView.sd_setImage(with: post.fullPictureUrl, placeholderImage: #imageLiteral(resourceName: "Rectangle"), options: .allowInvalidSSLCertificates) { (image, error, type, url) in
-                
+            cell.postImageView.sd_setImage(with: post.fullPictureUrl, placeholderImage: #imageLiteral(resourceName: "Rectangle"), options: .avoidAutoSetImage) { (image, error, type, url) in
                 var tapGesture: UITapGestureRecognizer?
                 if (image != nil){
+                    
+                    if ((image?.size.width)! > UIScreen.main.bounds.width){
+                        cell.imageConstraint.constant = ((image?.size.height)!/(image?.size.width)!)*UIScreen.main.bounds.width
+                         cell.postImageView.contentMode = .scaleAspectFit
+                    }else{
+                     cell.postImageView.contentMode = .scaleAspectFill
+                     cell.imageConstraint.constant = (image?.size.height)!
+                     
+                    }
+                    
+                    cell.postImageView.image = image
+                    
                     if(post.type == "link"){
                         tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.openURL))
                     }else{
@@ -118,6 +135,7 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
                     cell.postImageView.addGestureRecognizer(tapGesture!)
                     
                 }else{
+                    
                     if(post.type == "link"){
                         tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.openURL))
                     }else{
@@ -127,25 +145,12 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
                     cell.postImageView.addGestureRecognizer(tapGesture!)
                     
                 }
+                debugPrint("I ** HEight \(cell.postImageView.frame.size.height)** Width \(cell.postImageView.frame.size.width)")
 
-                /*
-                    let ratio = (image?.size.width)!/(image?.size.height)!
-                
-                    if self.view.frame.width > self.view.frame.height {
-                        let newHeight = self.view.frame.width / ratio
-                        cell.postImageView.frame.size = CGSize(width: self.view.frame.width, height: newHeight)
-                        cell.postImageView.contentMode = .scaleAspectFit
-                    }
-                    else{
-                        let newWidth = self.view.frame.height * ratio
-                        cell.postImageView.frame.size = CGSize(width: newWidth, height: self.view.frame.height)
-                    }
-                 */
-                
             }
             
         } else{
-                cell.postImageView.image = nil
+            cell.imageConstraint.constant = 0.0
         }
         return cell
     }

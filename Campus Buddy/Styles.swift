@@ -17,6 +17,7 @@ import UIKit
 
 /// Style constants for use in the PlacePickerDemo.
 struct Colors {
-  static let blue1 = ColorCode().appThemeColor
- static let blue2 = ColorCode().appThemeColor
+    static let blue1 = ColorCode().appThemeColor
+    static let blue2 = ColorCode().appThemeColor
+    
 }

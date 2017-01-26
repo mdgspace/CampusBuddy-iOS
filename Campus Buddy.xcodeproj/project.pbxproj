@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		2C12F9178AC12C0DAD9B8C03 /* Pods_Campus_BuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF1E1771121F6E76129B22E /* Pods_Campus_BuddyUITests.framework */; };
 		4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */; };
+		430165D81E3A0AD600F4C79D /* PickAPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165D61E3A0AD600F4C79D /* PickAPlaceViewController.swift */; };
+		430165E11E3A0AE100F4C79D /* PlaceAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165DA1E3A0AE100F4C79D /* PlaceAttributeCell.swift */; };
+		430165E21E3A0AE100F4C79D /* PlaceAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430165DB1E3A0AE100F4C79D /* PlaceAttributeCell.xib */; };
+		430165E31E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165DC1E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift */; };
+		430165E41E3A0AE100F4C79D /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165DD1E3A0AE100F4C79D /* PlaceDetailViewController.swift */; };
+		430165E51E3A0AE100F4C79D /* PlaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430165DE1E3A0AE100F4C79D /* PlaceDetailViewController.xib */; };
+		430165E61E3A0AE100F4C79D /* PlaceNameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165DF1E3A0AE100F4C79D /* PlaceNameHeader.swift */; };
+		430165E71E3A0AE100F4C79D /* PlaceNameHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430165E01E3A0AE100F4C79D /* PlaceNameHeader.xib */; };
+		430165F01E3A0B0F00F4C79D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165EB1E3A0B0F00F4C79D /* RoundedButton.swift */; };
+		430165F11E3A0B0F00F4C79D /* SDKDemoAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165EC1E3A0B0F00F4C79D /* SDKDemoAPIKey.swift */; };
+		430165F21E3A0B0F00F4C79D /* ShadowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165ED1E3A0B0F00F4C79D /* ShadowLineView.swift */; };
+		430165F31E3A0B0F00F4C79D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165EE1E3A0B0F00F4C79D /* ShadowView.swift */; };
+		430165F41E3A0B0F00F4C79D /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165EF1E3A0B0F00F4C79D /* Styles.swift */; };
+		430165F71E3A0B1900F4C79D /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165F51E3A0B1900F4C79D /* CGRect+Extensions.swift */; };
+		430165F81E3A0B1900F4C79D /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165F61E3A0B1900F4C79D /* NotificationObserver.swift */; };
+		430165FE1E3A0FC800F4C79D /* BackgroundMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165FA1E3A0FC800F4C79D /* BackgroundMapViewController.swift */; };
+		430165FF1E3A0FC800F4C79D /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165FB1E3A0FC800F4C79D /* BaseContainerViewController.swift */; };
+		430166001E3A0FC800F4C79D /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165FC1E3A0FC800F4C79D /* InsetViewController.swift */; };
+		430166011E3A0FC800F4C79D /* SplitPaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430165FD1E3A0FC800F4C79D /* SplitPaneViewController.swift */; };
 		43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090DF01E1E745C0010FBF8 /* AppDelegate.swift */; };
 		43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43090DF41E1E745C0010FBF8 /* Main.storyboard */; };
 		43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43090DF71E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld */; };
@@ -48,28 +67,7 @@
 		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
 		43832B091E2D13A500BF617D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B081E2D13A500BF617D /* Reachability.swift */; };
 		43832B0B1E2D15C100BF617D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B0A1E2D15C100BF617D /* Network.swift */; };
-		4392FB521E2AEBCA00E3D8BD /* BackgroundMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */; };
-		4392FB531E2AEBCA00E3D8BD /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */; };
-		4392FB541E2AEBCA00E3D8BD /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */; };
-		4392FB551E2AEBCA00E3D8BD /* SplitPaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */; };
-		4392FB591E2AEBDC00E3D8BD /* PickAPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */; };
-		4392FB5A1E2AEBDC00E3D8BD /* PickAPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */; };
-		4392FB631E2AEBFA00E3D8BD /* PlaceAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */; };
-		4392FB641E2AEBFA00E3D8BD /* PlaceAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */; };
-		4392FB651E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */; };
-		4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */; };
-		4392FB671E2AEBFA00E3D8BD /* PlaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */; };
-		4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */; };
-		4392FB691E2AEBFA00E3D8BD /* PlaceNameHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */; };
-		4392FB701E2AEC1800E3D8BD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */; };
-		4392FB711E2AEC1800E3D8BD /* SDKDemoAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */; };
-		4392FB721E2AEC1800E3D8BD /* ShadowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */; };
-		4392FB731E2AEC1800E3D8BD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */; };
-		4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB6F1E2AEC1800E3D8BD /* Styles.swift */; };
-		4392FB771E2AEDC400E3D8BD /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */; };
-		4392FB781E2AEDC400E3D8BD /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */; };
 		4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */; };
-		43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A985A31E2AB63300B64B50 /* MapViewController.swift */; };
 		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
 		43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */; };
 		43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E444921E31134D004FBE48 /* PageCoreDataService.swift */; };
@@ -100,6 +98,25 @@
 		3677FEF90A8AE6CD3BA95DA9 /* Pods_Campus_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campus_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B13FE198E5D2C87E4FBFE57 /* Pods-Campus BuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus BuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus BuddyTests/Pods-Campus BuddyTests.release.xcconfig"; sourceTree = "<group>"; };
 		4300504C1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPagesSelectionTableViewController.swift; sourceTree = "<group>"; };
+		430165D61E3A0AD600F4C79D /* PickAPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickAPlaceViewController.swift; sourceTree = "<group>"; };
+		430165DA1E3A0AE100F4C79D /* PlaceAttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAttributeCell.swift; sourceTree = "<group>"; };
+		430165DB1E3A0AE100F4C79D /* PlaceAttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAttributeCell.xib; sourceTree = "<group>"; };
+		430165DC1E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailTableViewDataSource.swift; sourceTree = "<group>"; };
+		430165DD1E3A0AE100F4C79D /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		430165DE1E3A0AE100F4C79D /* PlaceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceDetailViewController.xib; sourceTree = "<group>"; };
+		430165DF1E3A0AE100F4C79D /* PlaceNameHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceNameHeader.swift; sourceTree = "<group>"; };
+		430165E01E3A0AE100F4C79D /* PlaceNameHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceNameHeader.xib; sourceTree = "<group>"; };
+		430165EB1E3A0B0F00F4C79D /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		430165EC1E3A0B0F00F4C79D /* SDKDemoAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKDemoAPIKey.swift; sourceTree = "<group>"; };
+		430165ED1E3A0B0F00F4C79D /* ShadowLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowLineView.swift; sourceTree = "<group>"; };
+		430165EE1E3A0B0F00F4C79D /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		430165EF1E3A0B0F00F4C79D /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		430165F51E3A0B1900F4C79D /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		430165F61E3A0B1900F4C79D /* NotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
+		430165FA1E3A0FC800F4C79D /* BackgroundMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMapViewController.swift; sourceTree = "<group>"; };
+		430165FB1E3A0FC800F4C79D /* BaseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContainerViewController.swift; sourceTree = "<group>"; };
+		430165FC1E3A0FC800F4C79D /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
+		430165FD1E3A0FC800F4C79D /* SplitPaneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitPaneViewController.swift; sourceTree = "<group>"; };
 		43090DED1E1E745C0010FBF8 /* Campus Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43090DF01E1E745C0010FBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43090DF51E1E745C0010FBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,28 +161,7 @@
 		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
 		43832B081E2D13A500BF617D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		43832B0A1E2D15C100BF617D /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMapViewController.swift; sourceTree = "<group>"; };
-		4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContainerViewController.swift; sourceTree = "<group>"; };
-		4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
-		4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitPaneViewController.swift; sourceTree = "<group>"; };
-		4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickAPlaceViewController.swift; sourceTree = "<group>"; };
-		4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickAPlaceViewController.xib; sourceTree = "<group>"; };
-		4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAttributeCell.swift; sourceTree = "<group>"; };
-		4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAttributeCell.xib; sourceTree = "<group>"; };
-		4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailTableViewDataSource.swift; sourceTree = "<group>"; };
-		4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
-		4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceDetailViewController.xib; sourceTree = "<group>"; };
-		4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceNameHeader.swift; sourceTree = "<group>"; };
-		4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceNameHeader.xib; sourceTree = "<group>"; };
-		4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
-		4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKDemoAPIKey.swift; sourceTree = "<group>"; };
-		4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowLineView.swift; sourceTree = "<group>"; };
-		4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		4392FB6F1E2AEC1800E3D8BD /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
-		4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
 		4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
-		43A985A31E2AB63300B64B50 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
 		43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPageCollectionViewCell.swift; sourceTree = "<group>"; };
 		43E444921E31134D004FBE48 /* PageCoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCoreDataService.swift; sourceTree = "<group>"; };
@@ -226,6 +222,48 @@
 				433D13EB1E263A9200744CD2 /* FbPostsTableViewController.swift */,
 			);
 			name = Notices;
+			sourceTree = "<group>";
+		};
+		430165E81E3A0AE700F4C79D /* PickAPlace */ = {
+			isa = PBXGroup;
+			children = (
+				430165D61E3A0AD600F4C79D /* PickAPlaceViewController.swift */,
+			);
+			name = PickAPlace;
+			sourceTree = "<group>";
+		};
+		430165E91E3A0AF300F4C79D /* PlaceDetails */ = {
+			isa = PBXGroup;
+			children = (
+				430165DA1E3A0AE100F4C79D /* PlaceAttributeCell.swift */,
+				430165DB1E3A0AE100F4C79D /* PlaceAttributeCell.xib */,
+				430165DC1E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift */,
+				430165DD1E3A0AE100F4C79D /* PlaceDetailViewController.swift */,
+				430165DE1E3A0AE100F4C79D /* PlaceDetailViewController.xib */,
+				430165DF1E3A0AE100F4C79D /* PlaceNameHeader.swift */,
+				430165E01E3A0AE100F4C79D /* PlaceNameHeader.xib */,
+			);
+			name = PlaceDetails;
+			sourceTree = "<group>";
+		};
+		430165F91E3A0B1D00F4C79D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				430165F51E3A0B1900F4C79D /* CGRect+Extensions.swift */,
+				430165F61E3A0B1900F4C79D /* NotificationObserver.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		430166021E3A0FCE00F4C79D /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				430165FA1E3A0FC800F4C79D /* BackgroundMapViewController.swift */,
+				430165FB1E3A0FC800F4C79D /* BaseContainerViewController.swift */,
+				430165FC1E3A0FC800F4C79D /* InsetViewController.swift */,
+				430165FD1E3A0FC800F4C79D /* SplitPaneViewController.swift */,
+			);
+			name = Containers;
 			sourceTree = "<group>";
 		};
 		43090DE41E1E745C0010FBF8 = {
@@ -426,70 +464,18 @@
 			name = Facebook;
 			sourceTree = "<group>";
 		};
-		4392FB4D1E2AEB8C00E3D8BD /* Reference */ = {
-			isa = PBXGroup;
-			children = (
-				4392FB6B1E2AEC1800E3D8BD /* RoundedButton.swift */,
-				4392FB6C1E2AEC1800E3D8BD /* SDKDemoAPIKey.swift */,
-				4392FB6D1E2AEC1800E3D8BD /* ShadowLineView.swift */,
-				4392FB6E1E2AEC1800E3D8BD /* ShadowView.swift */,
-				4392FB6F1E2AEC1800E3D8BD /* Styles.swift */,
-				4392FB6A1E2AEC0300E3D8BD /* PlaceDetail */,
-				4392FB5B1E2AEBE500E3D8BD /* PickAPlace */,
-				4392FB561E2AEBCE00E3D8BD /* Containers */,
-			);
-			name = Reference;
-			sourceTree = "<group>";
-		};
-		4392FB561E2AEBCE00E3D8BD /* Containers */ = {
-			isa = PBXGroup;
-			children = (
-				4392FB4E1E2AEBCA00E3D8BD /* BackgroundMapViewController.swift */,
-				4392FB4F1E2AEBCA00E3D8BD /* BaseContainerViewController.swift */,
-				4392FB501E2AEBCA00E3D8BD /* InsetViewController.swift */,
-				4392FB511E2AEBCA00E3D8BD /* SplitPaneViewController.swift */,
-			);
-			name = Containers;
-			sourceTree = "<group>";
-		};
-		4392FB5B1E2AEBE500E3D8BD /* PickAPlace */ = {
-			isa = PBXGroup;
-			children = (
-				4392FB571E2AEBDC00E3D8BD /* PickAPlaceViewController.swift */,
-				4392FB581E2AEBDC00E3D8BD /* PickAPlaceViewController.xib */,
-			);
-			name = PickAPlace;
-			sourceTree = "<group>";
-		};
-		4392FB6A1E2AEC0300E3D8BD /* PlaceDetail */ = {
-			isa = PBXGroup;
-			children = (
-				4392FB5C1E2AEBFA00E3D8BD /* PlaceAttributeCell.swift */,
-				4392FB5D1E2AEBFA00E3D8BD /* PlaceAttributeCell.xib */,
-				4392FB5E1E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift */,
-				4392FB5F1E2AEBFA00E3D8BD /* PlaceDetailViewController.swift */,
-				4392FB601E2AEBFA00E3D8BD /* PlaceDetailViewController.xib */,
-				4392FB611E2AEBFA00E3D8BD /* PlaceNameHeader.swift */,
-				4392FB621E2AEBFA00E3D8BD /* PlaceNameHeader.xib */,
-			);
-			name = PlaceDetail;
-			sourceTree = "<group>";
-		};
-		4392FB791E2AEDC800E3D8BD /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				4392FB761E2AEDC400E3D8BD /* NotificationObserver.swift */,
-				4392FB751E2AEDC400E3D8BD /* CGRect+Extensions.swift */,
-			);
-			name = Support;
-			sourceTree = "<group>";
-		};
 		43A985A21E2AB61E00B64B50 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				43A985A31E2AB63300B64B50 /* MapViewController.swift */,
-				4392FB791E2AEDC800E3D8BD /* Support */,
-				4392FB4D1E2AEB8C00E3D8BD /* Reference */,
+				430165EB1E3A0B0F00F4C79D /* RoundedButton.swift */,
+				430165EC1E3A0B0F00F4C79D /* SDKDemoAPIKey.swift */,
+				430165ED1E3A0B0F00F4C79D /* ShadowLineView.swift */,
+				430165EE1E3A0B0F00F4C79D /* ShadowView.swift */,
+				430165EF1E3A0B0F00F4C79D /* Styles.swift */,
+				430165F91E3A0B1D00F4C79D /* Support */,
+				430165E91E3A0AF300F4C79D /* PlaceDetails */,
+				430166021E3A0FCE00F4C79D /* Containers */,
+				430165E81E3A0AE700F4C79D /* PickAPlace */,
 			);
 			name = Maps;
 			sourceTree = "<group>";
@@ -675,14 +661,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4392FB641E2AEBFA00E3D8BD /* PlaceAttributeCell.xib in Resources */,
-				4392FB5A1E2AEBDC00E3D8BD /* PickAPlaceViewController.xib in Resources */,
+				430165E21E3A0AE100F4C79D /* PlaceAttributeCell.xib in Resources */,
 				43090DFE1E1E745C0010FBF8 /* LaunchScreen.storyboard in Resources */,
 				43090DFB1E1E745C0010FBF8 /* Assets.xcassets in Resources */,
 				431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */,
-				4392FB691E2AEBFA00E3D8BD /* PlaceNameHeader.xib in Resources */,
+				430165E71E3A0AE100F4C79D /* PlaceNameHeader.xib in Resources */,
 				43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */,
-				4392FB671E2AEBFA00E3D8BD /* PlaceDetailViewController.xib in Resources */,
+				430165E51E3A0AE100F4C79D /* PlaceDetailViewController.xib in Resources */,
 				43277E3A1E2AB7C000863831 /* IITRLocationsInfo.json in Resources */,
 				43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */,
 			);
@@ -849,58 +834,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4392FB541E2AEBCA00E3D8BD /* InsetViewController.swift in Sources */,
 				43090E471E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift in Sources */,
 				43090E2C1E1E7B300010FBF8 /* Utils.swift in Sources */,
-				4392FB701E2AEC1800E3D8BD /* RoundedButton.swift in Sources */,
 				43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */,
 				43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */,
 				437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */,
-				4392FB731E2AEC1800E3D8BD /* ShadowView.swift in Sources */,
 				43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */,
 				43090E431E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift in Sources */,
-				4392FB551E2AEBCA00E3D8BD /* SplitPaneViewController.swift in Sources */,
 				43090E2A1E1E7B300010FBF8 /* ActivityIndicator.swift in Sources */,
-				4392FB661E2AEBFA00E3D8BD /* PlaceDetailViewController.swift in Sources */,
 				43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */,
 				4333E2FD1E343A4400DF4708 /* Page.swift in Sources */,
-				4392FB681E2AEBFA00E3D8BD /* PlaceNameHeader.swift in Sources */,
 				43832B0B1E2D15C100BF617D /* Network.swift in Sources */,
 				4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */,
+				430166001E3A0FC800F4C79D /* InsetViewController.swift in Sources */,
+				430166011E3A0FC800F4C79D /* SplitPaneViewController.swift in Sources */,
+				430165F41E3A0B0F00F4C79D /* Styles.swift in Sources */,
 				43090E2B1E1E7B300010FBF8 /* DeviceSizes.swift in Sources */,
-				4392FB741E2AEC1800E3D8BD /* Styles.swift in Sources */,
 				43090E451E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift in Sources */,
 				431B22C11E342EA3003280D0 /* Toast.swift in Sources */,
-				4392FB771E2AEDC400E3D8BD /* CGRect+Extensions.swift in Sources */,
-				4392FB651E2AEBFA00E3D8BD /* PlaceDetailTableViewDataSource.swift in Sources */,
+				430165F71E3A0B1900F4C79D /* CGRect+Extensions.swift in Sources */,
+				430165F11E3A0B0F00F4C79D /* SDKDemoAPIKey.swift in Sources */,
 				4333E2FB1E343A3000DF4708 /* PageCell.swift in Sources */,
 				43090E421E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift in Sources */,
-				4392FB711E2AEC1800E3D8BD /* SDKDemoAPIKey.swift in Sources */,
 				43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */,
 				43090E2F1E1E7B830010FBF8 /* ColorCode.swift in Sources */,
+				430165E31E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift in Sources */,
 				43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */,
 				433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */,
 				433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */,
 				433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */,
-				4392FB721E2AEC1800E3D8BD /* ShadowLineView.swift in Sources */,
-				4392FB531E2AEBCA00E3D8BD /* BaseContainerViewController.swift in Sources */,
+				430165FE1E3A0FC800F4C79D /* BackgroundMapViewController.swift in Sources */,
 				43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */,
 				43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */,
-				4392FB631E2AEBFA00E3D8BD /* PlaceAttributeCell.swift in Sources */,
-				4392FB781E2AEDC400E3D8BD /* NotificationObserver.swift in Sources */,
 				43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */,
+				430165F31E3A0B0F00F4C79D /* ShadowView.swift in Sources */,
 				43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */,
 				4333E2F91E343A0600DF4708 /* MainViewController.swift in Sources */,
-				43A985A41E2AB63300B64B50 /* MapViewController.swift in Sources */,
+				430165FF1E3A0FC800F4C79D /* BaseContainerViewController.swift in Sources */,
 				43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */,
 				43832B091E2D13A500BF617D /* Reachability.swift in Sources */,
 				43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */,
+				430165E11E3A0AE100F4C79D /* PlaceAttributeCell.swift in Sources */,
 				4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */,
+				430165E41E3A0AE100F4C79D /* PlaceDetailViewController.swift in Sources */,
 				43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */,
-				4392FB521E2AEBCA00E3D8BD /* BackgroundMapViewController.swift in Sources */,
-				4392FB591E2AEBDC00E3D8BD /* PickAPlaceViewController.swift in Sources */,
+				430165D81E3A0AD600F4C79D /* PickAPlaceViewController.swift in Sources */,
 				43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */,
+				430165F01E3A0B0F00F4C79D /* RoundedButton.swift in Sources */,
 				437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */,
+				430165E61E3A0AE100F4C79D /* PlaceNameHeader.swift in Sources */,
+				430165F21E3A0B0F00F4C79D /* ShadowLineView.swift in Sources */,
+				430165F81E3A0B1900F4C79D /* NotificationObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,6 +1060,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdsmdg.ioscampusBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

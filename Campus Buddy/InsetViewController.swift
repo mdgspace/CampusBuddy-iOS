@@ -59,7 +59,8 @@ class InsetViewController: BaseContainerViewController {
 
     addChildViewController(contentViewController)
     view.addSubview(contentViewController.view)
-    contentViewController.view.autoresizingMask = [.flexibleTopMargin, .flexibleLeftMargin,.flexibleRightMargin,.flexibleBottomMargin]
+    contentViewController.view.autoresizingMask = [.flexibleTopMargin, .flexibleLeftMargin,
+                                                   .flexibleRightMargin, .flexibleBottomMargin]
     contentViewController.didMove(toParentViewController: self)
 
     initializeParallax()

@@ -53,7 +53,6 @@ class DepartmentsTableViewController: UITableViewController, UIAlertViewDelegate
         ActivityIndicator.shared.showProgressView(uiView: self.view)
         
         
-        tableView.bounces = false
         tableView.tableHeaderView = searchController.searchBar
         // Search Bars
         searchController.searchResultsUpdater = self

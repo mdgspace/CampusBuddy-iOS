@@ -34,7 +34,6 @@ class DepartmentProfTableViewController: UITableViewController , UIAlertViewDele
         
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem?.image = UIImage(named: "back")
-        tableView.bounces = false
         
         // Search Bar
         tableView.tableHeaderView = searchController.searchBar
