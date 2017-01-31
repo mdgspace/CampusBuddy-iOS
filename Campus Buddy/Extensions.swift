@@ -30,6 +30,17 @@ extension UIStoryboard {
     class func mapNavigation() -> UINavigationController{
         return MainStoryboard().instantiateViewController(withIdentifier: "MapsNavigationController") as! UINavigationController
     }
+    class func departmentsScreen() -> UIViewController {
+        return MainStoryboard().instantiateViewController(withIdentifier: "DepartmentsTableViewController")
+    }
+    class func ContactInfoScreen() -> UIViewController {
+        return MainStoryboard().instantiateViewController(withIdentifier: "ContactInfoTableViewController")
+    }
+    
+    class func DepartmentTableViewScreen() -> UIViewController {
+        return MainStoryboard().instantiateViewController(withIdentifier: "AllContactViewController")
+    }
+
     
    
     

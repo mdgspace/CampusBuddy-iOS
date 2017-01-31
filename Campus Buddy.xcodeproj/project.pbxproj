@@ -41,14 +41,7 @@
 		43090E2F1E1E7B830010FBF8 /* ColorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E2E1E1E7B830010FBF8 /* ColorCode.swift */; };
 		43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E311E1E7CBB0010FBF8 /* ColorCodeExtensions.swift */; };
 		43090E421E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E361E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift */; };
-		43090E431E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E371E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift */; };
-		43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E381E1E7E2F0010FBF8 /* DepartmentCell.swift */; };
-		43090E451E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E391E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift */; };
-		43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3A1E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift */; };
-		43090E471E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3B1E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift */; };
-		43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3D1E1E7E2F0010FBF8 /* ProfContactCell.swift */; };
 		43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */; };
-		43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */ = {isa = PBXBuildFile; fileRef = 43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */; };
 		43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */; };
 		431B22C11E342EA3003280D0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B22C01E342EA3003280D0 /* Toast.swift */; };
 		431EFF931E2994590065B850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 431EFF921E2994590065B850 /* GoogleService-Info.plist */; };
@@ -65,11 +58,19 @@
 		433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D13FD1E26BB4200744CD2 /* FbPost.swift */; };
 		437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B821E214ECB006CACEC /* FacebookPage.swift */; };
 		437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4B841E214FAC006CACEC /* FacebookResources.swift */; };
+		4381AFE11E4006DE009818EF /* DepartmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381AFE01E4006DE009818EF /* DepartmentTableViewCell.swift */; };
 		43832B091E2D13A500BF617D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B081E2D13A500BF617D /* Reachability.swift */; };
 		43832B0B1E2D15C100BF617D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43832B0A1E2D15C100BF617D /* Network.swift */; };
 		4392FB7D1E2AFEFF00E3D8BD /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */; };
 		43AB113C1E21A08E00A780CD /* SelectFBPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */; };
 		43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */; };
+		43E14D041E40010100DBFC87 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D001E40010100DBFC87 /* ContactsTableViewController.swift */; };
+		43E14D051E40010100DBFC87 /* AllContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D011E40010100DBFC87 /* AllContactViewController.swift */; };
+		43E14D061E40010100DBFC87 /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D021E40010100DBFC87 /* DepartmentsTableViewController.swift */; };
+		43E14D071E40010100DBFC87 /* ContactInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D031E40010100DBFC87 /* ContactInfoTableViewController.swift */; };
+		43E14D091E40011F00DBFC87 /* ContactClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D081E40011F00DBFC87 /* ContactClasses.swift */; };
+		43E14D0B1E40014700DBFC87 /* ReadStoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E14D0A1E40014700DBFC87 /* ReadStoriesTableViewCell.swift */; };
+		43E14D0F1E40017D00DBFC87 /* contacts_min.json in Resources */ = {isa = PBXBuildFile; fileRef = 43E14D0E1E40017D00DBFC87 /* contacts_min.json */; };
 		43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E444921E31134D004FBE48 /* PageCoreDataService.swift */; };
 		43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED79D01E1FA93100E4FE5D /* Extensions.swift */; };
 		56F3CDF3E73E5FF460E438DE /* Pods_Campus_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3677FEF90A8AE6CD3BA95DA9 /* Pods_Campus_Buddy.framework */; };
@@ -136,14 +137,7 @@
 		43090E2E1E1E7B830010FBF8 /* ColorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCode.swift; sourceTree = "<group>"; };
 		43090E311E1E7CBB0010FBF8 /* ColorCodeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCodeExtensions.swift; sourceTree = "<group>"; };
 		43090E361E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewCell.swift; sourceTree = "<group>"; };
-		43090E371E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewController.swift; sourceTree = "<group>"; };
-		43090E381E1E7E2F0010FBF8 /* DepartmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentCell.swift; sourceTree = "<group>"; };
-		43090E391E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentProfTableViewController.swift; sourceTree = "<group>"; };
-		43090E3A1E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
-		43090E3B1E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
-		43090E3D1E1E7E2F0010FBF8 /* ProfContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfContactCell.swift; sourceTree = "<group>"; };
 		43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfContactTableViewCell.swift; sourceTree = "<group>"; };
-		43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfessorContactatIItR.json; sourceTree = "<group>"; };
 		43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		431B22C01E342EA3003280D0 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		431EFF921E2994590065B850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -159,11 +153,19 @@
 		433D13FD1E26BB4200744CD2 /* FbPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FbPost.swift; sourceTree = "<group>"; };
 		437C4B821E214ECB006CACEC /* FacebookPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPage.swift; sourceTree = "<group>"; };
 		437C4B841E214FAC006CACEC /* FacebookResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookResources.swift; sourceTree = "<group>"; };
+		4381AFE01E4006DE009818EF /* DepartmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentTableViewCell.swift; sourceTree = "<group>"; };
 		43832B081E2D13A500BF617D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		43832B0A1E2D15C100BF617D /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		4392FB7C1E2AFEFF00E3D8BD /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFBPageTableViewCell.swift; sourceTree = "<group>"; };
 		43AB113E1E21B29200A780CD /* SelectedPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		43E14D001E40010100DBFC87 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		43E14D011E40010100DBFC87 /* AllContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllContactViewController.swift; sourceTree = "<group>"; };
+		43E14D021E40010100DBFC87 /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
+		43E14D031E40010100DBFC87 /* ContactInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewController.swift; sourceTree = "<group>"; };
+		43E14D081E40011F00DBFC87 /* ContactClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactClasses.swift; sourceTree = "<group>"; };
+		43E14D0A1E40014700DBFC87 /* ReadStoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadStoriesTableViewCell.swift; sourceTree = "<group>"; };
+		43E14D0E1E40017D00DBFC87 /* contacts_min.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts_min.json; sourceTree = "<group>"; };
 		43E444921E31134D004FBE48 /* PageCoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCoreDataService.swift; sourceTree = "<group>"; };
 		43ED79D01E1FA93100E4FE5D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		707C6EC0B3251A10BE57957A /* Pods-Campus BuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campus BuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Campus BuddyUITests/Pods-Campus BuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -358,10 +360,9 @@
 				43832B0A1E2D15C100BF617D /* Network.swift */,
 				43832B081E2D13A500BF617D /* Reachability.swift */,
 				43277E3E1E2ACB5C00863831 /* SwiftyJSON.swift */,
+				43E14D081E40011F00DBFC87 /* ContactClasses.swift */,
 				43277E3B1E2AC98100863831 /* Locations */,
 				437C4B811E214EBB006CACEC /* Facebook */,
-				43ED79CF1E1F98C500E4FE5D /* Professor */,
-				43ED79CE1E1F98AB00E4FE5D /* DepartmentClasses */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -382,8 +383,8 @@
 		43090E261E1E7AC50010FBF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43E14D0E1E40017D00DBFC87 /* contacts_min.json */,
 				43277E391E2AB7C000863831 /* IITRLocationsInfo.json */,
-				43090E3F1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -420,9 +421,10 @@
 		43090E341E1E7E130010FBF8 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				43090E3A1E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift */,
-				43090E391E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift */,
-				43090E371E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift */,
+				43E14D001E40010100DBFC87 /* ContactsTableViewController.swift */,
+				43E14D011E40010100DBFC87 /* AllContactViewController.swift */,
+				43E14D021E40010100DBFC87 /* DepartmentsTableViewController.swift */,
+				43E14D031E40010100DBFC87 /* ContactInfoTableViewController.swift */,
 			);
 			name = Contacts;
 			sourceTree = "<group>";
@@ -492,7 +494,8 @@
 			isa = PBXGroup;
 			children = (
 				43090E361E1E7E2F0010FBF8 /* ContactInfoTableViewCell.swift */,
-				43090E3B1E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift */,
+				43E14D0A1E40014700DBFC87 /* ReadStoriesTableViewCell.swift */,
+				4381AFE01E4006DE009818EF /* DepartmentTableViewCell.swift */,
 				43090E3E1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift */,
 				43AB113B1E21A08E00A780CD /* SelectFBPageTableViewCell.swift */,
 				433D13E91E2638FE00744CD2 /* PostTableViewCell.swift */,
@@ -506,22 +509,6 @@
 				43090E401E1E7E2F0010FBF8 /* SettingsTableViewController.swift */,
 			);
 			name = About;
-			sourceTree = "<group>";
-		};
-		43ED79CE1E1F98AB00E4FE5D /* DepartmentClasses */ = {
-			isa = PBXGroup;
-			children = (
-				43090E381E1E7E2F0010FBF8 /* DepartmentCell.swift */,
-			);
-			name = DepartmentClasses;
-			sourceTree = "<group>";
-		};
-		43ED79CF1E1F98C500E4FE5D /* Professor */ = {
-			isa = PBXGroup;
-			children = (
-				43090E3D1E1E7E2F0010FBF8 /* ProfContactCell.swift */,
-			);
-			name = Professor;
 			sourceTree = "<group>";
 		};
 		B12B1CE66970FE48C09FA3E5 /* Frameworks */ = {
@@ -668,8 +655,8 @@
 				430165E71E3A0AE100F4C79D /* PlaceNameHeader.xib in Resources */,
 				43090DF61E1E745C0010FBF8 /* Main.storyboard in Resources */,
 				430165E51E3A0AE100F4C79D /* PlaceDetailViewController.xib in Resources */,
+				43E14D0F1E40017D00DBFC87 /* contacts_min.json in Resources */,
 				43277E3A1E2AB7C000863831 /* IITRLocationsInfo.json in Resources */,
-				43090E4B1E1E7E2F0010FBF8 /* ProfessorContactatIItR.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,13 +821,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43090E471E1E7E2F0010FBF8 /* DepartmentTableViewCell.swift in Sources */,
 				43090E2C1E1E7B300010FBF8 /* Utils.swift in Sources */,
 				43AB113F1E21B29200A780CD /* SelectedPageCollectionViewCell.swift in Sources */,
 				43E444931E31134D004FBE48 /* PageCoreDataService.swift in Sources */,
 				437C4B851E214FAC006CACEC /* FacebookResources.swift in Sources */,
 				43090DF91E1E745C0010FBF8 /* Campus_Buddy.xcdatamodeld in Sources */,
-				43090E431E1E7E2F0010FBF8 /* ContactInfoTableViewController.swift in Sources */,
+				43E14D041E40010100DBFC87 /* ContactsTableViewController.swift in Sources */,
+				43E14D0B1E40014700DBFC87 /* ReadStoriesTableViewCell.swift in Sources */,
 				43090E2A1E1E7B300010FBF8 /* ActivityIndicator.swift in Sources */,
 				43090E4C1E1E7E2F0010FBF8 /* SettingsTableViewController.swift in Sources */,
 				4333E2FD1E343A4400DF4708 /* Page.swift in Sources */,
@@ -850,7 +837,6 @@
 				430166011E3A0FC800F4C79D /* SplitPaneViewController.swift in Sources */,
 				430165F41E3A0B0F00F4C79D /* Styles.swift in Sources */,
 				43090E2B1E1E7B300010FBF8 /* DeviceSizes.swift in Sources */,
-				43090E451E1E7E2F0010FBF8 /* DepartmentProfTableViewController.swift in Sources */,
 				431B22C11E342EA3003280D0 /* Toast.swift in Sources */,
 				430165F71E3A0B1900F4C79D /* CGRect+Extensions.swift in Sources */,
 				430165F11E3A0B0F00F4C79D /* SDKDemoAPIKey.swift in Sources */,
@@ -859,13 +845,12 @@
 				43090E321E1E7CBB0010FBF8 /* ColorCodeExtensions.swift in Sources */,
 				43090E2F1E1E7B830010FBF8 /* ColorCode.swift in Sources */,
 				430165E31E3A0AE100F4C79D /* PlaceDetailTableViewDataSource.swift in Sources */,
-				43090E461E1E7E2F0010FBF8 /* DepartmentsTableViewController.swift in Sources */,
 				433D13EC1E263A9200744CD2 /* FbPostsTableViewController.swift in Sources */,
 				433D13EA1E2638FE00744CD2 /* PostTableViewCell.swift in Sources */,
 				433D13FE1E26BB4200744CD2 /* FbPost.swift in Sources */,
 				430165FE1E3A0FC800F4C79D /* BackgroundMapViewController.swift in Sources */,
 				43090DF11E1E745C0010FBF8 /* AppDelegate.swift in Sources */,
-				43090E491E1E7E2F0010FBF8 /* ProfContactCell.swift in Sources */,
+				43E14D061E40010100DBFC87 /* DepartmentsTableViewController.swift in Sources */,
 				43277E3F1E2ACB5C00863831 /* SwiftyJSON.swift in Sources */,
 				430165F31E3A0B0F00F4C79D /* ShadowView.swift in Sources */,
 				43277E3D1E2AC9BF00863831 /* IITRLocation.swift in Sources */,
@@ -875,15 +860,18 @@
 				43832B091E2D13A500BF617D /* Reachability.swift in Sources */,
 				43ED79D11E1FA93100E4FE5D /* Extensions.swift in Sources */,
 				430165E11E3A0AE100F4C79D /* PlaceAttributeCell.swift in Sources */,
+				4381AFE11E4006DE009818EF /* DepartmentTableViewCell.swift in Sources */,
 				4300504D1E20F7EF0049870F /* FacebookPagesSelectionTableViewController.swift in Sources */,
 				430165E41E3A0AE100F4C79D /* PlaceDetailViewController.swift in Sources */,
-				43090E441E1E7E2F0010FBF8 /* DepartmentCell.swift in Sources */,
+				43E14D091E40011F00DBFC87 /* ContactClasses.swift in Sources */,
 				430165D81E3A0AD600F4C79D /* PickAPlaceViewController.swift in Sources */,
 				43090E4A1E1E7E2F0010FBF8 /* ProfContactTableViewCell.swift in Sources */,
 				430165F01E3A0B0F00F4C79D /* RoundedButton.swift in Sources */,
+				43E14D051E40010100DBFC87 /* AllContactViewController.swift in Sources */,
 				437C4B831E214ECB006CACEC /* FacebookPage.swift in Sources */,
 				430165E61E3A0AE100F4C79D /* PlaceNameHeader.swift in Sources */,
 				430165F21E3A0B0F00F4C79D /* ShadowLineView.swift in Sources */,
+				43E14D071E40010100DBFC87 /* ContactInfoTableViewController.swift in Sources */,
 				430165F81E3A0B1900F4C79D /* NotificationObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

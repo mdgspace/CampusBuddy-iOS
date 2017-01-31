@@ -1,19 +1,17 @@
 //
-//  DepartmentTableViewCell.swift
-//  cBuddy
+//  ReadStoriesTableViewCell.swift
+//  KRSNA
 //
-//  Created by Kush Taneja on 30/08/16.
+//  Created by Kush Taneja on 08/12/16.
 //  Copyright © 2016 Kush Taneja. All rights reserved.
 //
 
 import UIKit
 
-class DepartmentTableViewCell: UITableViewCell {
+class ReadStoriesTableViewCell: UITableViewCell {
 
-    @IBOutlet var Title: UILabel!
+    @IBOutlet weak var readTextLabel: UILabel!
     
-    @IBOutlet var departmentImageView: UIImageView!
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
