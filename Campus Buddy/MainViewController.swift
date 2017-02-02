@@ -14,24 +14,30 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
+        
         layout.minimumLineSpacing = 0
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.backgroundColor = .white
         cv.dataSource = self
         cv.delegate = self
+        cv.showsHorizontalScrollIndicator = false
         cv.isPagingEnabled = true
         return cv
     }()
     
     let cellId = "cellId"
     let pages: [Page] = {
-        let firstPage = Page(title: "Share a great listen", message: "It's free to send your books to the people in your life. Every recipient's first book is on us.", imageName: "page1")
+        let firstPage = Page(title: "Share a great listen", message: "It's free to send your books to the people in your life. Every recipient's first book is on us.", imageName: "selectPages")
         
-        let secondPage = Page(title: "Send from your library", message: "Tap the More menu next to any book. Choose \"Send this Book\"", imageName: "page2")
+        let secondPage = Page(title: "Send from your library", message: "Tap the More menu next to any book. Choose \"Send this Book\"", imageName: "hindi_content")
         
-        let thirdPage = Page(title: "Send from the player", message: "Tap the More menu in the upper corner. Choose \"Send this Book\"", imageName: "page3")
+        let thirdPage = Page(title: "Send from the player", message: "Tap the More menu in the upper corner. Choose \"Send this Book\"", imageName: "contact_screenshot")
         
-        return [firstPage, secondPage, thirdPage]
+        let fourthPage = Page(title: "Send from your library", message: "Tap the More menu next to any book. Choose \"Send this Book\"", imageName: "searchIITr")
+        
+        let fifthPage = Page(title: "Send from the player", message: "Tap the More menu in the upper corner. Choose \"Send this Book\"", imageName: "maps_screenshot")
+        
+        return [firstPage, secondPage, thirdPage, fourthPage, fifthPage]
     }()
     
     lazy var pageControl: UIPageControl = {
@@ -45,7 +51,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
     lazy var skipButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Skip", for: .normal)
-        button.setTitleColor(ColorCode().appThemeColor, for: .normal)
+        button.setTitleColor(UIColor.white, for: .normal)
         button.addTarget(self, action: #selector(skip), for: .touchUpInside)
         return button
     }()
@@ -55,27 +61,60 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         let home = UIStoryboard.home()
         let first = home.viewControllers?.first
         
-        if (UserDefaults.standard.value(forKey: "selected") != nil){
-            if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-                first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+        if (UserDefaults.standard.value(forKey: "tutorial") != nil){
+            
+            if ((UserDefaults.standard.value(forKey: "tutorial")) as! Bool == true){
+                
+                self.dismiss(animated: true, completion:{
+                    UserDefaults.standard.set(false, forKey: "tutorial")
+                
+                })
                 
             }else{
-                first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                
+                if (UserDefaults.standard.value(forKey: "selected") != nil){
+                    if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+                        first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                        
+                    }else{
+                        first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                    }
+                } else{
+                    first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                    
+                }
+                
+                UIApplication.topViewController()?.present(home, animated: false, completion:{
+                    UserDefaults.standard.set(true, forKey: "login")
+                })
             }
-        } else{
-            first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+        }else{
+            if (UserDefaults.standard.value(forKey: "selected") != nil){
+                
+                if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+                    first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                    
+                }else{
+                    first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                }
+            } else{
+                first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                
+            }
             
+            UIApplication.topViewController()?.present(home, animated: false, completion:{
+                UserDefaults.standard.set(true, forKey: "login")
+            })
         }
-        UIApplication.topViewController()?.present(home, animated: false, completion:{
-            UserDefaults.standard.set(true, forKey: "login")
-        })
+
+      
 
     }
     
     lazy var nextButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Next", for: .normal)
-        button.setTitleColor(ColorCode().appThemeColor, for: .normal)
+        button.setTitleColor(UIColor.white, for: .normal)
         button.addTarget(self, action: #selector(nextPage), for: .touchUpInside)
         return button
     }()
@@ -86,26 +125,52 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
             let home = UIStoryboard.home()
             let first = home.viewControllers?.first
             
-            if (UserDefaults.standard.value(forKey: "selected") != nil){
-                if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
-                     first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
-                    
+            if (UserDefaults.standard.value(forKey: "tutorial") != nil){
+                if ((UserDefaults.standard.value(forKey: "tutorial")) as! Bool){
+                    self.dismiss(animated: true, completion: {
+                        UserDefaults.standard.set(false, forKey: "tutorial")
+                        
+                    })
                 }else{
-                    first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                    if (UserDefaults.standard.value(forKey: "selected") != nil){
+                        if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+                            first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                            
+                        }else{
+                            first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                        }
+                    } else{
+                        first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                        
+                    }
+                    
+                    UIApplication.topViewController()?.present(home, animated: false, completion:{
+                        UserDefaults.standard.set(true, forKey: "login")
+                    })
                 }
-            } else{
+            }else{
+                if (UserDefaults.standard.value(forKey: "selected") != nil){
+                    if ((UserDefaults.standard.value(forKey: "selected") as! Bool) == false){
+                        first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                        
+                    }else{
+                        first?.show(UIStoryboard.postDisplayScreen(), sender: self)
+                    }
+                } else{
                     first?.show(UIStoryboard.pageSelectionScreen(), sender: self)
+                    
+                }
                 
+                UIApplication.topViewController()?.present(home, animated: false, completion:{
+                    UserDefaults.standard.set(true, forKey: "login")
+                })
             }
-            UIApplication.topViewController()?.present(home, animated: false, completion:{
-            UserDefaults.standard.set(true, forKey: "login")
-            })
+
             
         }else{
         
         //second last page
         if pageControl.currentPage == pages.count - 2 {
-            moveControlConstraintsOffScreen()
             
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 self.view.layoutIfNeeded()
@@ -127,7 +192,6 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         super.viewDidLoad()
         if (UserDefaults.standard.value(forKey: "tutorial") != nil){
         if ((UserDefaults.standard.value(forKey: "tutorial")) as! Bool){
-            UserDefaults.standard.set(false, forKey: "tutorial")
         }else{
             UserDefaults.standard.set(false, forKey: "login")
             }
@@ -151,6 +215,9 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         collectionView.anchorToTop(view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor)
         
         registerCells()
+    }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     fileprivate func observeKeyboardNotifications() {
@@ -177,10 +244,17 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if pageControl.currentPage == pages.count - 1  {nextButton.setTitle("Done", for: .normal)
-        skipButton.setTitle("", for: .normal)}else{skipButton.setTitle("Skip", for: .normal)
-            nextButton.setTitle("Next", for: .normal)}
-        view.endEditing(true)
+        if pageControl.currentPage == pages.count - 1  {
+            nextButton.setTitle("Done", for: .normal)
+        skipButton.setTitle("", for: .normal)
+        }else if pageControl.currentPage == 0{
+            skipButton.setTitle("", for: .normal)
+            nextButton.setTitle("Next", for: .normal)
+        }else{
+            skipButton.setTitle("Skip", for: .normal)
+            nextButton.setTitle("Next", for: .normal)
+        }
+            view.endEditing(true)
     }
     
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {

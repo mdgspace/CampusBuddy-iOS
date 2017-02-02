@@ -12,10 +12,15 @@ import SDWebImage
 import FacebookCore
 import FirebaseMessaging
 
-class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreDataServiceDelegate{
+class FacebookPagesSelectionTableViewController: UIViewController,PageCoreDataServiceDelegate,UITableViewDelegate,UITableViewDataSource{
     
+    @IBOutlet weak var selectedNumberHeight: NSLayoutConstraint!
+    @IBOutlet weak var selectedHeight: NSLayoutConstraint!
     @IBOutlet weak var selectedPagesView: UICollectionView!
     
+    @IBOutlet weak var belowHeight: NSLayoutConstraint!
+    @IBOutlet weak var selectedNumberLabel: UILabel!
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var doneButton: UIBarButtonItem!
     
     var accessToken = AccessToken(appId:"772744622840259",authenticationToken:"772744622840259|63e7300f4f21c5f430ecb740b428a10e",userId:"797971310246511",grantedPermissions: nil, declinedPermissions:nil)
@@ -31,6 +36,10 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
         
         AccessToken.current = accessToken
 
+        //set up tableview
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         self.tableView.tableFooterView?.frame = CGRect.zero
         
         ActivityIndicator.shared.showProgressView(uiView: self.view)
@@ -48,16 +57,16 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 1
         
     }
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "SELECT FACEBOOK PAGES"
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 1:
          return 1
@@ -83,11 +92,11 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
         }
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
             return 60.0
     }
    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
             
         case 1:
@@ -117,7 +126,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             return cello
         }
     }
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         switch indexPath.section {
         case 1:
@@ -131,8 +140,9 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
             
             if (selectedrow.accessoryType == .none){
                 updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: true)
-                selectedPagesView.frame.size = CGSize(width: self.view.frame.width, height: 110.0)
-                self.tableView.tableHeaderView = selectedPagesView
+                selectedHeight.constant = 100.0
+                selectedNumberHeight.constant = 50.0
+                belowHeight.constant = 5.0
             }else{
                 updateFacebookPageCoreData(with: selectedPage.pageId!, isSelected: false)
                 FIRMessaging.messaging().unsubscribe(fromTopic: "/topics/ios_\(selectedPage.pageId!)")
@@ -142,7 +152,9 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
                 print("NONE Selected")
             }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
                 doneButton.isEnabled = false
-                self.tableView.tableHeaderView = nil
+                selectedHeight.constant = 0.0
+                selectedNumberHeight.constant = 0.0
+                belowHeight.constant = 0.0
             }else{
                 self.selectedPagesView.reloadData()
                 doneButton.isEnabled = true
@@ -158,8 +170,7 @@ class FacebookPagesSelectionTableViewController: UITableViewController,PageCoreD
     
     }
     
-    
-    @IBAction func doneButtonPressed(_ sender: Any) {
+    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
         
         let selects = selectedPages?.fetchedObjects
         
@@ -254,12 +265,17 @@ func getListOfPages(){
         print("NONE Selected")
     }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
         doneButton.isEnabled = false
-        self.tableView.tableHeaderView = nil
+        selectedHeight.constant = 0.0
+        selectedNumberHeight.constant = 0.0
+        belowHeight.constant = 0.0
     }else{
-        selectedPagesView.frame.size = CGSize(width: self.view.frame.width, height: 110.0)
-        self.tableView.tableHeaderView = selectedPagesView
+        selectedHeight.constant = 100.0
+        selectedNumberHeight.constant = 50.0
+        belowHeight.constant = 5.0
         self.selectedPagesView.reloadData()
         doneButton.isEnabled = true
+        let lastIndexPath = IndexPath(item: (selectedPages?.sections![0].numberOfObjects)!-1, section: 0)
+        selectedPagesView.scrollToItem(at: lastIndexPath, at: .right, animated: true)
     }
         presentPages()
 }
@@ -307,7 +323,6 @@ extension FacebookPagesSelectionTableViewController : UICollectionViewDelegateFl
             print("NONE Selected")
         }else if ((selectedPages?.sections![0].numberOfObjects)! == 0){
             doneButton.isEnabled = false
-            self.tableView.tableHeaderView = nil
         }
 //        }else if ((selectedPages?.sections![0].numberOfObjects)! > 5){
 //            doneButton.isEnabled = true
@@ -317,6 +332,7 @@ extension FacebookPagesSelectionTableViewController : UICollectionViewDelegateFl
         if selectedPages?.sections == nil{
             return 0
         }else{
+            selectedNumberLabel.text = "SELECTED PAGES(\((selectedPages?.sections![section].numberOfObjects)!))"
             return (selectedPages?.sections![section].numberOfObjects)!
         }
     }

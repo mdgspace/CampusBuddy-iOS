@@ -153,10 +153,6 @@ class SettingsTableViewController: UITableViewController, MFMessageComposeViewCo
                 
             }))
             
-//            Alert.addAction(UIAlertAction(title: "Academic Calendar", style: .default , handler: { action in
-//                UIApplication.shared.openURL(URL(string :"http://www.iitr.ac.in/academics/pages/Academic_Calender.html")!)
-//                
-//            }))
             Alert.addAction(UIAlertAction(title: "Telephone Directory", style: .default , handler: { action in
                 UIApplication.shared.openURL(URL(string :"http://www.iitr.ac.in/Main/pages/Telephone+Telephone_Directory.html")!)
                 

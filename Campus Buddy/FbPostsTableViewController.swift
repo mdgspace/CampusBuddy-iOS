@@ -100,11 +100,16 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
         cell.imageConstraint.constant = 175.0
         cell.groupNameLabel.text = post.groupName
         cell.postContentTextView.text = post.content
+        cell.imageWidthConstraint.constant = UIScreen.main.bounds.width
         cell.postImageView.contentMode = .scaleAspectFill
         
-//        if (post.content == nil){
-//            cell.imageConstraint.constant = 0.0
-//        }
+        if (post.content == nil){
+            cell.postImageFromProfile.constant = 0.0
+            cell.imageAndPostCOntent.constant = 0.0
+        }else{
+            cell.postImageFromProfile.constant = 4.0
+            cell.imageAndPostCOntent.constant = 4.0
+        }
         
         cell.timeLabel.text = post.createdRelativeTime
         cell.groupImageView.sd_setImage(with: URL(string:(post.groupImage)!)!, placeholderImage: #imageLiteral(resourceName: "Rectangle"))
@@ -113,15 +118,25 @@ class FbPostsTableViewController: UITableViewController,UIGestureRecognizerDeleg
             
             cell.postImageView.sd_setImage(with: post.fullPictureUrl, placeholderImage: #imageLiteral(resourceName: "Rectangle"), options: .avoidAutoSetImage) { (image, error, type, url) in
                 var tapGesture: UITapGestureRecognizer?
+                
                 if (image != nil){
                     
+                    if (post.content == nil){
+                        cell.postImageFromProfile.constant = 0.0
+                        cell.imageAndPostCOntent.constant = 0.0
+                    }else{
+                        cell.postImageFromProfile.constant = 4.0
+                        cell.imageAndPostCOntent.constant = 4.0
+                    }
+                    
                     if ((image?.size.width)! > UIScreen.main.bounds.width){
-                        cell.imageConstraint.constant = ((image?.size.height)!/(image?.size.width)!)*UIScreen.main.bounds.width
+                         cell.imageConstraint.constant = ((image?.size.height)!/(image?.size.width)!)*UIScreen.main.bounds.width
+                         cell.imageWidthConstraint.constant = UIScreen.main.bounds.width
                          cell.postImageView.contentMode = .scaleAspectFit
                     }else{
-                     cell.postImageView.contentMode = .scaleAspectFill
-                     cell.imageConstraint.constant = (image?.size.height)!
-                     
+                         cell.postImageView.contentMode = .scaleAspectFill
+                         cell.imageConstraint.constant = (image?.size.height)!
+                         cell.imageWidthConstraint.constant = (image?.size.width)!
                     }
                     
                     cell.postImageView.image = image

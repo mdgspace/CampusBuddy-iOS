@@ -16,6 +16,9 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var groupImageView: UIImageView!
     
+    @IBOutlet weak var imageAndPostCOntent: NSLayoutConstraint!
+    @IBOutlet weak var postImageFromProfile: NSLayoutConstraint!
+    @IBOutlet weak var imageWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var imageConstraint: NSLayoutConstraint!
     
     override func awakeFromNib() {

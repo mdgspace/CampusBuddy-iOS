@@ -57,7 +57,7 @@ class PickAPlaceViewController: UIViewController,GMSMapViewDelegate,GMSPanoramaV
         self.ThreeDButton.addTarget(self, action: #selector(self.threeDPressed), for: .touchUpInside)
         mapView.addSubview(ThreeDButton)
         let pickButton = UIButton(frame: CGRect(x: 304, y: 555, width: 55, height: 55))
-        pickButton.setImage(#imageLiteral(resourceName: "more"), for: .normal)
+        pickButton.setImage(#imageLiteral(resourceName: "search"), for: .normal)
         pickButton.addTarget(self, action: #selector(self.buttonTapped), for: .touchUpInside)
         mapView.addSubview(pickButton)
     }
@@ -68,7 +68,7 @@ class PickAPlaceViewController: UIViewController,GMSMapViewDelegate,GMSPanoramaV
     
     
     func backPresses(){
-        self.ThreeDButton.setImage(#imageLiteral(resourceName: "3d_icon"), for: .normal)
+        self.ThreeDButton.setImage(#imageLiteral(resourceName: "3d_ic"), for: .normal)
         self.setupView()
     }
     
@@ -82,7 +82,7 @@ class PickAPlaceViewController: UIViewController,GMSMapViewDelegate,GMSPanoramaV
         panoView.streetNamesHidden = false
         panoView.setAllGesturesEnabled(true)
         self.view = panoView
-        self.ThreeDButton.setImage(#imageLiteral(resourceName: "back_maps"), for: .normal)
+        self.ThreeDButton.setImage(#imageLiteral(resourceName: "2d_icon"), for: .normal)
         self.ThreeDButton.frame = CGRect(x: 16, y: 555, width: 55, height: 55)
         self.ThreeDButton.addTarget(self, action: #selector(self.backPresses), for: .touchUpInside)
         
