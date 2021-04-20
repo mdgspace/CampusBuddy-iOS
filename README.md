@@ -6,6 +6,4 @@
 
 iOS project written in <a href="https://github.com/apple/swift">Swift 3</a> for students of IITR
 
-<div style="margin: 0 auto; text-align: center;">
-    <a href="https://itunes.apple.com/in/app/campus-buddy/id1177582988?mt=8"><img src="http://urbanmatter.com/wp-content/uploads/2016/12/itunes-app-store-logo.png" width="20%"></a>
-</div>
+#### NOTE: This repo is archived in view of the developlments made in [campusbuddy-flutter](https://github.com/mdg-iitr/campusbuddy-flutter)
